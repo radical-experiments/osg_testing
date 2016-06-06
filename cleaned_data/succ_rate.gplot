@@ -1,0 +1,19 @@
+#!/usr/bin/env gnuplot
+
+succ_rate='succ_rate.dat'
+
+set title   "Success Rate of Job Completion on OSG"
+set style   line 1 lw 8 lt rgb 'blue'
+set key     right top
+set xlabel  "Job Type"
+set xtics   rotate out
+set ylabel  "Success Rate (%)"
+set yrange   [-0.01:105]
+
+set terminal pdfcairo enhanced color font "CM,12"
+
+set output 'succ_rate.pdf'
+#plot succ_rate using 1:2 with impulses ls 1 title 'total job count'
+set style fill solid 
+set style histogram gap 1
+plot succ_rate using 2: xtic(1) ls 1 title 'Success Rate' with histogram
