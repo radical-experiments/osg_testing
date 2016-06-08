@@ -1,0 +1,47 @@
+Hold reason: Error from glidein_14472_511890134@node1022.palmetto.clemson.edu: STARTER at 10.125.5.11 failed to send file(s) to <129.79.53.198:9615>: error reading from /local_scratch/glide_8Edqat/execute/dir_21166/pilot.0000.log.tgz: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <130.127.255.222:17254>
+
+-- Schedd: login02.osgconnect.net : <192.170.227.192:4550?...
+Last successful match: Sat May 28 02:58:05 2016
+
+The Requirements expression for your job is:
+
+( ( HAS_MODULES is true ) && ( OpSysMajorVer == 6 ) &&
+GLIDEIN_ResourceName isnt "CIT_CMS_T2" &&
+GLIDEIN_ResourceName isnt "Hyak" ) && ( TARGET.Arch == "X86_64" ) &&
+( TARGET.OpSys == "LINUX" ) && ( TARGET.Disk >= RequestDisk ) &&
+( TARGET.Memory >= RequestMemory ) && ( TARGET.HasFileTransfer )
+
+Your job defines the following attributes:
+
+DiskUsage = 2750000
+RequestDisk = 2750000
+RequestMemory = 1000
+
+The Requirements expression for your job reduces to these conditions:
+
+Slots
+Step    Matched  Condition
+-----  --------  ---------
+[0]       24734  HAS_MODULES is true
+[3]       24482  GLIDEIN_ResourceName isnt "CIT_CMS_T2"
+[4]       23969  [0] && [3]
+[5]       24849  GLIDEIN_ResourceName isnt "Hyak"
+[6]       23571  [4] && [5]
+[11]      21118  TARGET.Disk >= RequestDisk
+[12]      19825  [6] && [11]
+[13]      23496  TARGET.Memory >= RequestMemory
+[14]      19791  [12] && [13]
+
+Suggestions:
+
+Condition                         Machines Matched    Suggestion
+---------                         ----------------    ----------
+1   ( HAS_MODULES is true )           0                   MODIFY TO true
+2   ( OpSysMajorVer == 6 )            0                   REMOVE
+3   ( TARGET.Disk >= 2750000 )        21118                
+4   ( TARGET.Memory >= 1000 )         23496                
+5   GLIDEIN_ResourceName isnt "CIT_CMS_T2"25247                
+6   GLIDEIN_ResourceName isnt "Hyak"  25247                
+7   ( TARGET.Arch == "X86_64" )       25247                
+8   ( TARGET.OpSys == "LINUX" )       25247                
+9   ( TARGET.HasFileTransfer )        25247 

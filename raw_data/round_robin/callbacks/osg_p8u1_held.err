@@ -1,0 +1,101 @@
+Hold reason: Error from glidein_2117471_144104400@CRUSH-OSG-10-5-135-5: STARTER at 10.5.135.5 failed to send file(s) to <129.79.53.198:9615>: error reading from /var/lib/condor/execute/dir_2117466/glide_1KYk6j/execute/dir_3554944/pilot.0000.log.tgz: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <128.230.18.42:45201>
+
+Hold reason: Error from glidein_17485_782838756@CRUSH-OSG-10-5-57-98: STARTER at 10.5.57.98 failed to send file(s) to <129.79.53.198:9615>: error reading from /var/lib/condor/execute/dir_16837/glide_cYGCO0/execute/dir_2187015/pilot.0000.log.tgz: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <128.230.171.81:43494>
+
+-- Schedd: login02.osgconnect.net : <192.170.227.192:4550?...
+Last successful match: Sun May 29 07:11:11 2016
+
+The Requirements expression for your job is:
+
+( ( HAS_MODULES is true ) && ( OpSysMajorVer == 6 ) &&
+GLIDEIN_ResourceName isnt "CIT_CMS_T2" &&
+GLIDEIN_ResourceName isnt "Hyak" ) && ( TARGET.Arch == "X86_64" ) &&
+( TARGET.OpSys == "LINUX" ) && ( TARGET.Disk >= RequestDisk ) &&
+( TARGET.Memory >= RequestMemory ) && ( TARGET.HasFileTransfer )
+
+Your job defines the following attributes:
+
+DiskUsage = 2750000
+RequestDisk = 2750000
+RequestMemory = 1000
+
+The Requirements expression for your job reduces to these conditions:
+
+Slots
+Step    Matched  Condition
+-----  --------  ---------
+[0]       24414  HAS_MODULES is true
+[3]       24667  GLIDEIN_ResourceName isnt "CIT_CMS_T2"
+[4]       24113  [0] && [3]
+[5]       24041  GLIDEIN_ResourceName isnt "Hyak"
+[6]       23186  [4] && [5]
+[11]      20960  TARGET.Disk >= RequestDisk
+[12]      19355  [6] && [11]
+[13]      23103  TARGET.Memory >= RequestMemory
+[14]      19341  [12] && [13]
+
+Suggestions:
+
+Condition                         Machines Matched    Suggestion
+---------                         ----------------    ----------
+1   ( HAS_MODULES is true )           0                   MODIFY TO true
+2   ( OpSysMajorVer == 6 )            0                   REMOVE
+3   ( TARGET.Disk >= 2750000 )        20960                
+4   ( TARGET.Memory >= 1000 )         23103                
+5   GLIDEIN_ResourceName isnt "CIT_CMS_T2"24968                
+6   GLIDEIN_ResourceName isnt "Hyak"  24968                
+7   ( TARGET.Arch == "X86_64" )       24968                
+8   ( TARGET.OpSys == "LINUX" )       24968                
+9   ( TARGET.HasFileTransfer )        24968
+
+
+
+Hold reason: Error from glidein_4105849_588353376@CRUSH-OSG-10-5-7-41: STARTER at 10.5.7.41 failed to send file(s) to <129.79.53.198:9615>: error reading from /var/lib/condor/execute/dir_4105845/glide_Pp54ok/execute/dir_409197/pilot.0000.log.tgz: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <128.230.171.105:46738>
+
+Hold reason: Error from glidein_4105849_588353376@CRUSH-OSG-10-5-7-41: STARTER at 10.5.7.41 failed to send file(s) to <129.79.53.198:9615>: error reading from /var/lib/condor/execute/dir_4105845/glide_Pp54ok/execute/dir_410065/pilot.0000.log.tgz: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <128.230.171.105:63381>
+
+-- Schedd: login02.osgconnect.net : <192.170.227.192:4550?...
+Last successful match: Sun May 29 01:29:59 2016
+
+The Requirements expression for your job is:
+
+( ( HAS_MODULES is true ) && ( OpSysMajorVer == 6 ) &&
+GLIDEIN_ResourceName isnt "CIT_CMS_T2" &&
+GLIDEIN_ResourceName isnt "Hyak" ) && ( TARGET.Arch == "X86_64" ) &&
+( TARGET.OpSys == "LINUX" ) && ( TARGET.Disk >= RequestDisk ) &&
+( TARGET.Memory >= RequestMemory ) && ( TARGET.HasFileTransfer )
+
+Your job defines the following attributes:
+
+DiskUsage = 2750000
+RequestDisk = 2750000
+RequestMemory = 1000
+
+The Requirements expression for your job reduces to these conditions:
+
+Slots
+Step    Matched  Condition
+-----  --------  ---------
+[0]       24305  HAS_MODULES is true
+[3]       24558  GLIDEIN_ResourceName isnt "CIT_CMS_T2"
+[4]       24004  [0] && [3]
+[5]       23969  GLIDEIN_ResourceName isnt "Hyak"
+[6]       23114  [4] && [5]
+[11]      20805  TARGET.Disk >= RequestDisk
+[12]      19236  [6] && [11]
+[13]      22981  TARGET.Memory >= RequestMemory
+[14]      19220  [12] && [13]
+
+Suggestions:
+
+Condition                         Machines Matched    Suggestion
+---------                         ----------------    ----------
+1   ( HAS_MODULES is true )           0                   MODIFY TO true
+2   ( OpSysMajorVer == 6 )            0                   REMOVE
+3   ( TARGET.Disk >= 2750000 )        20805                
+4   ( TARGET.Memory >= 1000 )         22981                
+5   GLIDEIN_ResourceName isnt "CIT_CMS_T2"24859                
+6   GLIDEIN_ResourceName isnt "Hyak"  24859                
+7   ( TARGET.Arch == "X86_64" )       24859                
+8   ( TARGET.OpSys == "LINUX" )       24859                
+9   ( TARGET.HasFileTransfer )        24859

@@ -1,0 +1,20 @@
+modes   : export
+db url  : mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb
+session : rp.session.radical.mingtha.016941.0009
+age     : -999999999 days, 0:00:00
+check  session rp.session.radical.mingtha.016941.0009 + (   2:01:41.927185)
+export session rp.session.radical.mingtha.016941.0009.json
+running on osg.xsede-virt-clust
+session id: rp.session.radical.mingtha.016941.0009
+['pilot.0000', u'PendingLaunch', 14.961139917373657]
+['pilot.0000', u'Launching', 16.052671909332275]
+['unit.000003', u'pilot.0000', u'PendingInputStaging', 19.23251986503601]
+['unit.000002', u'pilot.0000', u'AgentStagingInputPending', 19.2325918674469]
+['unit.000001', u'pilot.0000', u'PendingInputStaging', 19.232632875442505]
+['unit.000000', u'pilot.0000', u'AgentStagingInputPending', 19.232671976089478]
+['unit.000003', u'pilot.0000', u'StagingInput', 28.280805826187134]
+['unit.000001', u'pilot.0000', u'StagingInput', 28.280876874923706]
+['unit.000003', u'pilot.0000', u'AgentStagingInputPending', 31.379913806915283]
+['unit.000001', u'pilot.0000', u'AgentStagingInputPending', 31.379974842071533]
+['pilot.0000', u'PendingActive', 32.64079284667969]
+need to exit now: 

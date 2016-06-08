@@ -1,0 +1,66 @@
+         Active     Launching  PendingActive  PendingLaunch  id  num_units
+0  1.463785e+09  1.463785e+09   1.463785e+09   1.463785e+09   0         64
+./p1u64/rp.session.radical.mingtha.016941.0015.json
+Number of units:  0    64
+Name: num_units, dtype: int64
+Locations Pilots ran on: %s [u'nod25.phys.uconn.edu:gluskap.phys.uconn.edu\n']
+Tq: 267.224148
+TTC: 940.076342
+Num Incomplete Units: 0
+Num Unexecuted Units: 0
+Tx: 648.803940
+         Active     Launching  PendingActive  PendingLaunch  id  num_units
+0  1.465047e+09  1.465047e+09   1.465047e+09   1.465047e+09   0         64
+./p1u64/rp.session.radical.mingtha.016956.0029.json
+Number of units:  0    64
+Name: num_units, dtype: int64
+Locations Pilots ran on: %s [u'uct2-c050.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n']
+Tq: 181.469491
+TTC: 852.379527
+Num Incomplete Units: 0
+Num Unexecuted Units: 0
+Tx: 647.051144
+         Active     Launching  PendingActive  PendingLaunch  id  num_units
+0  1.465048e+09  1.465048e+09   1.465048e+09   1.465048e+09   0         64
+./p1u64/rp.session.radical.mingtha.016956.0030.json
+Number of units:  0    64
+Name: num_units, dtype: int64
+Locations Pilots ran on: %s [u'node0268:osg-ce.clemson.edu\n']
+Tq: 192.738436
+TTC: 864.505342
+Num Incomplete Units: 0
+Num Unexecuted Units: 0
+Tx: 647.489832
+         Active     Launching  PendingActive  PendingLaunch  id  num_units
+0  1.465050e+09  1.465049e+09   1.465049e+09   1.465049e+09   0         64
+./p1u64/rp.session.radical.mingtha.016956.0031.json
+Number of units:  0    64
+Name: num_units, dtype: int64
+Locations Pilots ran on: %s [u'c-117-15.aglt2.org:gate02.grid.umich.edu\n']
+Tq: 272.451986
+TTC: 938.087411
+Num Incomplete Units: 0
+Num Unexecuted Units: 0
+Tx: 641.583441
+         Active     Launching  PendingActive  PendingLaunch  id  num_units
+0  1.465052e+09  1.465051e+09   1.465051e+09   1.465051e+09   0         64
+./p1u64/rp.session.radical.mingtha.016956.0032.json
+Number of units:  0    64
+Name: num_units, dtype: int64
+Locations Pilots ran on: %s [u'stat113.phys.uconn.edu:gluskap.phys.uconn.edu\n']
+Tq: 427.989206
+TTC: 1396.501627
+Num Incomplete Units: 0
+Num Unexecuted Units: 0
+Tx: 944.466320
+         Active     Launching  PendingActive  PendingLaunch  id  num_units
+0  1.465053e+09  1.465053e+09   1.465053e+09   1.465053e+09   0         64
+./p1u64/rp.session.radical.mingtha.016956.0033.json
+Number of units:  0    64
+Name: num_units, dtype: int64
+Locations Pilots ran on: %s [u'node0719:osg-ce.clemson.edu\n']
+Tq: 216.738556
+TTC: 896.311844
+Num Incomplete Units: 0
+Num Unexecuted Units: 0
+Tx: 648.139243

@@ -1,0 +1,14 @@
+         Active      Canceled     Launching  PendingActive  PendingLaunch  id  \
+0  1.465187e+09  1.465220e+09  1.465187e+09   1.465187e+09   1.465187e+09   0   
+
+   num_units  
+0       2048  
+./p1u2048/rp.session.radical.mingtha.016958.0002.json
+Number of units:  0    2048
+Name: num_units, dtype: int64
+Locations Pilots ran on: %s [u'uct2-c061.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n' None]
+Tq: 196.139471
+TTC: 33554.321807
+Num Incomplete Units: 1028
+Num Unexecuted Units: 1022
+Tx: 10373.159439

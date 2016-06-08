@@ -1,0 +1,49 @@
+Hold reason: Error from glidein_797605_129323040@CRUSH-OSG-10-5-5-11: STARTER at 10.5.5.11 failed to send file(s) to <129.79.53.198:9615>: error reading from /var/lib/condor/execute/dir_797601/glide_rSib1W/execute/dir_2842172/pilot.0000.log.tgz: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <128.230.171.105:65096>
+
+
+-- Schedd: login02.osgconnect.net : <192.170.227.192:9601?...
+Last successful match: Fri May 20 09:03:32 2016
+
+The Requirements expression for your job is:
+
+( ( HAS_MODULES is true ) && ( OpSysMajorVer == 6 ) &&
+    GLIDEIN_ResourceName isnt "CIT_CMS_T2" &&
+    GLIDEIN_ResourceName isnt "Hyak" ) && ( TARGET.Arch == "X86_64" ) &&
+  ( TARGET.OpSys == "LINUX" ) && ( TARGET.Disk >= RequestDisk ) &&
+  ( TARGET.Memory >= RequestMemory ) && ( TARGET.HasFileTransfer )
+
+Your job defines the following attributes:
+
+DiskUsage = 2750000
+RequestDisk = 2750000
+RequestMemory = 1000
+
+The Requirements expression for your job reduces to these conditions:
+
+        Slots
+Step    Matched  Condition
+-----  --------  ---------
+[0]       11917  HAS_MODULES is true
+[3]       12299  GLIDEIN_ResourceName isnt "CIT_CMS_T2"
+[4]       11653  [0] && [3]
+[5]       11834  GLIDEIN_ResourceName isnt "Hyak"
+[6]       10924  [4] && [5]
+[11]      10918  TARGET.Disk >= RequestDisk
+[12]       9970  [6] && [11]
+[13]      12012  TARGET.Memory >= RequestMemory
+[14]       9957  [12] && [13]
+
+Suggestions:
+
+Condition                         Machines Matched    Suggestion
+---------                         ----------------    ----------
+1   ( HAS_MODULES is true )           0                   MODIFY TO true
+2   ( OpSysMajorVer == 6 )            0                   REMOVE
+3   ( TARGET.Disk >= 2750000 )        10918                
+4   ( TARGET.Memory >= 1000 )         12012                
+5   GLIDEIN_ResourceName isnt "CIT_CMS_T2"12563                
+6   GLIDEIN_ResourceName isnt "Hyak"  12563                
+7   ( TARGET.Arch == "X86_64" )       12563                
+8   ( TARGET.OpSys == "LINUX" )       12563                
+9   ( TARGET.HasFileTransfer )        12563                
+

@@ -1,0 +1,2363 @@
+{
+    "pilot": [
+        {
+            "_id": "pilot.0000", 
+            "agent_config": {
+                "agent_launch_method": "FORK", 
+                "agent_layout": {
+                    "agent_0": {
+                        "bridges": [
+                            "agent_staging_input_queue", 
+                            "agent_scheduling_queue", 
+                            "agent_executing_queue", 
+                            "agent_staging_output_queue", 
+                            "agent_unschedule_pubsub", 
+                            "agent_reschedule_pubsub", 
+                            "agent_command_pubsub", 
+                            "agent_state_pubsub"
+                        ], 
+                        "components": {
+                            "AgentExecutingComponent": 1, 
+                            "AgentSchedulingComponent": 1, 
+                            "AgentStagingInputComponent": 1, 
+                            "AgentStagingOutputComponent": 1
+                        }, 
+                        "pull_units": true, 
+                        "sub_agents": [], 
+                        "target": "local"
+                    }
+                }, 
+                "bulk_collection_time": 1.0, 
+                "cores": 1, 
+                "db_poll_sleeptime": 0.1, 
+                "debug": 40, 
+                "heartbeat_interval": 10, 
+                "lrms": "FORK", 
+                "max_io_loglength": 1024, 
+                "mongodb_url": "mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb", 
+                "network_interface": "lo", 
+                "pilot_id": "pilot.0000", 
+                "runtime": 1800, 
+                "scheduler": "CONTINUOUS", 
+                "session_id": "rp.session.radical.mingtha.016956.0008", 
+                "spawner": "POPEN", 
+                "staging_area": "staging_area", 
+                "staging_scheme": "staging", 
+                "task_launch_method": "FORK"
+            }, 
+            "commands": [], 
+            "cores_per_node": null, 
+            "description": {
+                "_config": null, 
+                "access_schema": "ssh", 
+                "candidate_hosts": [
+                    "!SU-OG", 
+                    "!FIU_HPCOSG_CE", 
+                    "!UCSDT2", 
+                    "~(HAS_CVMFS_oasis_opensciencegrid_org =?= TRUE)"
+                ], 
+                "cleanup": false, 
+                "cores": 1, 
+                "exit_on_error": false, 
+                "memory": null, 
+                "project": "TG-CCR140028", 
+                "queue": null, 
+                "resource": "osg.xsede-virt-clust", 
+                "runtime": 1800, 
+                "sandbox": null
+            }, 
+            "finished": null, 
+            "global_sandbox": "/home/mha/radical.pilot.sandbox", 
+            "health_check_enabled": false, 
+            "heartbeat": null, 
+            "input_transfer_finished": null, 
+            "input_transfer_started": null, 
+            "lm_info": {
+                "FORK": {
+                    "version": "0.42", 
+                    "version_detail": "There is no spoon"
+                }
+            }, 
+            "log": [
+                {
+                    "message": "Using bootstrapper /home/mingtha/ve/ve.aimes_osg/lib/python2.7/site-packages/radical/pilot/bootstrapper/bootstrap_1.sh", 
+                    "timestamp": 1465003798.621783
+                }, 
+                {
+                    "message": "Copying bootstrapper 'file://localhost/home/mingtha/ve/ve.aimes_osg/lib/python2.7/site-packages/radical/pilot/bootstrapper/bootstrap_1.sh' to agent sandbox (<saga.filesystem.directory.Directory object at 0x7f6b4d580b10>).", 
+                    "timestamp": 1465003798.622024
+                }, 
+                {
+                    "message": "Copying sdist 'file://localhost/home/mingtha/ve/ve.aimes_osg/local/lib/python2.7/site-packages/radical/utils/radical.utils-0.40.tar.gz' to sandbox (sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/).", 
+                    "timestamp": 1465003798.622135
+                }, 
+                {
+                    "message": "Copying sdist 'file://localhost/home/mingtha/ve/ve.aimes_osg/local/lib/python2.7/site-packages/saga/saga-python-0.40.1.tar.gz' to sandbox (sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/).", 
+                    "timestamp": 1465003798.622222
+                }, 
+                {
+                    "message": "Copying sdist 'file://localhost/home/mingtha/ve/ve.aimes_osg/local/lib/python2.7/site-packages/radical/pilot/controller/..//radical.pilot-v0.40.1-22-ge1f4683-devel.tar.gz' to sandbox (sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/).", 
+                    "timestamp": 1465003798.622327
+                }, 
+                {
+                    "message": "Writing agent configuration to file '/tmp/rp_agent_cfg_dirhUF7zV/agent_0.cfg'.", 
+                    "timestamp": 1465003798.622934
+                }, 
+                {
+                    "message": "Copying agent configuration file 'file://localhost/tmp/rp_agent_cfg_dirhUF7zV/agent_0.cfg' to sandbox (sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/).", 
+                    "timestamp": 1465003798.623783
+                }, 
+                {
+                    "message": "Submitting SAGA job with description: {'Project': 'TG-CCR140028', 'Executable': '/bin/bash', 'TotalPhysicalMemory': None, 'WorkingDirectory': '/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/', 'Queue': None, 'Environment': {}, 'WallTimeLimit': 1800, 'FileTransfer': ['/home/mingtha/ve/ve.aimes_osg/lib/python2.7/site-packages/radical/pilot/bootstrapper/bootstrap_1.sh > /home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/input/bootstrap_1.sh', '/tmp/rp_agent_cfg_dirhUF7zV/agent_0.cfg > /home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/input/agent_0.cfg', 'pilot.0000.log.tgz < pilot.0000.log.tgz', '/home/mingtha/ve/ve.aimes_osg/local/lib/python2.7/site-packages/radical/pilot/controller/..//radical.pilot-v0.40.1-22-ge1f4683-devel.tar.gz > /home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/input/radical.pilot-v0.40.1-22-ge1f4683-devel.tar.gz', '/home/mingtha/ve/ve.aimes_osg/local/lib/python2.7/site-packages/saga/saga-python-0.40.1.tar.gz > /home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/input/saga-python-0.40.1.tar.gz', '/home/mingtha/ve/ve.aimes_osg/local/lib/python2.7/site-packages/radical/utils/radical.utils-0.40.tar.gz > /home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/input/radical.utils-0.40.tar.gz'], 'Arguments': ['-l bootstrap_1.sh', \" -d 'radical.utils-0.40.tar.gz:saga-python-0.40.1.tar.gz:radical.pilot-v0.40.1-22-ge1f4683-devel.tar.gz' -m 'create' -p 'pilot.0000' -r 'debug' -s 'rp.session.radical.mingtha.016956.0008' -v './ve_xd-login' -b 'default' -a 'multicore' -e 'source /cvmfs/oasis.opensciencegrid.org/osg/modules/lmod/current/init/bash' -e 'module load python/2.7'\"], 'ProcessesPerHost': None, 'Error': 'bootstrap_1.err', 'Output': 'bootstrap_1.out', 'CandidateHosts': ['!SU-OG', '!FIU_HPCOSG_CE', '!UCSDT2', '~(HAS_CVMFS_oasis_opensciencegrid_org =?= TRUE)'], 'TotalCPUCount': 1}", 
+                    "timestamp": 1465003802.846041
+                }, 
+                {
+                    "message": "SAGA job submitted with job id [condor+ssh://xd-login.opensciencegrid.org]-[6366802.0]", 
+                    "timestamp": 1465003811.531573
+                }
+            ], 
+            "nodes": null, 
+            "output_transfer_finished": null, 
+            "output_transfer_started": null, 
+            "pilotmanager": "pmgr.0000", 
+            "saga_job_id": "[condor+ssh://xd-login.opensciencegrid.org]-[6366802.0]", 
+            "sagajobid": null, 
+            "sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/", 
+            "started": 1465004072.154103, 
+            "state": "Active", 
+            "statehistory": [
+                {
+                    "state": "PendingLaunch", 
+                    "timestamp": 1465003794.406448
+                }, 
+                {
+                    "state": "Launching", 
+                    "timestamp": 1465003795.063721
+                }, 
+                {
+                    "state": "PendingActive", 
+                    "timestamp": 1465003811.531602
+                }, 
+                {
+                    "state": "Active", 
+                    "timestamp": 1465004072.154103
+                }
+            ], 
+            "submitted": 1465003794.406448, 
+            "unit_ids": [
+                "unit.000005", 
+                "unit.000001", 
+                "unit.000008", 
+                "unit.000014", 
+                "unit.000000", 
+                "unit.000012", 
+                "unit.000010", 
+                "unit.000006", 
+                "unit.000002", 
+                "unit.000009", 
+                "unit.000013", 
+                "unit.000007", 
+                "unit.000011", 
+                "unit.000003", 
+                "unit.000015", 
+                "unit.000004"
+            ], 
+            "unitmanager": "umgr.0000"
+        }
+    ], 
+    "pmgr": [
+        {
+            "_id": "pmgr.0000", 
+            "data": {}, 
+            "pilot_launcher_workers": 1
+        }
+    ], 
+    "session": {
+        "_id": "rp.session.radical.mingtha.016956.0008", 
+        "connected": 1465003787.411023, 
+        "created": 1465003787.411023, 
+        "name": null
+    }, 
+    "umgr": [
+        {
+            "_id": "umgr.0000", 
+            "input_transfer_workers": 2, 
+            "output_transfer_workers": 2, 
+            "scheduler": "round_robin"
+        }
+    ], 
+    "unit": [
+        {
+            "Agent_Input_Directives": [], 
+            "Agent_Input_Status": null, 
+            "Agent_Output_Directives": [], 
+            "Agent_Output_Status": null, 
+            "FTW_Input_Directives": [], 
+            "FTW_Input_Status": null, 
+            "FTW_Output_Directives": [], 
+            "FTW_Output_Status": null, 
+            "_id": "unit.000005", 
+            "callbackhistory": [
+                {
+                    "state": "StagingInput", 
+                    "timestamp": 1465003803.235344
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003812.363325
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004080.597421
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004090.182142
+                }
+            ], 
+            "control": "umgr", 
+            "description": {
+                "arguments": [
+                    "-c", 
+                    "echo $HOSTNAME:$OSG_HOSTNAME && sleep 10"
+                ], 
+                "cleanup": false, 
+                "cores": 1, 
+                "environment": null, 
+                "executable": "/bin/sh", 
+                "input_staging": null, 
+                "kernel": null, 
+                "mpi": false, 
+                "name": null, 
+                "output_staging": null, 
+                "post_exec": null, 
+                "pre_exec": null, 
+                "restartable": false, 
+                "stderr": null, 
+                "stdout": null
+            }, 
+            "exec_locs": null, 
+            "exit_code": 0, 
+            "finished": null, 
+            "log": [
+                {
+                    "message": "Scheduled for data transfer to ComputePilot pilot.0000.", 
+                    "timestamp": 1465003799.065645
+                }, 
+                {
+                    "message": "push unit to agent after ftw staging", 
+                    "timestamp": 1465003803.1387
+                }, 
+                {
+                    "message": "Output transfer completed.", 
+                    "timestamp": 1465004088.779019
+                }
+            ], 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/", 
+            "restartable": false, 
+            "sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000//unit.000005", 
+            "started": null, 
+            "state": "Done", 
+            "statehistory": [
+                {
+                    "state": "Scheduling", 
+                    "timestamp": 1465003796.39917
+                }, 
+                {
+                    "state": "StagingInput", 
+                    "timestamp": 1465003799.723587
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003799.723587
+                }, 
+                {
+                    "state": "AgentStagingInput", 
+                    "timestamp": 1465004077.282235
+                }, 
+                {
+                    "state": "AllocatingPending", 
+                    "timestamp": 1465004077.282708
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004077.313456
+                }, 
+                {
+                    "state": "ExecutingPending", 
+                    "timestamp": 1465004077.313837
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004077.316877
+                }, 
+                {
+                    "state": "AgentStagingOutputPending", 
+                    "timestamp": 1465004087.43136
+                }, 
+                {
+                    "state": "AgentStagingOutput", 
+                    "timestamp": 1465004087.434728
+                }, 
+                {
+                    "state": "PendingOutputStaging", 
+                    "timestamp": 1465004087.435364
+                }, 
+                {
+                    "state": "StagingOutput", 
+                    "timestamp": 1465004088.683308
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004088.779019
+                }
+            ], 
+            "stderr": "", 
+            "stdout": "stat115.phys.uconn.edu:gluskap.phys.uconn.edu\n", 
+            "submitted": 1465003796.39917, 
+            "unitmanager": "umgr.0000"
+        }, 
+        {
+            "Agent_Input_Directives": [], 
+            "Agent_Input_Status": null, 
+            "Agent_Output_Directives": [], 
+            "Agent_Output_Status": null, 
+            "FTW_Input_Directives": [], 
+            "FTW_Input_Status": null, 
+            "FTW_Output_Directives": [], 
+            "FTW_Output_Status": null, 
+            "_id": "unit.000001", 
+            "callbackhistory": [
+                {
+                    "state": "StagingInput", 
+                    "timestamp": 1465003803.23543
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003812.363189
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004080.597275
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004090.18204
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004099.852478
+                }
+            ], 
+            "control": "umgr", 
+            "description": {
+                "arguments": [
+                    "-c", 
+                    "echo $HOSTNAME:$OSG_HOSTNAME && sleep 10"
+                ], 
+                "cleanup": false, 
+                "cores": 1, 
+                "environment": null, 
+                "executable": "/bin/sh", 
+                "input_staging": null, 
+                "kernel": null, 
+                "mpi": false, 
+                "name": null, 
+                "output_staging": null, 
+                "post_exec": null, 
+                "pre_exec": null, 
+                "restartable": false, 
+                "stderr": null, 
+                "stdout": null
+            }, 
+            "exec_locs": null, 
+            "exit_code": 0, 
+            "finished": null, 
+            "log": [
+                {
+                    "message": "Scheduled for data transfer to ComputePilot pilot.0000.", 
+                    "timestamp": 1465003799.158408
+                }, 
+                {
+                    "message": "push unit to agent after ftw staging", 
+                    "timestamp": 1465003803.141111
+                }, 
+                {
+                    "message": "Output transfer completed.", 
+                    "timestamp": 1465004098.844479
+                }
+            ], 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/", 
+            "restartable": false, 
+            "sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000//unit.000001", 
+            "started": null, 
+            "state": "Done", 
+            "statehistory": [
+                {
+                    "state": "Scheduling", 
+                    "timestamp": 1465003796.392324
+                }, 
+                {
+                    "state": "StagingInput", 
+                    "timestamp": 1465003799.743857
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003799.743857
+                }, 
+                {
+                    "state": "AgentStagingInput", 
+                    "timestamp": 1465004077.283738
+                }, 
+                {
+                    "state": "AllocatingPending", 
+                    "timestamp": 1465004077.283973
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004077.314983
+                }, 
+                {
+                    "state": "ExecutingPending", 
+                    "timestamp": 1465004087.440096
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004087.441666
+                }, 
+                {
+                    "state": "AgentStagingOutputPending", 
+                    "timestamp": 1465004097.664359
+                }, 
+                {
+                    "state": "AgentStagingOutput", 
+                    "timestamp": 1465004097.665764
+                }, 
+                {
+                    "state": "PendingOutputStaging", 
+                    "timestamp": 1465004097.666299
+                }, 
+                {
+                    "state": "StagingOutput", 
+                    "timestamp": 1465004098.746296
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004098.844479
+                }
+            ], 
+            "stderr": "", 
+            "stdout": "stat115.phys.uconn.edu:gluskap.phys.uconn.edu\n", 
+            "submitted": 1465003796.392324, 
+            "unitmanager": "umgr.0000"
+        }, 
+        {
+            "Agent_Input_Directives": [], 
+            "Agent_Input_Status": null, 
+            "Agent_Output_Directives": [], 
+            "Agent_Output_Status": null, 
+            "FTW_Input_Directives": [], 
+            "FTW_Input_Status": null, 
+            "FTW_Output_Directives": [], 
+            "FTW_Output_Status": null, 
+            "_id": "unit.000008", 
+            "callbackhistory": [
+                {
+                    "state": "PendingInputStaging", 
+                    "timestamp": 1465003803.235149
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003812.363045
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004080.597154
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004099.852392
+                }, 
+                {
+                    "state": "StagingOutput", 
+                    "timestamp": 1465004109.524207
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004112.71788
+                }
+            ], 
+            "control": "umgr", 
+            "description": {
+                "arguments": [
+                    "-c", 
+                    "echo $HOSTNAME:$OSG_HOSTNAME && sleep 10"
+                ], 
+                "cleanup": false, 
+                "cores": 1, 
+                "environment": null, 
+                "executable": "/bin/sh", 
+                "input_staging": null, 
+                "kernel": null, 
+                "mpi": false, 
+                "name": null, 
+                "output_staging": null, 
+                "post_exec": null, 
+                "pre_exec": null, 
+                "restartable": false, 
+                "stderr": null, 
+                "stdout": null
+            }, 
+            "exec_locs": null, 
+            "exit_code": 0, 
+            "finished": null, 
+            "log": [
+                {
+                    "message": "Scheduled for data transfer to ComputePilot pilot.0000.", 
+                    "timestamp": 1465003799.254192
+                }, 
+                {
+                    "message": "push unit to agent after ftw staging", 
+                    "timestamp": 1465003803.326579
+                }, 
+                {
+                    "message": "Output transfer completed.", 
+                    "timestamp": 1465004109.352322
+                }
+            ], 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/", 
+            "restartable": false, 
+            "sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000//unit.000008", 
+            "started": null, 
+            "state": "Done", 
+            "statehistory": [
+                {
+                    "state": "Scheduling", 
+                    "timestamp": 1465003796.402085
+                }, 
+                {
+                    "state": "StagingInput", 
+                    "timestamp": 1465003803.231144
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003803.231144
+                }, 
+                {
+                    "state": "AgentStagingInput", 
+                    "timestamp": 1465004077.284856
+                }, 
+                {
+                    "state": "AllocatingPending", 
+                    "timestamp": 1465004077.285096
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004077.315855
+                }, 
+                {
+                    "state": "ExecutingPending", 
+                    "timestamp": 1465004097.673226
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004097.674707
+                }, 
+                {
+                    "state": "AgentStagingOutputPending", 
+                    "timestamp": 1465004107.896063
+                }, 
+                {
+                    "state": "AgentStagingOutput", 
+                    "timestamp": 1465004107.897467
+                }, 
+                {
+                    "state": "PendingOutputStaging", 
+                    "timestamp": 1465004107.89794
+                }, 
+                {
+                    "state": "StagingOutput", 
+                    "timestamp": 1465004109.259365
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004109.352322
+                }
+            ], 
+            "stderr": "", 
+            "stdout": "stat115.phys.uconn.edu:gluskap.phys.uconn.edu\n", 
+            "submitted": 1465003796.402085, 
+            "unitmanager": "umgr.0000"
+        }, 
+        {
+            "Agent_Input_Directives": [], 
+            "Agent_Input_Status": null, 
+            "Agent_Output_Directives": [], 
+            "Agent_Output_Status": null, 
+            "FTW_Input_Directives": [], 
+            "FTW_Input_Status": null, 
+            "FTW_Output_Directives": [], 
+            "FTW_Output_Status": null, 
+            "_id": "unit.000014", 
+            "callbackhistory": [
+                {
+                    "state": "PendingInputStaging", 
+                    "timestamp": 1465003803.235254
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003812.363256
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004080.597347
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004109.524598
+                }, 
+                {
+                    "state": "AgentStagingOutputPending", 
+                    "timestamp": 1465004119.199543
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004122.394884
+                }
+            ], 
+            "control": "umgr", 
+            "description": {
+                "arguments": [
+                    "-c", 
+                    "echo $HOSTNAME:$OSG_HOSTNAME && sleep 10"
+                ], 
+                "cleanup": false, 
+                "cores": 1, 
+                "environment": null, 
+                "executable": "/bin/sh", 
+                "input_staging": null, 
+                "kernel": null, 
+                "mpi": false, 
+                "name": null, 
+                "output_staging": null, 
+                "post_exec": null, 
+                "pre_exec": null, 
+                "restartable": false, 
+                "stderr": null, 
+                "stdout": null
+            }, 
+            "exec_locs": null, 
+            "exit_code": 0, 
+            "finished": null, 
+            "log": [
+                {
+                    "message": "Scheduled for data transfer to ComputePilot pilot.0000.", 
+                    "timestamp": 1465003799.352262
+                }, 
+                {
+                    "message": "push unit to agent after ftw staging", 
+                    "timestamp": 1465003803.32915
+                }, 
+                {
+                    "message": "Output transfer completed.", 
+                    "timestamp": 1465004119.867917
+                }
+            ], 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/", 
+            "restartable": false, 
+            "sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000//unit.000014", 
+            "started": null, 
+            "state": "Done", 
+            "statehistory": [
+                {
+                    "state": "Scheduling", 
+                    "timestamp": 1465003796.407889
+                }, 
+                {
+                    "state": "StagingInput", 
+                    "timestamp": 1465003803.236401
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003803.236401
+                }, 
+                {
+                    "state": "AgentStagingInput", 
+                    "timestamp": 1465004077.285957
+                }, 
+                {
+                    "state": "AllocatingPending", 
+                    "timestamp": 1465004077.286184
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004077.316673
+                }, 
+                {
+                    "state": "ExecutingPending", 
+                    "timestamp": 1465004107.904247
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004107.905882
+                }, 
+                {
+                    "state": "AgentStagingOutputPending", 
+                    "timestamp": 1465004118.531594
+                }, 
+                {
+                    "state": "AgentStagingOutput", 
+                    "timestamp": 1465004118.533069
+                }, 
+                {
+                    "state": "PendingOutputStaging", 
+                    "timestamp": 1465004118.533577
+                }, 
+                {
+                    "state": "StagingOutput", 
+                    "timestamp": 1465004119.771788
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004119.867917
+                }
+            ], 
+            "stderr": "", 
+            "stdout": "stat115.phys.uconn.edu:gluskap.phys.uconn.edu\n", 
+            "submitted": 1465003796.407889, 
+            "unitmanager": "umgr.0000"
+        }, 
+        {
+            "Agent_Input_Directives": [], 
+            "Agent_Input_Status": null, 
+            "Agent_Output_Directives": [], 
+            "Agent_Output_Status": null, 
+            "FTW_Input_Directives": [], 
+            "FTW_Input_Status": null, 
+            "FTW_Output_Directives": [], 
+            "FTW_Output_Status": null, 
+            "_id": "unit.000000", 
+            "callbackhistory": [
+                {
+                    "state": "PendingInputStaging", 
+                    "timestamp": 1465003803.235476
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003812.363222
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004080.597311
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004122.394806
+                }, 
+                {
+                    "state": "AgentStagingOutputPending", 
+                    "timestamp": 1465004128.881937
+                }, 
+                {
+                    "state": "PendingOutputStaging", 
+                    "timestamp": 1465004132.069402
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004135.269427
+                }
+            ], 
+            "control": "umgr", 
+            "description": {
+                "arguments": [
+                    "-c", 
+                    "echo $HOSTNAME:$OSG_HOSTNAME && sleep 10"
+                ], 
+                "cleanup": false, 
+                "cores": 1, 
+                "environment": null, 
+                "executable": "/bin/sh", 
+                "input_staging": null, 
+                "kernel": null, 
+                "mpi": false, 
+                "name": null, 
+                "output_staging": null, 
+                "post_exec": null, 
+                "pre_exec": null, 
+                "restartable": false, 
+                "stderr": null, 
+                "stdout": null
+            }, 
+            "exec_locs": null, 
+            "exit_code": 0, 
+            "finished": null, 
+            "log": [
+                {
+                    "message": "Scheduled for data transfer to ComputePilot pilot.0000.", 
+                    "timestamp": 1465003799.450679
+                }, 
+                {
+                    "message": "push unit to agent after ftw staging", 
+                    "timestamp": 1465003803.520931
+                }, 
+                {
+                    "message": "Output transfer completed.", 
+                    "timestamp": 1465004132.247731
+                }
+            ], 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/", 
+            "restartable": false, 
+            "sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000//unit.000000", 
+            "started": null, 
+            "state": "Done", 
+            "statehistory": [
+                {
+                    "state": "Scheduling", 
+                    "timestamp": 1465003796.391302
+                }, 
+                {
+                    "state": "StagingInput", 
+                    "timestamp": 1465003803.425672
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003803.425672
+                }, 
+                {
+                    "state": "AgentStagingInput", 
+                    "timestamp": 1465004077.287015
+                }, 
+                {
+                    "state": "AllocatingPending", 
+                    "timestamp": 1465004077.287307
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004077.317479
+                }, 
+                {
+                    "state": "ExecutingPending", 
+                    "timestamp": 1465004118.540244
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004118.542073
+                }, 
+                {
+                    "state": "AgentStagingOutputPending", 
+                    "timestamp": 1465004128.661228
+                }, 
+                {
+                    "state": "AgentStagingOutput", 
+                    "timestamp": 1465004128.662635
+                }, 
+                {
+                    "state": "PendingOutputStaging", 
+                    "timestamp": 1465004128.663118
+                }, 
+                {
+                    "state": "StagingOutput", 
+                    "timestamp": 1465004132.154589
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004132.247731
+                }
+            ], 
+            "stderr": "", 
+            "stdout": "stat115.phys.uconn.edu:gluskap.phys.uconn.edu\n", 
+            "submitted": 1465003796.391302, 
+            "unitmanager": "umgr.0000"
+        }, 
+        {
+            "Agent_Input_Directives": [], 
+            "Agent_Input_Status": null, 
+            "Agent_Output_Directives": [], 
+            "Agent_Output_Status": null, 
+            "FTW_Input_Directives": [], 
+            "FTW_Input_Status": null, 
+            "FTW_Output_Directives": [], 
+            "FTW_Output_Status": null, 
+            "_id": "unit.000012", 
+            "callbackhistory": [
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003812.363566
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004080.597676
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004132.069329
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004141.758522
+                }
+            ], 
+            "control": "umgr", 
+            "description": {
+                "arguments": [
+                    "-c", 
+                    "echo $HOSTNAME:$OSG_HOSTNAME && sleep 10"
+                ], 
+                "cleanup": false, 
+                "cores": 1, 
+                "environment": null, 
+                "executable": "/bin/sh", 
+                "input_staging": null, 
+                "kernel": null, 
+                "mpi": false, 
+                "name": null, 
+                "output_staging": null, 
+                "post_exec": null, 
+                "pre_exec": null, 
+                "restartable": false, 
+                "stderr": null, 
+                "stdout": null
+            }, 
+            "exec_locs": null, 
+            "exit_code": 0, 
+            "finished": null, 
+            "log": [
+                {
+                    "message": "Scheduled for data transfer to ComputePilot pilot.0000.", 
+                    "timestamp": 1465003803.13764
+                }, 
+                {
+                    "message": "push unit to agent after ftw staging", 
+                    "timestamp": 1465003803.522642
+                }, 
+                {
+                    "message": "Output transfer completed.", 
+                    "timestamp": 1465004139.931749
+                }
+            ], 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/", 
+            "restartable": false, 
+            "sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000//unit.000012", 
+            "started": null, 
+            "state": "Done", 
+            "statehistory": [
+                {
+                    "state": "Scheduling", 
+                    "timestamp": 1465003796.405953
+                }, 
+                {
+                    "state": "StagingInput", 
+                    "timestamp": 1465003803.424493
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003803.424493
+                }, 
+                {
+                    "state": "AgentStagingInput", 
+                    "timestamp": 1465004077.288133
+                }, 
+                {
+                    "state": "AllocatingPending", 
+                    "timestamp": 1465004077.288391
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004077.318307
+                }, 
+                {
+                    "state": "ExecutingPending", 
+                    "timestamp": 1465004128.669685
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004128.671063
+                }, 
+                {
+                    "state": "AgentStagingOutputPending", 
+                    "timestamp": 1465004138.799862
+                }, 
+                {
+                    "state": "AgentStagingOutput", 
+                    "timestamp": 1465004138.80121
+                }, 
+                {
+                    "state": "PendingOutputStaging", 
+                    "timestamp": 1465004138.801617
+                }, 
+                {
+                    "state": "StagingOutput", 
+                    "timestamp": 1465004139.835884
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004139.931749
+                }
+            ], 
+            "stderr": "", 
+            "stdout": "stat115.phys.uconn.edu:gluskap.phys.uconn.edu\n", 
+            "submitted": 1465003796.405953, 
+            "unitmanager": "umgr.0000"
+        }, 
+        {
+            "Agent_Input_Directives": [], 
+            "Agent_Input_Status": null, 
+            "Agent_Output_Directives": [], 
+            "Agent_Output_Status": null, 
+            "FTW_Input_Directives": [], 
+            "FTW_Input_Status": null, 
+            "FTW_Output_Directives": [], 
+            "FTW_Output_Status": null, 
+            "_id": "unit.000010", 
+            "callbackhistory": [
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003812.363116
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004080.597197
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004141.758445
+                }, 
+                {
+                    "state": "StagingOutput", 
+                    "timestamp": 1465004151.463309
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004154.651505
+                }
+            ], 
+            "control": "umgr", 
+            "description": {
+                "arguments": [
+                    "-c", 
+                    "echo $HOSTNAME:$OSG_HOSTNAME && sleep 10"
+                ], 
+                "cleanup": false, 
+                "cores": 1, 
+                "environment": null, 
+                "executable": "/bin/sh", 
+                "input_staging": null, 
+                "kernel": null, 
+                "mpi": false, 
+                "name": null, 
+                "output_staging": null, 
+                "post_exec": null, 
+                "pre_exec": null, 
+                "restartable": false, 
+                "stderr": null, 
+                "stdout": null
+            }, 
+            "exec_locs": null, 
+            "exit_code": 0, 
+            "finished": null, 
+            "log": [
+                {
+                    "message": "Scheduled for data transfer to ComputePilot pilot.0000.", 
+                    "timestamp": 1465003803.230331
+                }, 
+                {
+                    "message": "push unit to agent after ftw staging", 
+                    "timestamp": 1465003803.710597
+                }, 
+                {
+                    "message": "Output transfer completed.", 
+                    "timestamp": 1465004151.368394
+                }
+            ], 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/", 
+            "restartable": false, 
+            "sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000//unit.000010", 
+            "started": null, 
+            "state": "Done", 
+            "statehistory": [
+                {
+                    "state": "Scheduling", 
+                    "timestamp": 1465003796.404016
+                }, 
+                {
+                    "state": "StagingInput", 
+                    "timestamp": 1465003803.615076
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003803.615076
+                }, 
+                {
+                    "state": "AgentStagingInput", 
+                    "timestamp": 1465004077.289255
+                }, 
+                {
+                    "state": "AllocatingPending", 
+                    "timestamp": 1465004077.289508
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004077.319207
+                }, 
+                {
+                    "state": "ExecutingPending", 
+                    "timestamp": 1465004138.807963
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004138.809381
+                }, 
+                {
+                    "state": "AgentStagingOutputPending", 
+                    "timestamp": 1465004149.23892
+                }, 
+                {
+                    "state": "AgentStagingOutput", 
+                    "timestamp": 1465004149.240347
+                }, 
+                {
+                    "state": "PendingOutputStaging", 
+                    "timestamp": 1465004149.240788
+                }, 
+                {
+                    "state": "StagingOutput", 
+                    "timestamp": 1465004150.971156
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004151.368394
+                }
+            ], 
+            "stderr": "", 
+            "stdout": "stat115.phys.uconn.edu:gluskap.phys.uconn.edu\n", 
+            "submitted": 1465003796.404016, 
+            "unitmanager": "umgr.0000"
+        }, 
+        {
+            "Agent_Input_Directives": [], 
+            "Agent_Input_Status": null, 
+            "Agent_Output_Directives": [], 
+            "Agent_Output_Status": null, 
+            "FTW_Input_Directives": [], 
+            "FTW_Input_Status": null, 
+            "FTW_Output_Directives": [], 
+            "FTW_Output_Status": null, 
+            "_id": "unit.000006", 
+            "callbackhistory": [
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003812.363291
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004080.597384
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004151.463417
+                }, 
+                {
+                    "state": "PendingOutputStaging", 
+                    "timestamp": 1465004167.525323
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004170.71507
+                }
+            ], 
+            "control": "umgr", 
+            "description": {
+                "arguments": [
+                    "-c", 
+                    "echo $HOSTNAME:$OSG_HOSTNAME && sleep 10"
+                ], 
+                "cleanup": false, 
+                "cores": 1, 
+                "environment": null, 
+                "executable": "/bin/sh", 
+                "input_staging": null, 
+                "kernel": null, 
+                "mpi": false, 
+                "name": null, 
+                "output_staging": null, 
+                "post_exec": null, 
+                "pre_exec": null, 
+                "restartable": false, 
+                "stderr": null, 
+                "stdout": null
+            }, 
+            "exec_locs": null, 
+            "exit_code": 0, 
+            "finished": null, 
+            "log": [
+                {
+                    "message": "Scheduled for data transfer to ComputePilot pilot.0000.", 
+                    "timestamp": 1465003803.328302
+                }, 
+                {
+                    "message": "push unit to agent after ftw staging", 
+                    "timestamp": 1465003803.716889
+                }, 
+                {
+                    "message": "Output transfer completed.", 
+                    "timestamp": 1465004167.816945
+                }
+            ], 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/", 
+            "restartable": false, 
+            "sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000//unit.000006", 
+            "started": null, 
+            "state": "Done", 
+            "statehistory": [
+                {
+                    "state": "Scheduling", 
+                    "timestamp": 1465003796.400153
+                }, 
+                {
+                    "state": "StagingInput", 
+                    "timestamp": 1465003803.618878
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003803.618878
+                }, 
+                {
+                    "state": "AgentStagingInput", 
+                    "timestamp": 1465004077.290372
+                }, 
+                {
+                    "state": "AllocatingPending", 
+                    "timestamp": 1465004077.290625
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004077.32002
+                }, 
+                {
+                    "state": "ExecutingPending", 
+                    "timestamp": 1465004149.247253
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004149.248604
+                }, 
+                {
+                    "state": "AgentStagingOutputPending", 
+                    "timestamp": 1465004165.894302
+                }, 
+                {
+                    "state": "AgentStagingOutput", 
+                    "timestamp": 1465004165.895728
+                }, 
+                {
+                    "state": "PendingOutputStaging", 
+                    "timestamp": 1465004165.896194
+                }, 
+                {
+                    "state": "StagingOutput", 
+                    "timestamp": 1465004167.724003
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004167.816945
+                }
+            ], 
+            "stderr": "", 
+            "stdout": "stat115.phys.uconn.edu:gluskap.phys.uconn.edu\n", 
+            "submitted": 1465003796.400153, 
+            "unitmanager": "umgr.0000"
+        }, 
+        {
+            "Agent_Input_Directives": [], 
+            "Agent_Input_Status": null, 
+            "Agent_Output_Directives": [], 
+            "Agent_Output_Status": null, 
+            "FTW_Input_Directives": [], 
+            "FTW_Input_Status": null, 
+            "FTW_Output_Directives": [], 
+            "FTW_Output_Status": null, 
+            "_id": "unit.000002", 
+            "callbackhistory": [
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003812.363154
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004080.597237
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004167.525226
+                }, 
+                {
+                    "state": "AgentStagingOutputPending", 
+                    "timestamp": 1465004177.203825
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004180.403981
+                }
+            ], 
+            "control": "umgr", 
+            "description": {
+                "arguments": [
+                    "-c", 
+                    "echo $HOSTNAME:$OSG_HOSTNAME && sleep 10"
+                ], 
+                "cleanup": false, 
+                "cores": 1, 
+                "environment": null, 
+                "executable": "/bin/sh", 
+                "input_staging": null, 
+                "kernel": null, 
+                "mpi": false, 
+                "name": null, 
+                "output_staging": null, 
+                "post_exec": null, 
+                "pre_exec": null, 
+                "restartable": false, 
+                "stderr": null, 
+                "stdout": null
+            }, 
+            "exec_locs": null, 
+            "exit_code": 0, 
+            "finished": null, 
+            "log": [
+                {
+                    "message": "Scheduled for data transfer to ComputePilot pilot.0000.", 
+                    "timestamp": 1465003803.420976
+                }, 
+                {
+                    "message": "push unit to agent after ftw staging", 
+                    "timestamp": 1465003803.899466
+                }, 
+                {
+                    "message": "Output transfer completed.", 
+                    "timestamp": 1465004177.871012
+                }
+            ], 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/", 
+            "restartable": false, 
+            "sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000//unit.000002", 
+            "started": null, 
+            "state": "Done", 
+            "statehistory": [
+                {
+                    "state": "Scheduling", 
+                    "timestamp": 1465003796.393325
+                }, 
+                {
+                    "state": "StagingInput", 
+                    "timestamp": 1465003803.803426
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003803.803426
+                }, 
+                {
+                    "state": "AgentStagingInput", 
+                    "timestamp": 1465004077.291553
+                }, 
+                {
+                    "state": "AllocatingPending", 
+                    "timestamp": 1465004077.291783
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004077.321148
+                }, 
+                {
+                    "state": "ExecutingPending", 
+                    "timestamp": 1465004165.902421
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004165.903702
+                }, 
+                {
+                    "state": "AgentStagingOutputPending", 
+                    "timestamp": 1465004176.528691
+                }, 
+                {
+                    "state": "AgentStagingOutput", 
+                    "timestamp": 1465004176.53012
+                }, 
+                {
+                    "state": "PendingOutputStaging", 
+                    "timestamp": 1465004176.530618
+                }, 
+                {
+                    "state": "StagingOutput", 
+                    "timestamp": 1465004177.775332
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004177.871012
+                }
+            ], 
+            "stderr": "", 
+            "stdout": "stat115.phys.uconn.edu:gluskap.phys.uconn.edu\n", 
+            "submitted": 1465003796.393325, 
+            "unitmanager": "umgr.0000"
+        }, 
+        {
+            "Agent_Input_Directives": [], 
+            "Agent_Input_Status": null, 
+            "Agent_Output_Directives": [], 
+            "Agent_Output_Status": null, 
+            "FTW_Input_Directives": [], 
+            "FTW_Input_Status": null, 
+            "FTW_Output_Directives": [], 
+            "FTW_Output_Status": null, 
+            "_id": "unit.000009", 
+            "callbackhistory": [
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003812.362946
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004080.597082
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004180.403869
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004190.091446
+                }
+            ], 
+            "control": "umgr", 
+            "description": {
+                "arguments": [
+                    "-c", 
+                    "echo $HOSTNAME:$OSG_HOSTNAME && sleep 10"
+                ], 
+                "cleanup": false, 
+                "cores": 1, 
+                "environment": null, 
+                "executable": "/bin/sh", 
+                "input_staging": null, 
+                "kernel": null, 
+                "mpi": false, 
+                "name": null, 
+                "output_staging": null, 
+                "post_exec": null, 
+                "pre_exec": null, 
+                "restartable": false, 
+                "stderr": null, 
+                "stdout": null
+            }, 
+            "exec_locs": null, 
+            "exit_code": 0, 
+            "finished": null, 
+            "log": [
+                {
+                    "message": "Scheduled for data transfer to ComputePilot pilot.0000.", 
+                    "timestamp": 1465003803.516384
+                }, 
+                {
+                    "message": "push unit to agent after ftw staging", 
+                    "timestamp": 1465003803.910481
+                }, 
+                {
+                    "message": "Output transfer completed.", 
+                    "timestamp": 1465004188.0462
+                }
+            ], 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/", 
+            "restartable": false, 
+            "sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000//unit.000009", 
+            "started": null, 
+            "state": "Done", 
+            "statehistory": [
+                {
+                    "state": "Scheduling", 
+                    "timestamp": 1465003796.403046
+                }, 
+                {
+                    "state": "StagingInput", 
+                    "timestamp": 1465003803.814869
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003803.814869
+                }, 
+                {
+                    "state": "AgentStagingInput", 
+                    "timestamp": 1465004077.292653
+                }, 
+                {
+                    "state": "AllocatingPending", 
+                    "timestamp": 1465004077.292934
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004077.321916
+                }, 
+                {
+                    "state": "ExecutingPending", 
+                    "timestamp": 1465004176.536876
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004176.538153
+                }, 
+                {
+                    "state": "AgentStagingOutputPending", 
+                    "timestamp": 1465004186.867997
+                }, 
+                {
+                    "state": "AgentStagingOutput", 
+                    "timestamp": 1465004186.869369
+                }, 
+                {
+                    "state": "PendingOutputStaging", 
+                    "timestamp": 1465004186.869841
+                }, 
+                {
+                    "state": "StagingOutput", 
+                    "timestamp": 1465004187.950494
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004188.0462
+                }
+            ], 
+            "stderr": "", 
+            "stdout": "stat115.phys.uconn.edu:gluskap.phys.uconn.edu\n", 
+            "submitted": 1465003796.403046, 
+            "unitmanager": "umgr.0000"
+        }, 
+        {
+            "Agent_Input_Directives": [], 
+            "Agent_Input_Status": null, 
+            "Agent_Output_Directives": [], 
+            "Agent_Output_Status": null, 
+            "FTW_Input_Directives": [], 
+            "FTW_Input_Status": null, 
+            "FTW_Output_Directives": [], 
+            "FTW_Output_Status": null, 
+            "_id": "unit.000013", 
+            "callbackhistory": [
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003812.363394
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004080.597495
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004190.184303
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004199.773025
+                }
+            ], 
+            "control": "umgr", 
+            "description": {
+                "arguments": [
+                    "-c", 
+                    "echo $HOSTNAME:$OSG_HOSTNAME && sleep 10"
+                ], 
+                "cleanup": false, 
+                "cores": 1, 
+                "environment": null, 
+                "executable": "/bin/sh", 
+                "input_staging": null, 
+                "kernel": null, 
+                "mpi": false, 
+                "name": null, 
+                "output_staging": null, 
+                "post_exec": null, 
+                "pre_exec": null, 
+                "restartable": false, 
+                "stderr": null, 
+                "stdout": null
+            }, 
+            "exec_locs": null, 
+            "exit_code": 0, 
+            "finished": null, 
+            "log": [
+                {
+                    "message": "Scheduled for data transfer to ComputePilot pilot.0000.", 
+                    "timestamp": 1465003803.60906
+                }, 
+                {
+                    "message": "push unit to agent after ftw staging", 
+                    "timestamp": 1465003804.09674
+                }, 
+                {
+                    "message": "Output transfer completed.", 
+                    "timestamp": 1465004198.699209
+                }
+            ], 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/", 
+            "restartable": false, 
+            "sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000//unit.000013", 
+            "started": null, 
+            "state": "Done", 
+            "statehistory": [
+                {
+                    "state": "Scheduling", 
+                    "timestamp": 1465003796.406913
+                }, 
+                {
+                    "state": "StagingInput", 
+                    "timestamp": 1465003804.003615
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003804.003615
+                }, 
+                {
+                    "state": "AgentStagingInput", 
+                    "timestamp": 1465004077.293828
+                }, 
+                {
+                    "state": "AllocatingPending", 
+                    "timestamp": 1465004077.294085
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004077.322754
+                }, 
+                {
+                    "state": "ExecutingPending", 
+                    "timestamp": 1465004186.876064
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004186.877378
+                }, 
+                {
+                    "state": "AgentStagingOutputPending", 
+                    "timestamp": 1465004197.110995
+                }, 
+                {
+                    "state": "AgentStagingOutput", 
+                    "timestamp": 1465004197.112378
+                }, 
+                {
+                    "state": "PendingOutputStaging", 
+                    "timestamp": 1465004197.112833
+                }, 
+                {
+                    "state": "StagingOutput", 
+                    "timestamp": 1465004198.603304
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004198.699209
+                }
+            ], 
+            "stderr": "", 
+            "stdout": "stat115.phys.uconn.edu:gluskap.phys.uconn.edu\n", 
+            "submitted": 1465003796.406913, 
+            "unitmanager": "umgr.0000"
+        }, 
+        {
+            "Agent_Input_Directives": [], 
+            "Agent_Input_Status": null, 
+            "Agent_Output_Directives": [], 
+            "Agent_Output_Status": null, 
+            "FTW_Input_Directives": [], 
+            "FTW_Input_Status": null, 
+            "FTW_Output_Directives": [], 
+            "FTW_Output_Status": null, 
+            "_id": "unit.000007", 
+            "callbackhistory": [
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003812.363534
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004080.597639
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004199.871317
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004209.496871
+                }
+            ], 
+            "control": "umgr", 
+            "description": {
+                "arguments": [
+                    "-c", 
+                    "echo $HOSTNAME:$OSG_HOSTNAME && sleep 10"
+                ], 
+                "cleanup": false, 
+                "cores": 1, 
+                "environment": null, 
+                "executable": "/bin/sh", 
+                "input_staging": null, 
+                "kernel": null, 
+                "mpi": false, 
+                "name": null, 
+                "output_staging": null, 
+                "post_exec": null, 
+                "pre_exec": null, 
+                "restartable": false, 
+                "stderr": null, 
+                "stdout": null
+            }, 
+            "exec_locs": null, 
+            "exit_code": 0, 
+            "finished": null, 
+            "log": [
+                {
+                    "message": "Scheduled for data transfer to ComputePilot pilot.0000.", 
+                    "timestamp": 1465003803.704476
+                }, 
+                {
+                    "message": "push unit to agent after ftw staging", 
+                    "timestamp": 1465003804.099764
+                }, 
+                {
+                    "message": "Output transfer completed.", 
+                    "timestamp": 1465004209.06986
+                }
+            ], 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/", 
+            "restartable": false, 
+            "sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000//unit.000007", 
+            "started": null, 
+            "state": "Done", 
+            "statehistory": [
+                {
+                    "state": "Scheduling", 
+                    "timestamp": 1465003796.401121
+                }, 
+                {
+                    "state": "StagingInput", 
+                    "timestamp": 1465003804.004222
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003804.004222
+                }, 
+                {
+                    "state": "AgentStagingInput", 
+                    "timestamp": 1465004077.295013
+                }, 
+                {
+                    "state": "AllocatingPending", 
+                    "timestamp": 1465004077.295289
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004077.323559
+                }, 
+                {
+                    "state": "ExecutingPending", 
+                    "timestamp": 1465004197.119342
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004197.120909
+                }, 
+                {
+                    "state": "AgentStagingOutputPending", 
+                    "timestamp": 1465004207.443623
+                }, 
+                {
+                    "state": "AgentStagingOutput", 
+                    "timestamp": 1465004207.445063
+                }, 
+                {
+                    "state": "PendingOutputStaging", 
+                    "timestamp": 1465004207.445535
+                }, 
+                {
+                    "state": "StagingOutput", 
+                    "timestamp": 1465004208.97704
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004209.06986
+                }
+            ], 
+            "stderr": "", 
+            "stdout": "stat115.phys.uconn.edu:gluskap.phys.uconn.edu\n", 
+            "submitted": 1465003796.401121, 
+            "unitmanager": "umgr.0000"
+        }, 
+        {
+            "Agent_Input_Directives": [], 
+            "Agent_Input_Status": null, 
+            "Agent_Output_Directives": [], 
+            "Agent_Output_Status": null, 
+            "FTW_Input_Directives": [], 
+            "FTW_Input_Status": null, 
+            "FTW_Output_Directives": [], 
+            "FTW_Output_Status": null, 
+            "_id": "unit.000011", 
+            "callbackhistory": [
+                {
+                    "state": "StagingInput", 
+                    "timestamp": 1465003812.363465
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003815.562594
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004080.597568
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004209.496785
+                }, 
+                {
+                    "state": "StagingOutput", 
+                    "timestamp": 1465004219.178909
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004222.3739
+                }
+            ], 
+            "control": "umgr", 
+            "description": {
+                "arguments": [
+                    "-c", 
+                    "echo $HOSTNAME:$OSG_HOSTNAME && sleep 10"
+                ], 
+                "cleanup": false, 
+                "cores": 1, 
+                "environment": null, 
+                "executable": "/bin/sh", 
+                "input_staging": null, 
+                "kernel": null, 
+                "mpi": false, 
+                "name": null, 
+                "output_staging": null, 
+                "post_exec": null, 
+                "pre_exec": null, 
+                "restartable": false, 
+                "stderr": null, 
+                "stdout": null
+            }, 
+            "exec_locs": null, 
+            "exit_code": 0, 
+            "finished": null, 
+            "log": [
+                {
+                    "message": "Scheduled for data transfer to ComputePilot pilot.0000.", 
+                    "timestamp": 1465003803.799776
+                }, 
+                {
+                    "message": "push unit to agent after ftw staging", 
+                    "timestamp": 1465003812.268394
+                }, 
+                {
+                    "message": "Output transfer completed.", 
+                    "timestamp": 1465004218.947805
+                }
+            ], 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/", 
+            "restartable": false, 
+            "sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000//unit.000011", 
+            "started": null, 
+            "state": "Done", 
+            "statehistory": [
+                {
+                    "state": "Scheduling", 
+                    "timestamp": 1465003796.40498
+                }, 
+                {
+                    "state": "StagingInput", 
+                    "timestamp": 1465003804.192052
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003804.192052
+                }, 
+                {
+                    "state": "AgentStagingInput", 
+                    "timestamp": 1465004077.296209
+                }, 
+                {
+                    "state": "AllocatingPending", 
+                    "timestamp": 1465004077.296484
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004077.324347
+                }, 
+                {
+                    "state": "ExecutingPending", 
+                    "timestamp": 1465004207.451839
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004207.453145
+                }, 
+                {
+                    "state": "AgentStagingOutputPending", 
+                    "timestamp": 1465004217.674969
+                }, 
+                {
+                    "state": "AgentStagingOutput", 
+                    "timestamp": 1465004217.676384
+                }, 
+                {
+                    "state": "PendingOutputStaging", 
+                    "timestamp": 1465004217.676812
+                }, 
+                {
+                    "state": "StagingOutput", 
+                    "timestamp": 1465004218.849457
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004218.947805
+                }
+            ], 
+            "stderr": "", 
+            "stdout": "stat115.phys.uconn.edu:gluskap.phys.uconn.edu\n", 
+            "submitted": 1465003796.40498, 
+            "unitmanager": "umgr.0000"
+        }, 
+        {
+            "Agent_Input_Directives": [], 
+            "Agent_Input_Status": null, 
+            "Agent_Output_Directives": [], 
+            "Agent_Output_Status": null, 
+            "FTW_Input_Directives": [], 
+            "FTW_Input_Status": null, 
+            "FTW_Output_Directives": [], 
+            "FTW_Output_Status": null, 
+            "_id": "unit.000003", 
+            "callbackhistory": [
+                {
+                    "state": "PendingInputStaging", 
+                    "timestamp": 1465003812.363431
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003815.562555
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004080.597532
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004219.178839
+                }, 
+                {
+                    "state": "AgentStagingOutputPending", 
+                    "timestamp": 1465004228.849761
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004232.037875
+                }
+            ], 
+            "control": "umgr", 
+            "description": {
+                "arguments": [
+                    "-c", 
+                    "echo $HOSTNAME:$OSG_HOSTNAME && sleep 10"
+                ], 
+                "cleanup": false, 
+                "cores": 1, 
+                "environment": null, 
+                "executable": "/bin/sh", 
+                "input_staging": null, 
+                "kernel": null, 
+                "mpi": false, 
+                "name": null, 
+                "output_staging": null, 
+                "post_exec": null, 
+                "pre_exec": null, 
+                "restartable": false, 
+                "stderr": null, 
+                "stdout": null
+            }, 
+            "exec_locs": null, 
+            "exit_code": 0, 
+            "finished": null, 
+            "log": [
+                {
+                    "message": "Scheduled for data transfer to ComputePilot pilot.0000.", 
+                    "timestamp": 1465003803.892438
+                }, 
+                {
+                    "message": "push unit to agent after ftw staging", 
+                    "timestamp": 1465003812.268889
+                }, 
+                {
+                    "message": "Output transfer completed.", 
+                    "timestamp": 1465004228.971866
+                }
+            ], 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/", 
+            "restartable": false, 
+            "sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000//unit.000003", 
+            "started": null, 
+            "state": "Done", 
+            "statehistory": [
+                {
+                    "state": "Scheduling", 
+                    "timestamp": 1465003796.394317
+                }, 
+                {
+                    "state": "StagingInput", 
+                    "timestamp": 1465003804.19696
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003804.19696
+                }, 
+                {
+                    "state": "AgentStagingInput", 
+                    "timestamp": 1465004077.297426
+                }, 
+                {
+                    "state": "AllocatingPending", 
+                    "timestamp": 1465004077.297706
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004077.325109
+                }, 
+                {
+                    "state": "ExecutingPending", 
+                    "timestamp": 1465004217.682937
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004217.684389
+                }, 
+                {
+                    "state": "AgentStagingOutputPending", 
+                    "timestamp": 1465004227.806763
+                }, 
+                {
+                    "state": "AgentStagingOutput", 
+                    "timestamp": 1465004227.808194
+                }, 
+                {
+                    "state": "PendingOutputStaging", 
+                    "timestamp": 1465004227.808685
+                }, 
+                {
+                    "state": "StagingOutput", 
+                    "timestamp": 1465004228.875374
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004228.971866
+                }
+            ], 
+            "stderr": "", 
+            "stdout": "stat115.phys.uconn.edu:gluskap.phys.uconn.edu\n", 
+            "submitted": 1465003796.394317, 
+            "unitmanager": "umgr.0000"
+        }, 
+        {
+            "Agent_Input_Directives": [], 
+            "Agent_Input_Status": null, 
+            "Agent_Output_Directives": [], 
+            "Agent_Output_Status": null, 
+            "FTW_Input_Directives": [], 
+            "FTW_Input_Status": null, 
+            "FTW_Output_Directives": [], 
+            "FTW_Output_Status": null, 
+            "_id": "unit.000015", 
+            "callbackhistory": [
+                {
+                    "state": "PendingInputStaging", 
+                    "timestamp": 1465003812.363359
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003815.562473
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004080.597458
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004232.136087
+                }, 
+                {
+                    "state": "AgentStagingOutputPending", 
+                    "timestamp": 1465004238.525329
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004242.270341
+                }
+            ], 
+            "control": "umgr", 
+            "description": {
+                "arguments": [
+                    "-c", 
+                    "echo $HOSTNAME:$OSG_HOSTNAME && sleep 10"
+                ], 
+                "cleanup": false, 
+                "cores": 1, 
+                "environment": null, 
+                "executable": "/bin/sh", 
+                "input_staging": null, 
+                "kernel": null, 
+                "mpi": false, 
+                "name": null, 
+                "output_staging": null, 
+                "post_exec": null, 
+                "pre_exec": null, 
+                "restartable": false, 
+                "stderr": null, 
+                "stdout": null
+            }, 
+            "exec_locs": null, 
+            "exit_code": 0, 
+            "finished": null, 
+            "log": [
+                {
+                    "message": "Scheduled for data transfer to ComputePilot pilot.0000.", 
+                    "timestamp": 1465003804.003285
+                }, 
+                {
+                    "message": "push unit to agent after ftw staging", 
+                    "timestamp": 1465003812.461103
+                }, 
+                {
+                    "message": "Output transfer completed.", 
+                    "timestamp": 1465004240.031199
+                }
+            ], 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/", 
+            "restartable": false, 
+            "sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000//unit.000015", 
+            "started": null, 
+            "state": "Done", 
+            "statehistory": [
+                {
+                    "state": "Scheduling", 
+                    "timestamp": 1465003796.408823
+                }, 
+                {
+                    "state": "StagingInput", 
+                    "timestamp": 1465003812.36422
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003812.36422
+                }, 
+                {
+                    "state": "AgentStagingInput", 
+                    "timestamp": 1465004077.29863
+                }, 
+                {
+                    "state": "AllocatingPending", 
+                    "timestamp": 1465004077.298925
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004077.325955
+                }, 
+                {
+                    "state": "ExecutingPending", 
+                    "timestamp": 1465004227.81495
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004227.816517
+                }, 
+                {
+                    "state": "AgentStagingOutputPending", 
+                    "timestamp": 1465004237.937871
+                }, 
+                {
+                    "state": "AgentStagingOutput", 
+                    "timestamp": 1465004237.939334
+                }, 
+                {
+                    "state": "PendingOutputStaging", 
+                    "timestamp": 1465004237.939795
+                }, 
+                {
+                    "state": "StagingOutput", 
+                    "timestamp": 1465004239.938254
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004240.031199
+                }
+            ], 
+            "stderr": "", 
+            "stdout": "stat115.phys.uconn.edu:gluskap.phys.uconn.edu\n", 
+            "submitted": 1465003796.408823, 
+            "unitmanager": "umgr.0000"
+        }, 
+        {
+            "Agent_Input_Directives": [], 
+            "Agent_Input_Status": null, 
+            "Agent_Output_Directives": [], 
+            "Agent_Output_Status": null, 
+            "FTW_Input_Directives": [], 
+            "FTW_Input_Status": null, 
+            "FTW_Output_Directives": [], 
+            "FTW_Output_Status": null, 
+            "_id": "unit.000004", 
+            "callbackhistory": [
+                {
+                    "state": "PendingInputStaging", 
+                    "timestamp": 1465003812.363498
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003815.56263
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004080.597604
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004242.365913
+                }, 
+                {
+                    "state": "AgentStagingOutputPending", 
+                    "timestamp": 1465004248.754405
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004251.943463
+                }
+            ], 
+            "control": "umgr", 
+            "description": {
+                "arguments": [
+                    "-c", 
+                    "echo $HOSTNAME:$OSG_HOSTNAME && sleep 10"
+                ], 
+                "cleanup": false, 
+                "cores": 1, 
+                "environment": null, 
+                "executable": "/bin/sh", 
+                "input_staging": null, 
+                "kernel": null, 
+                "mpi": false, 
+                "name": null, 
+                "output_staging": null, 
+                "post_exec": null, 
+                "pre_exec": null, 
+                "restartable": false, 
+                "stderr": null, 
+                "stdout": null
+            }, 
+            "exec_locs": null, 
+            "exit_code": 0, 
+            "finished": null, 
+            "log": [
+                {
+                    "message": "Scheduled for data transfer to ComputePilot pilot.0000.", 
+                    "timestamp": 1465003804.101881
+                }, 
+                {
+                    "message": "push unit to agent after ftw staging", 
+                    "timestamp": 1465003812.459015
+                }, 
+                {
+                    "message": "Output transfer completed.", 
+                    "timestamp": 1465004249.841741
+                }
+            ], 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000/", 
+            "restartable": false, 
+            "sandbox": "sftp://xd-login.opensciencegrid.org/home/mha/radical.pilot.sandbox/rp.session.radical.mingtha.016956.0008-pilot.0000//unit.000004", 
+            "started": null, 
+            "state": "Done", 
+            "statehistory": [
+                {
+                    "state": "Scheduling", 
+                    "timestamp": 1465003796.395312
+                }, 
+                {
+                    "state": "StagingInput", 
+                    "timestamp": 1465003812.361956
+                }, 
+                {
+                    "state": "AgentStagingInputPending", 
+                    "timestamp": 1465003812.361956
+                }, 
+                {
+                    "state": "AgentStagingInput", 
+                    "timestamp": 1465004077.299895
+                }, 
+                {
+                    "state": "AllocatingPending", 
+                    "timestamp": 1465004077.300187
+                }, 
+                {
+                    "state": "Allocating", 
+                    "timestamp": 1465004077.326743
+                }, 
+                {
+                    "state": "ExecutingPending", 
+                    "timestamp": 1465004237.945633
+                }, 
+                {
+                    "state": "Executing", 
+                    "timestamp": 1465004237.946876
+                }, 
+                {
+                    "state": "AgentStagingOutputPending", 
+                    "timestamp": 1465004248.068795
+                }, 
+                {
+                    "state": "AgentStagingOutput", 
+                    "timestamp": 1465004248.070277
+                }, 
+                {
+                    "state": "PendingOutputStaging", 
+                    "timestamp": 1465004248.07075
+                }, 
+                {
+                    "state": "StagingOutput", 
+                    "timestamp": 1465004249.745988
+                }, 
+                {
+                    "state": "Done", 
+                    "timestamp": 1465004249.841741
+                }
+            ], 
+            "stderr": "", 
+            "stdout": "stat115.phys.uconn.edu:gluskap.phys.uconn.edu\n", 
+            "submitted": 1465003796.395312, 
+            "unitmanager": "umgr.0000"
+        }
+    ]
+}
