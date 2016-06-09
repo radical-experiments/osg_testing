@@ -1,6 +1,9 @@
 # OSG_Testing
 This repository contains data gathered from testing the Open Science Grid (OSG)
 
+##### TODO: Deciding on which data to use for data/logs for failed runs.
+##### TODO: Writing more READMEs in subdirectories
+
 ### Setup
 
 #### Software and Version
@@ -33,25 +36,21 @@ This repository contains data gathered from testing the Open Science Grid (OSG)
   * Contains cleaned data (in csv or xlsx form), scripts to generate plots and the plots themselves
 
 ### Workload
+* Executable Information
+ * /bin/sh -c "sleep 10" (Duration is 10 sec)
+  * It should be noted that the script also echos the OSG HostName, but sleep 10 dominates the execution in time
+* Task Information
+ * The number of tasks equals the number of units
+ * The range of number of units submitted is [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048] 
 
-- Description of the workload:
-  . Number of tasks.
-  . Number of cores of the tasks (if heterogeneous, specify the distribution).
-  . Duration of the tasks (if heterogeneous, specify the distribution).
-  . Executable(s) of the tasks.
-  . Number of Input/Output files if any.
-  . Size of Input/Output files if any (if heterogeneous, specify the distribution).
+### Resource Overlay
+* The range of number of pilots submitted is [1, 2, 4, 8, 16, 32]
+* Each pilot gets 1 Core (?? Need to double check)
+* Each pilot has Walltime = 1800 min
+* The scheduler is either Round Robin or Backfilling, depending on the script
 
-- Description of the resource overlay:
-  . How many pilots.
-  . Number of cores of each pilot (if heterogeneous, specify the distribution).
-  . Walltime of each pilot (if heterogeneous, specify the distribution).
-  . Type of scheduler used to schedule CUs to the pilot(s).
-  . Number of pilots per resource (if heterogeneous, specify the distribution).
-
-- Description of the resources:
-  . Endpoint(s) used to submit pilots.
+### Resource
+* OSG
+ * Endpoint: xd-loging.opensciencegrid.org
 
 
-
-TODO: Deciding on which data to use for data/logs for failed runs.
