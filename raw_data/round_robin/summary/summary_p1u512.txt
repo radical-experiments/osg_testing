@@ -1,78 +1,65 @@
 ----------------------------------------------------------------
 p1u512/rp.session.radical.mingtha.016942.0004.json
-Number of units:  512.0
-0    512
-Name: num_units, dtype: float64
-RunLoc:  uct2-c091.mwt2.org:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  512
-Tq: 378.557125
-DONE	TTC: 81333.907025
-Run Status: FAIL
+ATTEMPT
+Number of units:  512
+[512]
+Unique Running Locations:  [(u'uct2-c091.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 512)]
+Tq:  [378.55712485313416]
 Incomplete Units: 2
 Unexecuted Units: 0
-Tx: 5176.012679
+Units were hung up
 ----------------------------------------------------------------
 p1u512/rp.session.radical.mingtha.016957.0000.json
-Number of units:  512.0
-0    512
-Name: num_units, dtype: float64
-RunLoc:  mwt2-c063:uct2-gk.mwt2.org
-
-RunLocCount:  512
-Tq: 168.957642
-CANCELED	TTC: 8858.086569
-Run Status: FAIL
+ATTEMPT
+Number of units:  512
+[512]
+Unique Running Locations:  [(u'mwt2-c063:uct2-gk.mwt2.org\n', 512)]
+Tq:  [168.95764207839966]
 Incomplete Units: 1
 Unexecuted Units: 0
-Tx: 5157.009961
+Units were hung up
 ----------------------------------------------------------------
 p1u512/rp.session.radical.mingtha.016957.0001.json
-Number of units:  512.0
-0    512
-Name: num_units, dtype: float64
-RunLoc:  nan
-RunLocCount:  512
+ATTEMPT
+Number of units:  512
+[512]
+Unique Running Locations:  [(nan, 512)]
 HELD. Tq: -1
 ----------------------------------------------------------------
 p1u512/rp.session.radical.mingtha.016957.0002.json
-Number of units:  512.0
-0    512
-Name: num_units, dtype: float64
-RunLoc:  abc-k10:atlas-net2.bu.edu
-
-RunLocCount:  512
-Tq: 279.704714
-CHECKING UNITS	TTC: 5500.270216
-Run Status: SUCCESS
+ATTEMPT
+Number of units:  512
+[512]
+Unique Running Locations:  [(u'abc-k10:atlas-net2.bu.edu\n', 512)]
+Tq:  [279.70471405982971]
 Incomplete Units: 0
 Unexecuted Units: 0
+CHECKING UNITS
+TTC:  5500.27021599
+TTC per pilot:  [5500.2702159881592]
+SUCCESS
 Tx: 5186.917845
 ----------------------------------------------------------------
 p1u512/rp.session.radical.mingtha.016957.0003.json
-Number of units:  512.0
-0    512
-Name: num_units, dtype: float64
-RunLoc:  stat119.phys.uconn.edu:gluskap.phys.uconn.edu
-
-RunLocCount:  512
-Tq: 239.759009
-CHECKING UNITS	TTC: 5464.212787
-Run Status: SUCCESS
+ATTEMPT
+Number of units:  512
+[512]
+Unique Running Locations:  [(u'stat119.phys.uconn.edu:gluskap.phys.uconn.edu\n', 512)]
+Tq:  [239.75900888442993]
 Incomplete Units: 0
 Unexecuted Units: 0
+CHECKING UNITS
+TTC:  5464.21278691
+TTC per pilot:  [5464.2127869129181]
+SUCCESS
 Tx: 5196.318605
 ----------------------------------------------------------------
 p1u512/rp.session.radical.mingtha.016957.0004.json
-Number of units:  512.0
-0    512
-Name: num_units, dtype: float64
-RunLoc:  mwt2-c001:osg-gk.mwt2.org
-
-RunLocCount:  512
-Tq: 303.228546
-CANCELED	TTC: 8249.150016
-Run Status: FAIL
+ATTEMPT
+Number of units:  512
+[512]
+Unique Running Locations:  [(u'mwt2-c001:osg-gk.mwt2.org\n', 512)]
+Tq:  [303.22854614257812]
 Incomplete Units: 1
 Unexecuted Units: 0
-Tx: 5156.958537
+Units were hung up

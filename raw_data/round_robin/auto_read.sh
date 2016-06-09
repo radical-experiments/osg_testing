@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+rm ./summary/summary_*
+ 
 for folder in `ls -d */`; do 
     if [ "${folder:0:1}" = "p" ]; then
         echo ${folder%'/'}

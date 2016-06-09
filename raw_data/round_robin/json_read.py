@@ -76,9 +76,18 @@ if unit.empty or pilot.empty:
 #Print session
 print data_file
 
+#Prints ATTEMPT for grep later. This counts a run tried
+print "ATTEMPT"
+
 #Print total number of units
-print "Number of units: ", pilot['num_units'].sum()
-print pilot['num_units']
+print "Number of units: ", int(pilot['num_units'].sum())
+
+#Print distribution of units per pilot
+pilot_dist = []
+for i in range(int(len(pilot['num_units']))):
+    pilot_dist.append(int(pilot['num_units'][i]))
+print pilot_dist
+#print pilot['num_units']
 
 #Find all unique locations where the units ran
 unique_runloc = {}
@@ -89,52 +98,68 @@ for i in range(len(run_location.index)):
     else: 
         unique_runloc[run_location[i]] += 1
 
-for loc in unique_runloc:
-    print "RunLoc: ", loc
-    print "RunLocCount: ", unique_runloc[loc]
+runloc = []
+for k, v in unique_runloc.iteritems():
+    runloc.append((k, v))
+
+print "Unique Running Locations: ", runloc
+#for loc in unique_runloc:
+#    print "RunLoc: ", [(loc, unique_runloc[loc])]
+    #print "RunLocCount: ", unique_runloc[loc]
 #print "Locations Pilots ran on: %s", run_locations
 
 #Find Tq
-
+Tq = []
 for i in range(len(pilot.index)):
     try:
-        Tq = pilot['Active'][i] - pilot['PendingActive'][i]
-        print "Tq: %f" % Tq
+        tmp_tq = pilot['Active'][i] - pilot['PendingActive'][i]
+        if not isnan(tmp_tq):
+            Tq.append(tmp_tq)
     except:
         print "HELD. Tq: -1"
         sys.exit()
-        
-#Find TTC
-for i in range(len(pilot.index)):
-    if 'Canceled' in pilot:
-        TTC = pilot['Canceled'][i] - pilot['Launching'][i]
-        print "CANCELED\tTTC: %f" %TTC
-    elif 'Done' in pilot:
-        TTC = pilot['Done'][i] - pilot['Launching'][i]
-        print "DONE\tTTC: %f" %TTC
-    else:
-        try:
-            TTC = unit[unit['pilot'] == i]['Done'].max() - pilot['Launching'][0]
-            print "CHECKING UNITS\tTTC: %f" %TTC
-        except:
-            print "HELD, but has Tq > 0"
-            sys.exit()
-
+print "Tq: ", Tq
 
 #Check if there are any units which did not finish correctly (Enter Done Stage)
-incomplete_units = unit['Done'].isnull().sum()
-
-if incomplete_units == 0:
-    print "Run Status: SUCCESS"
-else: 
-    print "Run Status: FAIL"
-
-print "Incomplete Units: %d" % incomplete_units
+try:
+    incomplete_units = unit['Done'].isnull().sum()
+    print "Incomplete Units: %d" % incomplete_units
+except:
+    print "No Units were Done"
+    sys.exit()
 
 #Check if there are any units which did not finish executing
 unexecuted_units = unit['PendingOutputStaging'].isnull().sum()
 print "Unexecuted Units: %d" %  unexecuted_units
 
+if incomplete_units > 0:
+    print "Units were hung up"
+    sys.exit()
+
+
+#Find TTC
+TTC = []
+for i in range(len(pilot.index)):
+    if 'Canceled' in pilot:
+        TTC.append(pilot['Canceled'][i] - pilot['Launching'][i])
+        print "CANCELED\tTTC: %f" %TTC
+    elif 'Done' in pilot:
+        TTC.append(pilot['Done'][i] - pilot['Launching'][i])
+        print "DONE\tTTC: %f" %TTC
+    else:
+        try:
+            if isnan(unit[unit['pilot'] ==  i]['Done'].max() - pilot['Launching'][i]):
+                print "At least one pilot was not running"
+            TTC.append(unit[unit['pilot'] == i]['Done'].max() - pilot['Launching'][i])
+            print "CHECKING UNITS"
+        except:
+            print "HELD, but has Tq > 0"
+            sys.exit()
+print "TTC: ", unit['Done'].max() - pilot['Launching'].min()
+print "TTC per pilot: ", TTC
+
+#Prints SUCCESS to indicate that run is successful. For grep later
+print "SUCCESS"
 
 #Find the total Tx of the units. Since there may be some overlap in the units,
 #   sorting the list, then creating a master range by checking if there is any

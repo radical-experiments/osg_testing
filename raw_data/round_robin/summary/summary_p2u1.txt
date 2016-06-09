@@ -1,186 +1,144 @@
 ----------------------------------------------------------------
 p2u1/rp.session.radical.mingtha.016949.0000.json
-Number of units:  1.0
-0    1
-1    0
-Name: num_units, dtype: float64
-RunLoc:  uct2-c298.mwt2.org:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  1
-Tq: 256.040799
-Tq: nan
-CHECKING UNITS	TTC: 292.515146
-CHECKING UNITS	TTC: nan
-Run Status: SUCCESS
+ATTEMPT
+Number of units:  1
+[1, 0]
+Unique Running Locations:  [(u'uct2-c298.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)]
+Tq:  [256.0407989025116]
 Incomplete Units: 0
 Unexecuted Units: 0
+CHECKING UNITS
+At least one pilot was not running
+CHECKING UNITS
+TTC:  292.515146017
+TTC per pilot:  [292.51514601707458, nan]
+SUCCESS
 Tx: 10.089424
 ----------------------------------------------------------------
 p2u1/rp.session.radical.mingtha.016949.0001.json
-Number of units:  1.0
-0    1
-1    0
-Name: num_units, dtype: float64
-RunLoc:  stat102.phys.uconn.edu:gluskap.phys.uconn.edu
-
-RunLocCount:  1
-Tq: 329.869481
-Tq: 231.121173
-CHECKING UNITS	TTC: 370.473335
-CHECKING UNITS	TTC: nan
-Run Status: SUCCESS
+ATTEMPT
+Number of units:  1
+[1, 0]
+Unique Running Locations:  [(u'stat102.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1)]
+Tq:  [329.86948108673096, 231.12117290496826]
 Incomplete Units: 0
 Unexecuted Units: 0
+CHECKING UNITS
+At least one pilot was not running
+CHECKING UNITS
+TTC:  370.473335028
+TTC per pilot:  [370.4733350276947, nan]
+SUCCESS
 Tx: 13.734476
 ----------------------------------------------------------------
 p2u1/rp.session.radical.mingtha.016949.0002.json
-Number of units:  1.0
-0    1
-1    0
-Name: num_units, dtype: float64
-RunLoc:  uct2-c050.mwt2.org:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  1
-Tq: 205.618533
-Tq: nan
-CHECKING UNITS	TTC: 241.784083
-CHECKING UNITS	TTC: nan
-Run Status: SUCCESS
+ATTEMPT
+Number of units:  1
+[1, 0]
+Unique Running Locations:  [(u'uct2-c050.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)]
+Tq:  [205.61853289604187]
 Incomplete Units: 0
 Unexecuted Units: 0
+CHECKING UNITS
+At least one pilot was not running
+CHECKING UNITS
+TTC:  241.784083128
+TTC per pilot:  [241.78408312797546, nan]
+SUCCESS
 Tx: 10.038411
 ----------------------------------------------------------------
 p2u1/rp.session.radical.mingtha.016949.0003.json
-Number of units:  1.0
-0    1
-1    0
-Name: num_units, dtype: float64
-RunLoc:  mwt2-c064:osg-gk.mwt2.org
-
-RunLocCount:  1
-Tq: 149.807077
-Tq: nan
-CHECKING UNITS	TTC: 184.816467
-CHECKING UNITS	TTC: nan
-Run Status: SUCCESS
+ATTEMPT
+Number of units:  1
+[1, 0]
+Unique Running Locations:  [(u'mwt2-c064:osg-gk.mwt2.org\n', 1)]
+Tq:  [149.80707693099976]
 Incomplete Units: 0
 Unexecuted Units: 0
+CHECKING UNITS
+At least one pilot was not running
+CHECKING UNITS
+TTC:  184.816467047
+TTC per pilot:  [184.81646704673767, nan]
+SUCCESS
 Tx: 10.064364
 ----------------------------------------------------------------
 p2u1/rp.session.radical.mingtha.016949.0004.json
-Number of units:  2.0
-0    1
-1    1
-Name: num_units, dtype: float64
-RunLoc:  uct2-c105.mwt2.org:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  1
-RunLoc:  iut2-c152.iu.edu:osg-gk.mwt2.org
-
-RunLocCount:  1
-Tq: 126.404037
-Tq: 136.384329
-CHECKING UNITS	TTC: 162.337972
-CHECKING UNITS	TTC: 184.986418
-Run Status: SUCCESS
+ATTEMPT
+Number of units:  2
+[1, 1]
+Unique Running Locations:  [(u'uct2-c105.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'iut2-c152.iu.edu:osg-gk.mwt2.org\n', 1)]
+Tq:  [126.40403699874878, 136.38432884216309]
 Incomplete Units: 0
 Unexecuted Units: 0
+CHECKING UNITS
+CHECKING UNITS
+TTC:  184.986418009
+TTC per pilot:  [162.33797192573547, 166.81047105789185]
+SUCCESS
 Tx: 20.141172
 ----------------------------------------------------------------
 p2u1/rp.session.radical.mingtha.016958.0003.json
-Number of units:  2.0
-0    1
-1    1
-Name: num_units, dtype: float64
-RunLoc:  nodo91:proton.fis.cinvestav.mx
-
-RunLocCount:  1
-RunLoc:  stat107.phys.uconn.edu:gluskap.phys.uconn.edu
-
-RunLocCount:  1
-Tq: 307.297211
-Tq: 505.531410
-CHECKING UNITS	TTC: 348.660603
-CHECKING UNITS	TTC: 396.836294
-Run Status: SUCCESS
+ATTEMPT
+Number of units:  2
+[1, 1]
+Unique Running Locations:  [(u'nodo91:proton.fis.cinvestav.mx\n', 1), (u'stat107.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1)]
+Tq:  [307.29721093177795, 505.53140997886658]
 Incomplete Units: 0
 Unexecuted Units: 0
+CHECKING UNITS
+CHECKING UNITS
+TTC:  396.836293936
+TTC per pilot:  [348.66060304641724, 370.35373592376709]
+SUCCESS
 Tx: 20.436547
 ----------------------------------------------------------------
 p2u1/rp.session.radical.mingtha.016958.0004.json
-Number of units:  2.0
-0    1
-1    1
-Name: num_units, dtype: float64
-RunLoc:  nan
-RunLocCount:  1
-RunLoc:  node0325:osg-ce.clemson.edu
-
-RunLocCount:  1
-Tq: 154.794612
-Tq: nan
-CANCELED	TTC: 1150.335737
-CANCELED	TTC: nan
-Run Status: FAIL
+ATTEMPT
+Number of units:  2
+[1, 1]
+Unique Running Locations:  [(nan, 1), (u'node0325:osg-ce.clemson.edu\n', 1)]
+Tq:  [154.79461193084717]
 Incomplete Units: 1
 Unexecuted Units: 1
-Tx: 10.065745
+Units were hung up
 ----------------------------------------------------------------
 p2u1/rp.session.radical.mingtha.016958.0005.json
-Number of units:  2.0
-0    1
-1    1
-Name: num_units, dtype: float64
-RunLoc:  nan
-RunLocCount:  1
-RunLoc:  node0607:osg-ce.clemson.edu
-
-RunLocCount:  1
-Tq: 194.531701
-Tq: nan
-CANCELED	TTC: 1062.584556
-CANCELED	TTC: nan
-Run Status: FAIL
+ATTEMPT
+Number of units:  2
+[1, 1]
+Unique Running Locations:  [(nan, 1), (u'node0607:osg-ce.clemson.edu\n', 1)]
+Tq:  [194.53170108795166]
 Incomplete Units: 1
 Unexecuted Units: 1
-Tx: 10.091581
+Units were hung up
 ----------------------------------------------------------------
 p2u1/rp.session.radical.mingtha.016958.0007.json
-Number of units:  2.0
-0    1
-1    1
-Name: num_units, dtype: float64
-RunLoc:  node0962:osg-ce.clemson.edu
-
-RunLocCount:  1
-RunLoc:  iut2-c075.iu.edu:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  1
-Tq: 476.094445
-Tq: 141.093608
-CHECKING UNITS	TTC: 512.005255
-CHECKING UNITS	TTC: 192.759702
-Run Status: SUCCESS
+ATTEMPT
+Number of units:  2
+[1, 1]
+Unique Running Locations:  [(u'node0962:osg-ce.clemson.edu\n', 1), (u'iut2-c075.iu.edu:mwt2-gk.campuscluster.illinois.edu\n', 1)]
+Tq:  [476.09444499015808, 141.09360814094543]
 Incomplete Units: 0
 Unexecuted Units: 0
+CHECKING UNITS
+CHECKING UNITS
+TTC:  512.005254984
+TTC per pilot:  [512.00525498390198, 174.0147819519043]
+SUCCESS
 Tx: 20.207401
 ----------------------------------------------------------------
 p2u1/rp.session.radical.mingtha.016958.0008.json
-Number of units:  2.0
-0    1
-1    1
-Name: num_units, dtype: float64
-RunLoc:  stat110.phys.uconn.edu:gluskap.phys.uconn.edu
-
-RunLocCount:  1
-RunLoc:  node0275:osg-ce.clemson.edu
-
-RunLocCount:  1
-Tq: 309.891658
-Tq: 248.109257
-CHECKING UNITS	TTC: 344.782164
-CHECKING UNITS	TTC: 297.626383
-Run Status: SUCCESS
+ATTEMPT
+Number of units:  2
+[1, 1]
+Unique Running Locations:  [(u'stat110.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1), (u'node0275:osg-ce.clemson.edu\n', 1)]
+Tq:  [309.89165806770325, 248.10925722122192]
 Incomplete Units: 0
 Unexecuted Units: 0
+CHECKING UNITS
+CHECKING UNITS
+TTC:  344.782163858
+TTC per pilot:  [344.7821638584137, 279.86621594429016]
+SUCCESS
 Tx: 20.188324

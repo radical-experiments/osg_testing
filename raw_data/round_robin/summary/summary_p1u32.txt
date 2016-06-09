@@ -1,107 +1,103 @@
 ----------------------------------------------------------------
 p1u32/rp.session.radical.mingtha.016941.0014.json
-Number of units:  32.0
-0    32
-Name: num_units, dtype: float64
-RunLoc:  uct2-c098.mwt2.org:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  32
-Tq: 219.776878
-CHECKING UNITS	TTC: 568.464372
-Run Status: SUCCESS
+ATTEMPT
+Number of units:  32
+[32]
+Unique Running Locations:  [(u'uct2-c098.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 32)]
+Tq:  [219.77687788009644]
 Incomplete Units: 0
 Unexecuted Units: 0
+CHECKING UNITS
+TTC:  568.46437192
+TTC per pilot:  [568.46437191963196]
+SUCCESS
 Tx: 323.512718
 ----------------------------------------------------------------
 p1u32/rp.session.radical.mingtha.016956.0017.json
-Number of units:  32.0
-0    32
-Name: num_units, dtype: float64
-RunLoc:  fnpc8007.fnal.gov:gpce02.fnal.gov
-
-RunLocCount:  32
-Tq: 222.295233
-CHECKING UNITS	TTC: 574.500067
-Run Status: SUCCESS
+ATTEMPT
+Number of units:  32
+[32]
+Unique Running Locations:  [(u'fnpc8007.fnal.gov:gpce02.fnal.gov\n', 32)]
+Tq:  [222.29523277282715]
 Incomplete Units: 0
 Unexecuted Units: 0
+CHECKING UNITS
+TTC:  574.500066996
+TTC per pilot:  [574.50006699562073]
+SUCCESS
 Tx: 323.682561
 ----------------------------------------------------------------
 p1u32/rp.session.radical.mingtha.016956.0018.json
-Number of units:  32.0
-0    32
-Name: num_units, dtype: float64
-RunLoc:  nan
-RunLocCount:  32
+ATTEMPT
+Number of units:  32
+[32]
+Unique Running Locations:  [(nan, 32)]
 HELD. Tq: -1
 ----------------------------------------------------------------
 p1u32/rp.session.radical.mingtha.016956.0019.json
-Number of units:  32.0
-0    32
-Name: num_units, dtype: float64
-RunLoc:  fnpc6002.fnal.gov:gpce01.fnal.gov
-
-RunLocCount:  32
-Tq: 259.738086
-CHECKING UNITS	TTC: 607.673115
-Run Status: SUCCESS
+ATTEMPT
+Number of units:  32
+[32]
+Unique Running Locations:  [(u'fnpc6002.fnal.gov:gpce01.fnal.gov\n', 32)]
+Tq:  [259.73808598518372]
 Incomplete Units: 0
 Unexecuted Units: 0
+CHECKING UNITS
+TTC:  607.673115015
+TTC per pilot:  [607.67311501502991]
+SUCCESS
 Tx: 323.952575
 ----------------------------------------------------------------
 EMPTY UNIT DATAFRAME
 EMPTY PILOT DATAFRAME
 ----------------------------------------------------------------
 p1u32/rp.session.radical.mingtha.016956.0021.json
-Number of units:  32.0
-0    32
-Name: num_units, dtype: float64
-RunLoc:  nan
-RunLocCount:  32
+ATTEMPT
+Number of units:  32
+[32]
+Unique Running Locations:  [(nan, 32)]
 HELD. Tq: -1
 ----------------------------------------------------------------
 p1u32/rp.session.radical.mingtha.016956.0022.json
-Number of units:  32.0
-0    32
-Name: num_units, dtype: float64
-RunLoc:  nan
-RunLocCount:  32
+ATTEMPT
+Number of units:  32
+[32]
+Unique Running Locations:  [(nan, 32)]
 HELD. Tq: -1
 ----------------------------------------------------------------
 p1u32/rp.session.radical.mingtha.016956.0023.json
-Number of units:  32.0
-0    32
-Name: num_units, dtype: float64
-RunLoc:  nan
-RunLocCount:  32
+ATTEMPT
+Number of units:  32
+[32]
+Unique Running Locations:  [(nan, 32)]
 HELD. Tq: -1
 ----------------------------------------------------------------
 p1u32/rp.session.radical.mingtha.016956.0024.json
-Number of units:  32.0
-0    32
-Name: num_units, dtype: float64
-RunLoc:  fnpc4120.fnal.gov:gpce01.fnal.gov
-
-RunLocCount:  32
-Tq: 322.277341
-CHECKING UNITS	TTC: 670.121447
-Run Status: SUCCESS
+ATTEMPT
+Number of units:  32
+[32]
+Unique Running Locations:  [(u'fnpc4120.fnal.gov:gpce01.fnal.gov\n', 32)]
+Tq:  [322.27734112739563]
 Incomplete Units: 0
 Unexecuted Units: 0
+CHECKING UNITS
+TTC:  670.121446848
+TTC per pilot:  [670.12144684791565]
+SUCCESS
 Tx: 323.879412
 ----------------------------------------------------------------
 p1u32/rp.session.radical.mingtha.016956.0025.json
-Number of units:  32.0
-0    32
-Name: num_units, dtype: float64
-RunLoc:  uct2-c061.mwt2.org:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  32
-Tq: 251.394490
-CHECKING UNITS	TTC: 602.449979
-Run Status: SUCCESS
+ATTEMPT
+Number of units:  32
+[32]
+Unique Running Locations:  [(u'uct2-c061.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 32)]
+Tq:  [251.39449000358582]
 Incomplete Units: 0
 Unexecuted Units: 0
+CHECKING UNITS
+TTC:  602.449979067
+TTC per pilot:  [602.44997906684875]
+SUCCESS
 Tx: 323.551564
 ----------------------------------------------------------------
 EMPTY UNIT DATAFRAME
@@ -111,9 +107,8 @@ EMPTY UNIT DATAFRAME
 EMPTY PILOT DATAFRAME
 ----------------------------------------------------------------
 p1u32/rp.session.radical.mingtha.016956.0028.json
-Number of units:  32.0
-0    32
-Name: num_units, dtype: float64
-RunLoc:  nan
-RunLocCount:  32
+ATTEMPT
+Number of units:  32
+[32]
+Unique Running Locations:  [(nan, 32)]
 HELD. Tq: -1

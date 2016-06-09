@@ -1,224 +1,84 @@
 ----------------------------------------------------------------
 p8u1/rp.session.radical.mingtha.016958.0016.json
-Number of units:  8.0
-0    1
-1    1
-2    1
-3    1
-4    1
-5    1
-6    1
-7    1
-Name: num_units, dtype: float64
-RunLoc:  uct2-c316.mwt2.org:iut2-gk.mwt2.org
-
-RunLocCount:  1
-RunLoc:  mwt2-c078:osg-gk.mwt2.org
-
-RunLocCount:  1
-RunLoc:  mwt2-c076:osg-gk.mwt2.org
-
-RunLocCount:  1
-RunLoc:  uct2-c349.mwt2.org:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  1
-RunLoc:  uct2-c233.mwt2.org:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  1
-RunLoc:  uct2-c064.mwt2.org:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  1
-RunLoc:  iut2-c205.iu.edu:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  1
-RunLoc:  uct2-c082.mwt2.org:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  1
-Tq: 225.465960
-Tq: 231.520804
-Tq: 739.285400
-Tq: 367.118117
-Tq: 619.618899
-Tq: 522.272025
-Tq: 511.495921
-Tq: 539.257378
-CHECKING UNITS	TTC: 265.712710
-CHECKING UNITS	TTC: 282.050847
-CHECKING UNITS	TTC: 803.087240
-CHECKING UNITS	TTC: 445.341271
-CHECKING UNITS	TTC: 716.331944
-CHECKING UNITS	TTC: 634.795383
-CHECKING UNITS	TTC: 639.383647
-CHECKING UNITS	TTC: 685.604192
-Run Status: SUCCESS
+ATTEMPT
+Number of units:  8
+[1, 1, 1, 1, 1, 1, 1, 1]
+Unique Running Locations:  [(u'uct2-c316.mwt2.org:iut2-gk.mwt2.org\n', 1), (u'mwt2-c078:osg-gk.mwt2.org\n', 1), (u'mwt2-c076:osg-gk.mwt2.org\n', 1), (u'uct2-c349.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'uct2-c233.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'uct2-c064.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'iut2-c205.iu.edu:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'uct2-c082.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)]
+Tq:  [225.46596002578735, 231.52080416679382, 739.28539991378784, 367.11811709403992, 619.61889910697937, 522.2720251083374, 511.49592089653015, 539.2573778629303]
 Incomplete Units: 0
 Unexecuted Units: 0
+CHECKING UNITS
+CHECKING UNITS
+CHECKING UNITS
+CHECKING UNITS
+CHECKING UNITS
+CHECKING UNITS
+CHECKING UNITS
+CHECKING UNITS
+TTC:  803.087239981
+TTC per pilot:  [265.71270990371704, 262.96369981765747, 769.59536719322205, 397.0782949924469, 654.50862407684326, 555.78370714187622, 543.88837313652039, 574.05873489379883]
+SUCCESS
 Tx: 76.128222
 ----------------------------------------------------------------
 p8u1/rp.session.radical.mingtha.016958.0018.json
-Number of units:  8.0
-0    1
-1    1
-2    1
-3    1
-4    1
-5    1
-6    1
-7    1
-Name: num_units, dtype: float64
-RunLoc:  fnpc4168.fnal.gov:gpce02.fnal.gov
-
-RunLocCount:  1
-RunLoc:  fnpc6002.fnal.gov:gpce02.fnal.gov
-
-RunLocCount:  1
-RunLoc:  iut2-c117.iu.edu:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  1
-RunLoc:  fnpc4104.fnal.gov:gpce01.fnal.gov
-
-RunLocCount:  1
-RunLoc:  fnpc3086.fnal.gov:gpce01.fnal.gov
-
-RunLocCount:  1
-RunLoc:  fnpc5029.fnal.gov:gpce01.fnal.gov
-
-RunLocCount:  1
-RunLoc:  fnpc4121.fnal.gov:gpce01.fnal.gov
-
-RunLocCount:  1
-RunLoc:  n0361:osg.hyak.washington.edu
-
-RunLocCount:  1
-Tq: 505.322812
-Tq: 271.339517
-Tq: 214.725196
-Tq: 219.016053
-Tq: 237.302573
-Tq: 183.756058
-Tq: 211.639931
-Tq: 231.383740
-CHECKING UNITS	TTC: 542.501478
-CHECKING UNITS	TTC: 323.459515
-CHECKING UNITS	TTC: 283.995965
-CHECKING UNITS	TTC: 304.711286
-CHECKING UNITS	TTC: 336.808569
-CHECKING UNITS	TTC: 298.457438
-CHECKING UNITS	TTC: 344.551596
-CHECKING UNITS	TTC: 377.881128
-Run Status: SUCCESS
+ATTEMPT
+Number of units:  8
+[1, 1, 1, 1, 1, 1, 1, 1]
+Unique Running Locations:  [(u'fnpc4168.fnal.gov:gpce02.fnal.gov\n', 1), (u'fnpc6002.fnal.gov:gpce02.fnal.gov\n', 1), (u'iut2-c117.iu.edu:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'fnpc4104.fnal.gov:gpce01.fnal.gov\n', 1), (u'fnpc3086.fnal.gov:gpce01.fnal.gov\n', 1), (u'fnpc5029.fnal.gov:gpce01.fnal.gov\n', 1), (u'fnpc4121.fnal.gov:gpce01.fnal.gov\n', 1), (u'n0361:osg.hyak.washington.edu\n', 1)]
+Tq:  [505.3228120803833, 271.33951687812805, 214.72519612312317, 219.01605296134949, 237.30257296562195, 183.75605797767639, 211.63993096351624, 231.38373994827271]
 Incomplete Units: 0
 Unexecuted Units: 0
+CHECKING UNITS
+CHECKING UNITS
+CHECKING UNITS
+CHECKING UNITS
+CHECKING UNITS
+CHECKING UNITS
+CHECKING UNITS
+CHECKING UNITS
+TTC:  542.501477957
+TTC per pilot:  [542.50147795677185, 302.70157384872437, 245.97734498977661, 253.72337603569031, 269.17067408561707, 215.55084800720215, 246.08675694465637, 263.68625092506409]
+SUCCESS
 Tx: 71.645717
 ----------------------------------------------------------------
 p8u1/rp.session.radical.mingtha.016958.0019.json
-Number of units:  8.0
-0    1
-1    1
-2    1
-3    1
-4    1
-5    1
-6    1
-7    1
-Name: num_units, dtype: float64
-RunLoc:  uct2-c249.mwt2.org:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  1
-RunLoc:  uct2-c406.mwt2.org:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  1
-RunLoc:  iut2-c117.iu.edu:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  1
-RunLoc:  uct2-c250.mwt2.org:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  1
-RunLoc:  iut2-c210.iu.edu:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  1
-RunLoc:  fnpc3073.fnal.gov:gpce01.fnal.gov
-
-RunLocCount:  1
-RunLoc:  uct2-c248.mwt2.org:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  1
-RunLoc:  fnpc7202.fnal.gov:gpce01.fnal.gov
-
-RunLocCount:  1
-Tq: 329.461497
-Tq: 143.215127
-Tq: 167.712915
-Tq: 161.261447
-Tq: 186.245458
-Tq: 162.159338
-Tq: 152.192855
-Tq: 130.370785
-CHECKING UNITS	TTC: 366.650313
-CHECKING UNITS	TTC: 195.314428
-CHECKING UNITS	TTC: 231.198287
-CHECKING UNITS	TTC: 237.976518
-CHECKING UNITS	TTC: 277.726834
-CHECKING UNITS	TTC: 268.748843
-CHECKING UNITS	TTC: 274.427900
-CHECKING UNITS	TTC: 267.452688
-Run Status: SUCCESS
+ATTEMPT
+Number of units:  8
+[1, 1, 1, 1, 1, 1, 1, 1]
+Unique Running Locations:  [(u'uct2-c249.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'uct2-c406.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'iut2-c117.iu.edu:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'uct2-c250.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'iut2-c210.iu.edu:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'fnpc3073.fnal.gov:gpce01.fnal.gov\n', 1), (u'uct2-c248.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'fnpc7202.fnal.gov:gpce01.fnal.gov\n', 1)]
+Tq:  [329.46149682998657, 143.21512699127197, 167.71291494369507, 161.2614471912384, 186.24545788764954, 162.15933799743652, 152.1928551197052, 130.37078499794006]
 Incomplete Units: 0
 Unexecuted Units: 0
+CHECKING UNITS
+CHECKING UNITS
+CHECKING UNITS
+CHECKING UNITS
+CHECKING UNITS
+CHECKING UNITS
+CHECKING UNITS
+CHECKING UNITS
+TTC:  366.650313139
+TTC per pilot:  [366.65031313896179, 176.92063593864441, 198.15656590461731, 191.60915517807007, 218.28792810440063, 194.09619903564453, 184.38624596595764, 162.18765497207642]
+SUCCESS
 Tx: 57.744993
 ----------------------------------------------------------------
 p8u1/rp.session.radical.mingtha.016958.0020.json
-Number of units:  8.0
-0    1
-1    1
-2    1
-3    1
-4    1
-5    1
-6    1
-7    1
-Name: num_units, dtype: float64
-RunLoc:  uct2-c249.mwt2.org:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  1
-RunLoc:  uct2-c385.mwt2.org:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  1
-RunLoc:  iut2-c117.iu.edu:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  1
-RunLoc:  uct2-c250.mwt2.org:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  1
-RunLoc:  uct2-c387.mwt2.org:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  1
-RunLoc:  uct2-c248.mwt2.org:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  1
-RunLoc:  uct2-c261.mwt2.org:mwt2-gk.campuscluster.illinois.edu
-
-RunLocCount:  1
-RunLoc:  uct2-c316.mwt2.org:iut2-gk.mwt2.org
-
-RunLocCount:  1
-Tq: 253.191556
-Tq: 147.800031
-Tq: 129.046292
-Tq: 280.466426
-Tq: 357.528537
-Tq: 323.295187
-Tq: 168.637556
-Tq: 185.548492
-CHECKING UNITS	TTC: 293.304196
-CHECKING UNITS	TTC: 205.784041
-CHECKING UNITS	TTC: 200.721286
-CHECKING UNITS	TTC: 364.581111
-CHECKING UNITS	TTC: 456.279866
-CHECKING UNITS	TTC: 437.273813
-CHECKING UNITS	TTC: 297.714523
-CHECKING UNITS	TTC: 329.683296
-Run Status: SUCCESS
+ATTEMPT
+Number of units:  8
+[1, 1, 1, 1, 1, 1, 1, 1]
+Unique Running Locations:  [(u'uct2-c249.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'uct2-c385.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'iut2-c117.iu.edu:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'uct2-c250.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'uct2-c387.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'uct2-c248.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'uct2-c261.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'uct2-c316.mwt2.org:iut2-gk.mwt2.org\n', 1)]
+Tq:  [253.19155597686768, 147.80003094673157, 129.0462920665741, 280.46642589569092, 357.5285370349884, 323.29518699645996, 168.6375560760498, 185.54849195480347]
 Incomplete Units: 0
 Unexecuted Units: 0
+CHECKING UNITS
+CHECKING UNITS
+CHECKING UNITS
+CHECKING UNITS
+CHECKING UNITS
+CHECKING UNITS
+CHECKING UNITS
+CHECKING UNITS
+TTC:  456.27986598
+TTC per pilot:  [293.30419611930847, 182.49474096298218, 160.04189395904541, 311.07525396347046, 389.5436098575592, 355.40239691734314, 200.74657011032104, 217.45018696784973]
+SUCCESS
 Tx: 70.313066
