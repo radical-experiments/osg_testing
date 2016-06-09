@@ -1,8 +1,11 @@
 # OSG_Testing
 This repository contains data gathered from testing the Open Science Grid (OSG)
 
-##### TODO: Deciding on which data to use for data/logs for failed runs.
-##### TODO: Writing more READMEs in subdirectories
+#### TODO
+* Deciding on which data to use for data/logs for failed runs.
+* Writing more READMEs in subdirectories
+* Create ./bin and move json_read.py and auto_read.sh to ./bin, additional scripts to further automate data collection
+
 
 ### Setup
 
@@ -26,8 +29,6 @@ This repository contains data gathered from testing the Open Science Grid (OSG)
   * Used to read data from logs and extract relevant fields (TTC, Tx, Tq, etc...)
 * raw_data/round_robin/auto_read.sh
   * Goes through all json files (assuming the json files are in the folders corresponding the #Pilots and #Units Per Pilot (if even distributed)
-
-##### TODO: Create ./bin and move json_read.py and auto_read.sh to ./bin, additional scripts to further automate data collection
 
 #### Data Location
 * raw_data/
