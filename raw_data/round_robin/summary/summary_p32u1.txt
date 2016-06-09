@@ -1,0 +1,825 @@
+----------------------------------------------------------------
+p32u1/rp.session.radical.mingtha.016959.0000.json
+Number of units:  32.0
+0     1
+1     1
+2     1
+3     1
+4     1
+5     1
+6     1
+7     1
+8     1
+9     1
+10    1
+11    1
+12    1
+13    1
+14    1
+15    1
+16    1
+17    1
+18    1
+19    1
+20    1
+21    1
+22    1
+23    1
+24    1
+25    1
+26    1
+27    1
+28    1
+29    1
+30    1
+31    1
+Name: num_units, dtype: float64
+RunLoc:  nan
+RunLocCount:  16
+RunLoc:  node0904:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0258:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  uct2-c172.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+RunLoc:  abc-27a:atlas-net2.bu.edu
+
+RunLocCount:  1
+RunLoc:  node0227:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  mwt2-c089:iut2-gk.mwt2.org
+
+RunLocCount:  1
+RunLoc:  node0964:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0959:osg-ce.clemson.edu
+
+RunLocCount:  2
+RunLoc:  node1010:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0229:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0571:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0528:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0977:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0916:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0206:osg-ce.clemson.edu
+
+RunLocCount:  1
+Tq: 221.085842
+Tq: 169.359997
+Tq: 161.404058
+Tq: 139.064397
+Tq: nan
+Tq: nan
+Tq: 191.084762
+Tq: 164.784187
+Tq: 155.842847
+Tq: 157.906579
+Tq: nan
+Tq: nan
+Tq: 146.066007
+Tq: 142.704401
+Tq: nan
+Tq: nan
+Tq: nan
+Tq: 161.240876
+Tq: 151.497886
+Tq: 140.141855
+Tq: nan
+Tq: nan
+Tq: nan
+Tq: nan
+Tq: 137.962519
+Tq: 145.139339
+Tq: nan
+Tq: nan
+Tq: nan
+Tq: 135.834115
+Tq: nan
+Tq: nan
+CANCELED	TTC: 757.493720
+CANCELED	TTC: 734.280361
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+Run Status: FAIL
+Incomplete Units: 16
+Unexecuted Units: 16
+Tx: 124.836748
+----------------------------------------------------------------
+p32u1/rp.session.radical.mingtha.016959.0001.json
+Number of units:  32.0
+0     1
+1     1
+2     1
+3     1
+4     1
+5     1
+6     1
+7     1
+8     1
+9     1
+10    1
+11    1
+12    1
+13    1
+14    1
+15    1
+16    1
+17    1
+18    1
+19    1
+20    1
+21    1
+22    1
+23    1
+24    1
+25    1
+26    1
+27    1
+28    1
+29    1
+30    1
+31    1
+Name: num_units, dtype: float64
+RunLoc:  nan
+RunLocCount:  7
+RunLoc:  node0754:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  nodo91:proton.fis.cinvestav.mx
+
+RunLocCount:  1
+RunLoc:  mwt2-c098:osg-gk.mwt2.org
+
+RunLocCount:  1
+RunLoc:  node0762:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  abc-k05:atlas-net2.bu.edu
+
+RunLocCount:  1
+RunLoc:  abc-k06:atlas-net2.bu.edu
+
+RunLocCount:  1
+RunLoc:  abc-k07:atlas-net2.bu.edu
+
+RunLocCount:  1
+RunLoc:  c-106-23.aglt2.org:gate02.grid.umich.edu
+
+RunLocCount:  1
+RunLoc:  node0918:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  c-119-29.aglt2.org:gate02.grid.umich.edu
+
+RunLocCount:  1
+RunLoc:  uct2-c150.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+RunLoc:  node1549:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0557:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0217:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node1025:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node1048:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0534:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  c-106-15.aglt2.org:gate02.grid.umich.edu
+
+RunLocCount:  1
+RunLoc:  abc-17c:atlas-net2.bu.edu
+
+RunLocCount:  1
+RunLoc:  abc-14d:atlas-net2.bu.edu
+
+RunLocCount:  1
+RunLoc:  abc-16a:atlas-net2.bu.edu
+
+RunLocCount:  1
+RunLoc:  abc-25d:atlas-net2.bu.edu
+
+RunLocCount:  1
+RunLoc:  nodo87:proton.fis.cinvestav.mx
+
+RunLocCount:  1
+RunLoc:  node0518:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0548:osg-ce.clemson.edu
+
+RunLocCount:  1
+Tq: 196.276328
+Tq: 173.568043
+Tq: nan
+Tq: nan
+Tq: 109.519123
+Tq: 124.541833
+Tq: 193.609057
+Tq: 181.399173
+Tq: 156.783606
+Tq: 164.921571
+Tq: 214.906126
+Tq: 498.380225
+Tq: nan
+Tq: 193.933346
+Tq: 153.767641
+Tq: 168.669302
+Tq: 110.050612
+Tq: nan
+Tq: 185.968309
+Tq: 151.529462
+Tq: 140.307776
+Tq: 159.440906
+Tq: nan
+Tq: nan
+Tq: 169.087755
+Tq: 147.165255
+Tq: 105.417477
+Tq: 210.874072
+Tq: nan
+Tq: 192.156595
+Tq: 149.884124
+Tq: 362.184725
+CANCELED	TTC: 6935.723207
+CANCELED	TTC: 6913.298588
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+Run Status: FAIL
+Incomplete Units: 7
+Unexecuted Units: 7
+Tx: 208.346800
+----------------------------------------------------------------
+p32u1/rp.session.radical.mingtha.016959.0002.json
+Number of units:  32.0
+0     1
+1     1
+2     1
+3     1
+4     1
+5     1
+6     1
+7     1
+8     1
+9     1
+10    1
+11    1
+12    1
+13    1
+14    1
+15    1
+16    1
+17    1
+18    1
+19    1
+20    1
+21    1
+22    1
+23    1
+24    1
+25    1
+26    1
+27    1
+28    1
+29    1
+30    1
+31    1
+Name: num_units, dtype: float64
+RunLoc:  stat28.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  1
+RunLoc:  stat13.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  1
+RunLoc:  stat110.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  2
+RunLoc:  stat30.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  2
+RunLoc:  stat4.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  2
+RunLoc:  stat111.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  2
+RunLoc:  stat16.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  2
+RunLoc:  stat117.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  1
+RunLoc:  stat12.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  1
+RunLoc:  stat113.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  2
+RunLoc:  stat114.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  3
+RunLoc:  stat120.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  4
+RunLoc:  stat18.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  1
+RunLoc:  stat6.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  1
+RunLoc:  stat109.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  1
+RunLoc:  red-d23n16.unl.edu:red-gw1.unl.edu
+
+RunLocCount:  1
+RunLoc:  stat25.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  1
+RunLoc:  stat116.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  2
+RunLoc:  stat17.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  2
+Tq: 289.280977
+Tq: 256.182493
+Tq: 220.479319
+Tq: 202.143761
+Tq: 210.282876
+Tq: 205.057915
+Tq: 187.395979
+Tq: 170.280006
+Tq: 251.010305
+Tq: 214.684677
+Tq: 198.493627
+Tq: 202.257487
+Tq: 180.009419
+Tq: 249.409507
+Tq: 225.301905
+Tq: 216.119478
+Tq: 200.980767
+Tq: 175.826211
+Tq: 269.803057
+Tq: 252.970873
+Tq: 239.501464
+Tq: 222.291252
+Tq: 206.097412
+Tq: 190.870903
+Tq: 176.493896
+Tq: 265.650156
+Tq: 236.679529
+Tq: 229.594089
+Tq: 208.984681
+Tq: 195.703030
+Tq: 150.377238
+Tq: 157.852994
+CHECKING UNITS	TTC: 328.580233
+CHECKING UNITS	TTC: 309.573451
+CHECKING UNITS	TTC: 288.577742
+CHECKING UNITS	TTC: 286.376842
+CHECKING UNITS	TTC: 310.670687
+CHECKING UNITS	TTC: 326.389468
+CHECKING UNITS	TTC: 324.011337
+CHECKING UNITS	TTC: 322.911752
+CHECKING UNITS	TTC: 490.370958
+CHECKING UNITS	TTC: 421.255387
+CHECKING UNITS	TTC: 498.526928
+CHECKING UNITS	TTC: 498.514034
+CHECKING UNITS	TTC: 485.866654
+CHECKING UNITS	TTC: 403.533485
+CHECKING UNITS	TTC: 597.921146
+CHECKING UNITS	TTC: 595.319283
+CHECKING UNITS	TTC: 598.009506
+CHECKING UNITS	TTC: 403.729881
+CHECKING UNITS	TTC: 595.130406
+CHECKING UNITS	TTC: 594.835592
+CHECKING UNITS	TTC: 594.646362
+CHECKING UNITS	TTC: 421.254431
+CHECKING UNITS	TTC: 594.454129
+CHECKING UNITS	TTC: 698.292238
+CHECKING UNITS	TTC: 687.419355
+CHECKING UNITS	TTC: 695.921276
+CHECKING UNITS	TTC: 421.442934
+CHECKING UNITS	TTC: 690.897101
+CHECKING UNITS	TTC: 692.630268
+CHECKING UNITS	TTC: 498.702658
+CHECKING UNITS	TTC: 662.942916
+CHECKING UNITS	TTC: 686.131853
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 135.050880
+----------------------------------------------------------------
+p32u1/rp.session.radical.mingtha.016959.0003.json
+Number of units:  32.0
+0     1
+1     1
+2     1
+3     1
+4     1
+5     1
+6     1
+7     1
+8     1
+9     1
+10    1
+11    1
+12    1
+13    1
+14    1
+15    1
+16    1
+17    1
+18    1
+19    1
+20    1
+21    1
+22    1
+23    1
+24    1
+25    1
+26    1
+27    1
+28    1
+29    1
+30    1
+31    1
+Name: num_units, dtype: float64
+RunLoc:  nan
+RunLocCount:  6
+RunLoc:  node1012:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0122:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0971:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  stat118.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  1
+RunLoc:  red-d17n10.unl.edu:red-gw1.unl.edu
+
+RunLocCount:  1
+RunLoc:  node0641:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  stat119.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  1
+RunLoc:  mwt2-c066:osg-gk.mwt2.org
+
+RunLocCount:  1
+RunLoc:  stat114.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  1
+RunLoc:  stat120.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  1
+RunLoc:  node0967:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0622:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node1069:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0303:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node1005:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0773:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0939:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0962:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0933:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0638:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0324:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0629:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0952:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0983:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  stat115.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  1
+RunLoc:  stat105.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  1
+Tq: 197.147277
+Tq: 318.460482
+Tq: 184.044825
+Tq: 164.964813
+Tq: 133.338296
+Tq: 134.564470
+Tq: 219.835518
+Tq: 154.810519
+Tq: 142.862239
+Tq: 130.051196
+Tq: 114.402430
+Tq: 262.733109
+Tq: 276.075523
+Tq: 272.649683
+Tq: 192.986631
+Tq: 191.441522
+Tq: 176.618715
+Tq: 182.852197
+Tq: 144.644061
+Tq: 120.537505
+Tq: 106.501060
+Tq: 241.714706
+Tq: 218.821270
+Tq: 174.773630
+Tq: 144.826837
+Tq: nan
+Tq: nan
+Tq: nan
+Tq: nan
+Tq: nan
+Tq: nan
+Tq: 126.157588
+CANCELED	TTC: 2809.576005
+CANCELED	TTC: 2786.298231
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+Run Status: FAIL
+Incomplete Units: 6
+Unexecuted Units: 6
+Tx: 175.546266
+----------------------------------------------------------------
+p32u1/rp.session.radical.mingtha.016959.0004.json
+Number of units:  32.0
+0     1
+1     1
+2     1
+3     1
+4     1
+5     1
+6     1
+7     1
+8     1
+9     1
+10    1
+11    1
+12    1
+13    1
+14    1
+15    1
+16    1
+17    1
+18    1
+19    1
+20    1
+21    1
+22    1
+23    1
+24    1
+25    1
+26    1
+27    1
+28    1
+29    1
+30    1
+31    1
+Name: num_units, dtype: float64
+RunLoc:  nan
+RunLocCount:  18
+RunLoc:  node0980:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0258:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  mwt2-c066:osg-gk.mwt2.org
+
+RunLocCount:  1
+RunLoc:  node1071:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  stat114.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  1
+RunLoc:  node0962:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0899:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0762:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0260:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0303:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0942:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0319:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  red-d17n10.unl.edu:red-gw1.unl.edu
+
+RunLocCount:  1
+RunLoc:  n0436:osg.hyak.washington.edu
+
+RunLocCount:  1
+Tq: 121.785655
+Tq: 162.041039
+Tq: 227.753464
+Tq: 197.914687
+Tq: 189.505263
+Tq: 167.073938
+Tq: 153.579061
+Tq: 128.780942
+Tq: 120.489064
+Tq: 217.710288
+Tq: 253.621994
+Tq: 178.951442
+Tq: 174.132195
+Tq: nan
+Tq: nan
+Tq: nan
+Tq: nan
+Tq: nan
+Tq: nan
+Tq: nan
+Tq: nan
+Tq: nan
+Tq: nan
+Tq: nan
+Tq: nan
+Tq: nan
+Tq: nan
+Tq: nan
+Tq: nan
+Tq: nan
+Tq: nan
+Tq: 119.166051
+CANCELED	TTC: 1212.436529
+CANCELED	TTC: 1196.577135
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+CANCELED	TTC: nan
+Run Status: FAIL
+Incomplete Units: 18
+Unexecuted Units: 18
+Tx: 88.969801

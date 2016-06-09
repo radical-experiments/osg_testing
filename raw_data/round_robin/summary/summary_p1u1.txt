@@ -1,0 +1,154 @@
+----------------------------------------------------------------
+p1u1/rp.session.radical.mingtha.016941.0002.json
+Number of units:  1.0
+0    1
+Name: num_units, dtype: float64
+RunLoc:  stat107.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  1
+Tq: 167.832887
+CHECKING UNITS	TTC: 204.511245
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 10.106963
+----------------------------------------------------------------
+p1u1/rp.session.radical.mingtha.016955.0001.json
+Number of units:  1.0
+0    1
+Name: num_units, dtype: float64
+RunLoc:  uct2-c232.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+Tq: 346.662197
+CHECKING UNITS	TTC: 381.088284
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 10.040164
+----------------------------------------------------------------
+p1u1/rp.session.radical.mingtha.016955.0002.json
+Number of units:  1.0
+0    1
+Name: num_units, dtype: float64
+RunLoc:  uct2-c232.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+Tq: 174.005569
+CHECKING UNITS	TTC: 208.987840
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 10.141078
+----------------------------------------------------------------
+p1u1/rp.session.radical.mingtha.016955.0003.json
+Number of units:  1.0
+0    1
+Name: num_units, dtype: float64
+RunLoc:  taub120:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+Tq: 196.918928
+CHECKING UNITS	TTC: 233.684640
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 10.110032
+----------------------------------------------------------------
+p1u1/rp.session.radical.mingtha.016955.0004.json
+Number of units:  1.0
+0    1
+Name: num_units, dtype: float64
+RunLoc:  taub105:osg-gk.mwt2.org
+
+RunLocCount:  1
+Tq: 257.020595
+CHECKING UNITS	TTC: 297.603417
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 10.042636
+----------------------------------------------------------------
+p1u1/rp.session.radical.mingtha.016955.0005.json
+Number of units:  1.0
+0    1
+Name: num_units, dtype: float64
+RunLoc:  node1041:osg-ce.clemson.edu
+
+RunLocCount:  1
+Tq: 232.019149
+CHECKING UNITS	TTC: 267.534820
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 10.108486
+----------------------------------------------------------------
+p1u1/rp.session.radical.mingtha.016955.0006.json
+Number of units:  1.0
+0    1
+Name: num_units, dtype: float64
+RunLoc:  mwt2-c053:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+Tq: 194.853806
+CHECKING UNITS	TTC: 229.093449
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 10.066897
+----------------------------------------------------------------
+p1u1/rp.session.radical.mingtha.016955.0007.json
+Number of units:  1.0
+0    1
+Name: num_units, dtype: float64
+RunLoc:  node0854:osg-ce.clemson.edu
+
+RunLocCount:  1
+Tq: 221.195499
+CHECKING UNITS	TTC: 254.932064
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 10.115308
+----------------------------------------------------------------
+p1u1/rp.session.radical.mingtha.016955.0008.json
+Number of units:  1.0
+0    1
+Name: num_units, dtype: float64
+RunLoc:  node0925:osg-ce.clemson.edu
+
+RunLocCount:  1
+Tq: 152.555094
+CHECKING UNITS	TTC: 186.178123
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 10.103111
+----------------------------------------------------------------
+p1u1/rp.session.radical.mingtha.016955.0009.json
+Number of units:  1.0
+0    1
+Name: num_units, dtype: float64
+RunLoc:  node0925:osg-ce.clemson.edu
+
+RunLocCount:  1
+Tq: 629.418116
+CHECKING UNITS	TTC: 668.042655
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 10.107724
+----------------------------------------------------------------
+p1u1/rp.session.radical.mingtha.016955.0010.json
+Number of units:  1.0
+0    1
+Name: num_units, dtype: float64
+RunLoc:  uct2-c095.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+Tq: 220.491037
+CHECKING UNITS	TTC: 253.477323
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 10.055124

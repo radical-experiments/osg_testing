@@ -1,0 +1,78 @@
+----------------------------------------------------------------
+p1u256/rp.session.radical.mingtha.016942.0003.json
+Number of units:  256.0
+0    256
+Name: num_units, dtype: float64
+RunLoc:  n0158:osg.hyak.washington.edu
+
+RunLocCount:  256
+Tq: 183.498082
+CHECKING UNITS	TTC: 2805.915883
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 2590.401518
+----------------------------------------------------------------
+p1u256/rp.session.radical.mingtha.016956.0039.json
+Number of units:  256.0
+0    256
+Name: num_units, dtype: float64
+RunLoc:  uct2-c045.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  256
+Tq: 266.982408
+CHECKING UNITS	TTC: 2882.609709
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 2588.505611
+----------------------------------------------------------------
+p1u256/rp.session.radical.mingtha.016956.0040.json
+Number of units:  256.0
+0    256
+Name: num_units, dtype: float64
+RunLoc:  fnpc4028.fnal.gov:gpce01.fnal.gov
+
+RunLocCount:  256
+Tq: 310.583110
+CHECKING UNITS	TTC: 2930.146776
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 2593.380781
+----------------------------------------------------------------
+p1u256/rp.session.radical.mingtha.016956.0041.json
+Number of units:  256.0
+0    256
+Name: num_units, dtype: float64
+RunLoc:  uct2-c105.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  256
+Tq: 206.053931
+CANCELED	TTC: 7616.016701
+Run Status: FAIL
+Incomplete Units: 1
+Unexecuted Units: 0
+Tx: 2586.087129
+----------------------------------------------------------------
+p1u256/rp.session.radical.mingtha.016956.0042.json
+Number of units:  256.0
+0    256
+Name: num_units, dtype: float64
+RunLoc:  nan
+RunLocCount:  256
+HELD. Tq: -1
+----------------------------------------------------------------
+p1u256/rp.session.radical.mingtha.016956.0043.json
+Number of units:  256.0
+0    256
+Name: num_units, dtype: float64
+RunLoc:  stat116.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  256
+Tq: 259.265051
+CHECKING UNITS	TTC: 2879.453834
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 2595.080766

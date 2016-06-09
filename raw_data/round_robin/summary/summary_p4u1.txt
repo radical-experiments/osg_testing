@@ -1,0 +1,192 @@
+----------------------------------------------------------------
+p4u1/rp.session.radical.mingtha.016949.0005.json
+Number of units:  4.0
+0    1
+1    1
+2    1
+3    1
+Name: num_units, dtype: float64
+RunLoc:  stat119.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  1
+RunLoc:  n0541:osg.hyak.washington.edu
+
+RunLocCount:  1
+RunLoc:  red-c1820.unl.edu:red-gw2.unl.edu
+
+RunLocCount:  1
+RunLoc:  mwt2-c061:uct2-gk.mwt2.org
+
+RunLocCount:  1
+Tq: 187.185289
+Tq: 348.213316
+Tq: 266.622956
+Tq: 232.321151
+CHECKING UNITS	TTC: 228.617075
+CHECKING UNITS	TTC: 399.502357
+CHECKING UNITS	TTC: 331.051450
+CHECKING UNITS	TTC: 310.586908
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 40.331820
+----------------------------------------------------------------
+p4u1/rp.session.radical.mingtha.016958.0009.json
+Number of units:  4.0
+0    1
+1    1
+2    1
+3    1
+Name: num_units, dtype: float64
+RunLoc:  stat120.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  1
+RunLoc:  uct2-c111.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+RunLoc:  node1069:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node1549:osg-ce.clemson.edu
+
+RunLocCount:  1
+Tq: 369.664937
+Tq: 232.861220
+Tq: 151.983456
+Tq: 127.899914
+CHECKING UNITS	TTC: 406.767964
+CHECKING UNITS	TTC: 284.042826
+CHECKING UNITS	TTC: 218.005642
+CHECKING UNITS	TTC: 212.320382
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 39.091115
+----------------------------------------------------------------
+p4u1/rp.session.radical.mingtha.016958.0010.json
+Number of units:  4.0
+0    1
+1    1
+2    1
+3    1
+Name: num_units, dtype: float64
+RunLoc:  stat119.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  1
+RunLoc:  uct2-c170.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+RunLoc:  uct2-c119.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+RunLoc:  e105.chtc.wisc.edu:osggrid01.hep.wisc.edu
+
+RunLocCount:  1
+Tq: 174.675243
+Tq: 161.633534
+Tq: 181.619638
+Tq: 263.020277
+CHECKING UNITS	TTC: 214.486138
+CHECKING UNITS	TTC: 217.326869
+CHECKING UNITS	TTC: 252.732792
+CHECKING UNITS	TTC: 349.895787
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 33.147523
+----------------------------------------------------------------
+p4u1/rp.session.radical.mingtha.016958.0012.json
+Number of units:  4.0
+0    1
+1    1
+2    1
+3    1
+Name: num_units, dtype: float64
+RunLoc:  taub120:osg-gk.mwt2.org
+
+RunLocCount:  1
+RunLoc:  stat8.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  1
+RunLoc:  taub114:osg-gk.mwt2.org
+
+RunLocCount:  1
+RunLoc:  taub113:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+Tq: 248.521459
+Tq: 247.181231
+Tq: 204.331195
+Tq: 211.305021
+CHECKING UNITS	TTC: 309.071642
+CHECKING UNITS	TTC: 324.406813
+CHECKING UNITS	TTC: 292.153900
+CHECKING UNITS	TTC: 344.496865
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 40.257423
+----------------------------------------------------------------
+p4u1/rp.session.radical.mingtha.016958.0014.json
+Number of units:  4.0
+0    1
+1    1
+2    1
+3    1
+Name: num_units, dtype: float64
+RunLoc:  uct2-c044.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+RunLoc:  taub120:uct2-gk.mwt2.org
+
+RunLocCount:  1
+RunLoc:  uct2-c057.mwt2.org:osg-gk.mwt2.org
+
+RunLocCount:  1
+RunLoc:  uct2-c060.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+Tq: 204.664462
+Tq: 194.289814
+Tq: 195.676131
+Tq: 176.486666
+CHECKING UNITS	TTC: 241.249763
+CHECKING UNITS	TTC: 244.750846
+CHECKING UNITS	TTC: 259.776454
+CHECKING UNITS	TTC: 259.843813
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 28.566006
+----------------------------------------------------------------
+p4u1/rp.session.radical.mingtha.016958.0015.json
+Number of units:  4.0
+0    1
+1    1
+2    1
+3    1
+Name: num_units, dtype: float64
+RunLoc:  node0888:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  node0520:osg-ce.clemson.edu
+
+RunLocCount:  1
+RunLoc:  taub119:osg-gk.mwt2.org
+
+RunLocCount:  1
+RunLoc:  mwt2-c021:osg-gk.mwt2.org
+
+RunLocCount:  1
+Tq: 397.214423
+Tq: 288.296103
+Tq: 346.065668
+Tq: 245.911430
+CHECKING UNITS	TTC: 435.213713
+CHECKING UNITS	TTC: 339.602337
+CHECKING UNITS	TTC: 409.759443
+CHECKING UNITS	TTC: 323.290020
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 40.339323

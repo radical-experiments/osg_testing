@@ -1,0 +1,77 @@
+----------------------------------------------------------------
+p1u1024/rp.session.radical.mingtha.016943.0017.json
+Number of units:  1024.0
+0    1024
+Name: num_units, dtype: float64
+RunLoc:  nan
+RunLocCount:  1024
+Tq: 192.231482
+HELD, but has Tq > 0
+----------------------------------------------------------------
+p1u1024/rp.session.radical.mingtha.016943.0020.json
+Number of units:  1024.0
+0    1024
+Name: num_units, dtype: float64
+RunLoc:  uct2-c118.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1024
+Tq: 230.077522
+DONE	TTC: 76280.625827
+Run Status: FAIL
+Incomplete Units: 4
+Unexecuted Units: 0
+Tx: 10338.871857
+----------------------------------------------------------------
+p1u1024/rp.session.radical.mingtha.016957.0005.json
+Number of units:  1024.0
+0    1024
+Name: num_units, dtype: float64
+RunLoc:  stat0.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  1024
+Tq: 463.335680
+CHECKING UNITS	TTC: 11128.672546
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 10629.901131
+----------------------------------------------------------------
+p1u1024/rp.session.radical.mingtha.016957.0006.json
+Number of units:  1024.0
+0    1024
+Name: num_units, dtype: float64
+RunLoc:  nan
+RunLocCount:  263
+RunLoc:  n0462:osg.hyak.washington.edu
+
+RunLocCount:  761
+Tq: 333.537902
+CANCELED	TTC: 12742.683670
+Run Status: FAIL
+Incomplete Units: 263
+Unexecuted Units: 263
+Tx: 7702.560564
+----------------------------------------------------------------
+p1u1024/rp.session.radical.mingtha.016958.0000.json
+Number of units:  1024.0
+0    1024
+Name: num_units, dtype: float64
+RunLoc:  nan
+RunLocCount:  2
+RunLoc:  uct2-c064.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1022
+Tq: 207.982811
+CHECKING UNITS	TTC: 10584.825326
+Run Status: FAIL
+Incomplete Units: 6
+Unexecuted Units: 2
+Tx: 10342.461588
+----------------------------------------------------------------
+p1u1024/rp.session.radical.mingtha.016958.0001.json
+Number of units:  1024.0
+0    1024
+Name: num_units, dtype: float64
+RunLoc:  nan
+RunLocCount:  1024
+HELD. Tq: -1

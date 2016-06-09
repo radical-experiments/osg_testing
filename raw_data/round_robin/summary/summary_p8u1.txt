@@ -1,0 +1,224 @@
+----------------------------------------------------------------
+p8u1/rp.session.radical.mingtha.016958.0016.json
+Number of units:  8.0
+0    1
+1    1
+2    1
+3    1
+4    1
+5    1
+6    1
+7    1
+Name: num_units, dtype: float64
+RunLoc:  uct2-c316.mwt2.org:iut2-gk.mwt2.org
+
+RunLocCount:  1
+RunLoc:  mwt2-c078:osg-gk.mwt2.org
+
+RunLocCount:  1
+RunLoc:  mwt2-c076:osg-gk.mwt2.org
+
+RunLocCount:  1
+RunLoc:  uct2-c349.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+RunLoc:  uct2-c233.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+RunLoc:  uct2-c064.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+RunLoc:  iut2-c205.iu.edu:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+RunLoc:  uct2-c082.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+Tq: 225.465960
+Tq: 231.520804
+Tq: 739.285400
+Tq: 367.118117
+Tq: 619.618899
+Tq: 522.272025
+Tq: 511.495921
+Tq: 539.257378
+CHECKING UNITS	TTC: 265.712710
+CHECKING UNITS	TTC: 282.050847
+CHECKING UNITS	TTC: 803.087240
+CHECKING UNITS	TTC: 445.341271
+CHECKING UNITS	TTC: 716.331944
+CHECKING UNITS	TTC: 634.795383
+CHECKING UNITS	TTC: 639.383647
+CHECKING UNITS	TTC: 685.604192
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 76.128222
+----------------------------------------------------------------
+p8u1/rp.session.radical.mingtha.016958.0018.json
+Number of units:  8.0
+0    1
+1    1
+2    1
+3    1
+4    1
+5    1
+6    1
+7    1
+Name: num_units, dtype: float64
+RunLoc:  fnpc4168.fnal.gov:gpce02.fnal.gov
+
+RunLocCount:  1
+RunLoc:  fnpc6002.fnal.gov:gpce02.fnal.gov
+
+RunLocCount:  1
+RunLoc:  iut2-c117.iu.edu:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+RunLoc:  fnpc4104.fnal.gov:gpce01.fnal.gov
+
+RunLocCount:  1
+RunLoc:  fnpc3086.fnal.gov:gpce01.fnal.gov
+
+RunLocCount:  1
+RunLoc:  fnpc5029.fnal.gov:gpce01.fnal.gov
+
+RunLocCount:  1
+RunLoc:  fnpc4121.fnal.gov:gpce01.fnal.gov
+
+RunLocCount:  1
+RunLoc:  n0361:osg.hyak.washington.edu
+
+RunLocCount:  1
+Tq: 505.322812
+Tq: 271.339517
+Tq: 214.725196
+Tq: 219.016053
+Tq: 237.302573
+Tq: 183.756058
+Tq: 211.639931
+Tq: 231.383740
+CHECKING UNITS	TTC: 542.501478
+CHECKING UNITS	TTC: 323.459515
+CHECKING UNITS	TTC: 283.995965
+CHECKING UNITS	TTC: 304.711286
+CHECKING UNITS	TTC: 336.808569
+CHECKING UNITS	TTC: 298.457438
+CHECKING UNITS	TTC: 344.551596
+CHECKING UNITS	TTC: 377.881128
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 71.645717
+----------------------------------------------------------------
+p8u1/rp.session.radical.mingtha.016958.0019.json
+Number of units:  8.0
+0    1
+1    1
+2    1
+3    1
+4    1
+5    1
+6    1
+7    1
+Name: num_units, dtype: float64
+RunLoc:  uct2-c249.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+RunLoc:  uct2-c406.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+RunLoc:  iut2-c117.iu.edu:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+RunLoc:  uct2-c250.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+RunLoc:  iut2-c210.iu.edu:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+RunLoc:  fnpc3073.fnal.gov:gpce01.fnal.gov
+
+RunLocCount:  1
+RunLoc:  uct2-c248.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+RunLoc:  fnpc7202.fnal.gov:gpce01.fnal.gov
+
+RunLocCount:  1
+Tq: 329.461497
+Tq: 143.215127
+Tq: 167.712915
+Tq: 161.261447
+Tq: 186.245458
+Tq: 162.159338
+Tq: 152.192855
+Tq: 130.370785
+CHECKING UNITS	TTC: 366.650313
+CHECKING UNITS	TTC: 195.314428
+CHECKING UNITS	TTC: 231.198287
+CHECKING UNITS	TTC: 237.976518
+CHECKING UNITS	TTC: 277.726834
+CHECKING UNITS	TTC: 268.748843
+CHECKING UNITS	TTC: 274.427900
+CHECKING UNITS	TTC: 267.452688
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 57.744993
+----------------------------------------------------------------
+p8u1/rp.session.radical.mingtha.016958.0020.json
+Number of units:  8.0
+0    1
+1    1
+2    1
+3    1
+4    1
+5    1
+6    1
+7    1
+Name: num_units, dtype: float64
+RunLoc:  uct2-c249.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+RunLoc:  uct2-c385.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+RunLoc:  iut2-c117.iu.edu:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+RunLoc:  uct2-c250.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+RunLoc:  uct2-c387.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+RunLoc:  uct2-c248.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+RunLoc:  uct2-c261.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1
+RunLoc:  uct2-c316.mwt2.org:iut2-gk.mwt2.org
+
+RunLocCount:  1
+Tq: 253.191556
+Tq: 147.800031
+Tq: 129.046292
+Tq: 280.466426
+Tq: 357.528537
+Tq: 323.295187
+Tq: 168.637556
+Tq: 185.548492
+CHECKING UNITS	TTC: 293.304196
+CHECKING UNITS	TTC: 205.784041
+CHECKING UNITS	TTC: 200.721286
+CHECKING UNITS	TTC: 364.581111
+CHECKING UNITS	TTC: 456.279866
+CHECKING UNITS	TTC: 437.273813
+CHECKING UNITS	TTC: 297.714523
+CHECKING UNITS	TTC: 329.683296
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 70.313066

@@ -1,0 +1,16 @@
+----------------------------------------------------------------
+p1u2048/rp.session.radical.mingtha.016958.0002.json
+Number of units:  2048.0
+0    2048
+Name: num_units, dtype: float64
+RunLoc:  nan
+RunLocCount:  1022
+RunLoc:  uct2-c061.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  1026
+Tq: 196.139471
+CANCELED	TTC: 33554.321807
+Run Status: FAIL
+Incomplete Units: 1028
+Unexecuted Units: 1022
+Tx: 10373.159439

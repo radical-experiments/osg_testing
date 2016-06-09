@@ -21,7 +21,8 @@ pp = pprint.PrettyPrinter(indent=1)
 
 with open(data_file) as json_data:
     d = json.load(json_data)
-    #pp.pprint(d['pilot'][0])
+    #pp.pprint(d['pilot'])
+    #pp.pprint(d['unit'])
 
     for i in range(len(d['pilot'])):
         tmp_pilot = {}
@@ -61,45 +62,78 @@ with open(data_file) as json_data:
 
  
 #print unit
-print pilot
+#print pilot
+
+print '----------------------------------------------------------------'
+
+if unit.empty or pilot.empty:
+    if unit.empty:
+        print "EMPTY UNIT DATAFRAME"
+    if pilot.empty:
+        print "EMPTY PILOT DATAFRAME"
+    sys.exit()
 
 #Print session
 print data_file
 
 #Print total number of units
-print "Number of units: ", pilot['num_units']
+print "Number of units: ", pilot['num_units'].sum()
+print pilot['num_units']
 
 #Find all unique locations where the units ran
-run_locations = unit['runloc'].unique()
-print "Locations Pilots ran on: %s", run_locations
+unique_runloc = {}
+run_location = unit['runloc']
+for i in range(len(run_location.index)):
+    if run_location[i] not in unique_runloc:
+        unique_runloc[run_location[i]] = 1
+    else: 
+        unique_runloc[run_location[i]] += 1
+
+for loc in unique_runloc:
+    print "RunLoc: ", loc
+    print "RunLocCount: ", unique_runloc[loc]
+#print "Locations Pilots ran on: %s", run_locations
 
 #Find Tq
 
 for i in range(len(pilot.index)):
-    Tq = pilot['Active'][i] - pilot['PendingActive'][i]
-    print "Tq: %f" % Tq
-
+    try:
+        Tq = pilot['Active'][i] - pilot['PendingActive'][i]
+        print "Tq: %f" % Tq
+    except:
+        print "HELD. Tq: -1"
+        sys.exit()
+        
 #Find TTC
 for i in range(len(pilot.index)):
     if 'Canceled' in pilot:
-        print "CANCELED"
         TTC = pilot['Canceled'][i] - pilot['Launching'][i]
+        print "CANCELED\tTTC: %f" %TTC
     elif 'Done' in pilot:
-        print "DONE"
         TTC = pilot['Done'][i] - pilot['Launching'][i]
+        print "DONE\tTTC: %f" %TTC
     else:
-        print "CHECKING UNITS"
-        TTC = unit['Done'].max() - pilot['Launching'][0]
-    print "TTC: %f" % TTC
+        try:
+            TTC = unit[unit['pilot'] == i]['Done'].max() - pilot['Launching'][0]
+            print "CHECKING UNITS\tTTC: %f" %TTC
+        except:
+            print "HELD, but has Tq > 0"
+            sys.exit()
 
 
 #Check if there are any units which did not finish correctly (Enter Done Stage)
 incomplete_units = unit['Done'].isnull().sum()
-print "Num Incomplete Units: %d" % incomplete_units
+
+if incomplete_units == 0:
+    print "Run Status: SUCCESS"
+else: 
+    print "Run Status: FAIL"
+
+print "Incomplete Units: %d" % incomplete_units
 
 #Check if there are any units which did not finish executing
 unexecuted_units = unit['PendingOutputStaging'].isnull().sum()
-print "Num Unexecuted Units: %d" %  unexecuted_units
+print "Unexecuted Units: %d" %  unexecuted_units
 
 
 #Find the total Tx of the units. Since there may be some overlap in the units,
@@ -107,14 +141,12 @@ print "Num Unexecuted Units: %d" %  unexecuted_units
 #   overlap in the ranges. Then sum up the lengths of the intervals to get Tx
 #This algorithm can be implemented for any timings generically
 Tx_array = []
-for i in range(pilot['num_units'][0]):
+for i in range(len(unit.index)):
     if not isnan(unit['PendingOutputStaging'][i]):
         Tx_array.append([unit['Executing'][i], unit['PendingOutputStaging'][i]])
 
 Tx_array = sorted(Tx_array, key=itemgetter(0))
-
 Tx_interval = []
-print Tx_interval
 Tx_interval.append(Tx_array[0])
 
 current_interval = 0

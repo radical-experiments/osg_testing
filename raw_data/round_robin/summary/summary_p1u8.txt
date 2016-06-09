@@ -1,0 +1,154 @@
+----------------------------------------------------------------
+p1u8/rp.session.radical.mingtha.016941.0010.json
+Number of units:  8.0
+0    8
+Name: num_units, dtype: float64
+RunLoc:  stat116.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  8
+Tq: 217.494137
+CHECKING UNITS	TTC: 321.775743
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 80.912299
+----------------------------------------------------------------
+p1u8/rp.session.radical.mingtha.016955.0030.json
+Number of units:  8.0
+0    8
+Name: num_units, dtype: float64
+RunLoc:  uct2-c336.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  8
+Tq: 301.676200
+CHECKING UNITS	TTC: 405.793056
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 80.622046
+----------------------------------------------------------------
+p1u8/rp.session.radical.mingtha.016955.0031.json
+Number of units:  8.0
+0    8
+Name: num_units, dtype: float64
+RunLoc:  stat120.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  8
+Tq: 286.243868
+CHECKING UNITS	TTC: 392.751400
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 83.431504
+----------------------------------------------------------------
+p1u8/rp.session.radical.mingtha.016955.0032.json
+Number of units:  8.0
+0    8
+Name: num_units, dtype: float64
+RunLoc:  stat120.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  8
+Tq: 217.652550
+CHECKING UNITS	TTC: 321.419955
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 80.956053
+----------------------------------------------------------------
+p1u8/rp.session.radical.mingtha.016955.0033.json
+Number of units:  8.0
+0    8
+Name: num_units, dtype: float64
+RunLoc:  n0408:osg.hyak.washington.edu
+
+RunLocCount:  8
+Tq: 276.400132
+CHECKING UNITS	TTC: 386.885380
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 80.943002
+----------------------------------------------------------------
+p1u8/rp.session.radical.mingtha.016956.0000.json
+Number of units:  8.0
+0    8
+Name: num_units, dtype: float64
+RunLoc:  stat120.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  8
+Tq: 191.818387
+CHECKING UNITS	TTC: 296.253135
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 80.942216
+----------------------------------------------------------------
+p1u8/rp.session.radical.mingtha.016956.0001.json
+Number of units:  8.0
+0    8
+Name: num_units, dtype: float64
+RunLoc:  node0990:osg-ce.clemson.edu
+
+RunLocCount:  8
+Tq: 219.068347
+CHECKING UNITS	TTC: 326.742600
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 80.665450
+----------------------------------------------------------------
+p1u8/rp.session.radical.mingtha.016956.0002.json
+Number of units:  8.0
+0    8
+Name: num_units, dtype: float64
+RunLoc:  node1040:osg-ce.clemson.edu
+
+RunLocCount:  8
+Tq: 175.628183
+CHECKING UNITS	TTC: 279.965402
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 80.848109
+----------------------------------------------------------------
+p1u8/rp.session.radical.mingtha.016956.0003.json
+Number of units:  8.0
+0    8
+Name: num_units, dtype: float64
+RunLoc:  n0342:osg.hyak.washington.edu
+
+RunLocCount:  8
+Tq: 198.465709
+CHECKING UNITS	TTC: 302.725029
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 80.946836
+----------------------------------------------------------------
+p1u8/rp.session.radical.mingtha.016956.0004.json
+Number of units:  8.0
+0    8
+Name: num_units, dtype: float64
+RunLoc:  uct2-c151.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  8
+Tq: 202.363404
+CHECKING UNITS	TTC: 306.223479
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 80.925486
+----------------------------------------------------------------
+p1u8/rp.session.radical.mingtha.016956.0005.json
+Number of units:  8.0
+0    8
+Name: num_units, dtype: float64
+RunLoc:  uct2-c095.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  8
+Tq: 343.903836
+CHECKING UNITS	TTC: 453.433913
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 80.907537

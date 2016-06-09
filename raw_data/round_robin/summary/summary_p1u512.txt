@@ -1,0 +1,78 @@
+----------------------------------------------------------------
+p1u512/rp.session.radical.mingtha.016942.0004.json
+Number of units:  512.0
+0    512
+Name: num_units, dtype: float64
+RunLoc:  uct2-c091.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  512
+Tq: 378.557125
+DONE	TTC: 81333.907025
+Run Status: FAIL
+Incomplete Units: 2
+Unexecuted Units: 0
+Tx: 5176.012679
+----------------------------------------------------------------
+p1u512/rp.session.radical.mingtha.016957.0000.json
+Number of units:  512.0
+0    512
+Name: num_units, dtype: float64
+RunLoc:  mwt2-c063:uct2-gk.mwt2.org
+
+RunLocCount:  512
+Tq: 168.957642
+CANCELED	TTC: 8858.086569
+Run Status: FAIL
+Incomplete Units: 1
+Unexecuted Units: 0
+Tx: 5157.009961
+----------------------------------------------------------------
+p1u512/rp.session.radical.mingtha.016957.0001.json
+Number of units:  512.0
+0    512
+Name: num_units, dtype: float64
+RunLoc:  nan
+RunLocCount:  512
+HELD. Tq: -1
+----------------------------------------------------------------
+p1u512/rp.session.radical.mingtha.016957.0002.json
+Number of units:  512.0
+0    512
+Name: num_units, dtype: float64
+RunLoc:  abc-k10:atlas-net2.bu.edu
+
+RunLocCount:  512
+Tq: 279.704714
+CHECKING UNITS	TTC: 5500.270216
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 5186.917845
+----------------------------------------------------------------
+p1u512/rp.session.radical.mingtha.016957.0003.json
+Number of units:  512.0
+0    512
+Name: num_units, dtype: float64
+RunLoc:  stat119.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  512
+Tq: 239.759009
+CHECKING UNITS	TTC: 5464.212787
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 5196.318605
+----------------------------------------------------------------
+p1u512/rp.session.radical.mingtha.016957.0004.json
+Number of units:  512.0
+0    512
+Name: num_units, dtype: float64
+RunLoc:  mwt2-c001:osg-gk.mwt2.org
+
+RunLocCount:  512
+Tq: 303.228546
+CANCELED	TTC: 8249.150016
+Run Status: FAIL
+Incomplete Units: 1
+Unexecuted Units: 0
+Tx: 5156.958537

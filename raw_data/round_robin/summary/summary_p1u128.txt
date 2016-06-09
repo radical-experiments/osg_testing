@@ -1,0 +1,78 @@
+----------------------------------------------------------------
+p1u128/rp.session.radical.mingtha.016942.0001.json
+Number of units:  128.0
+0    128
+Name: num_units, dtype: float64
+RunLoc:  uct2-c146.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  128
+Tq: 167.375533
+CHECKING UNITS	TTC: 1486.895354
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 1294.125106
+----------------------------------------------------------------
+p1u128/rp.session.radical.mingtha.016956.0034.json
+Number of units:  128.0
+0    128
+Name: num_units, dtype: float64
+RunLoc:  stat114.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  128
+Tq: 281.763254
+CHECKING UNITS	TTC: 1684.079097
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 1379.012770
+----------------------------------------------------------------
+p1u128/rp.session.radical.mingtha.016956.0035.json
+Number of units:  128.0
+0    128
+Name: num_units, dtype: float64
+RunLoc:  n0433:osg.hyak.washington.edu
+
+RunLocCount:  128
+Tq: 260.830443
+CANCELED	TTC: 3208.856151
+Run Status: FAIL
+Incomplete Units: 1
+Unexecuted Units: 0
+Tx: 1295.040836
+----------------------------------------------------------------
+p1u128/rp.session.radical.mingtha.016956.0036.json
+Number of units:  128.0
+0    128
+Name: num_units, dtype: float64
+RunLoc:  nod21.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  128
+Tq: 227.357610
+CHECKING UNITS	TTC: 1551.762154
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 1299.650600
+----------------------------------------------------------------
+p1u128/rp.session.radical.mingtha.016956.0037.json
+Number of units:  128.0
+0    128
+Name: num_units, dtype: float64
+RunLoc:  fnpc3028.fnal.gov:gpce01.fnal.gov
+
+RunLocCount:  128
+Tq: 288.978685
+CHECKING UNITS	TTC: 1608.233763
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 1295.647247
+----------------------------------------------------------------
+p1u128/rp.session.radical.mingtha.016956.0038.json
+Number of units:  128.0
+0    128
+Name: num_units, dtype: float64
+RunLoc:  nan
+RunLocCount:  128
+HELD. Tq: -1

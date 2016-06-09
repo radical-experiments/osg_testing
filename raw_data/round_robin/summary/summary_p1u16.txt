@@ -1,0 +1,156 @@
+----------------------------------------------------------------
+p1u16/rp.session.radical.mingtha.016941.0013.json
+Number of units:  16.0
+0    16
+Name: num_units, dtype: float64
+RunLoc:  nod25.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  16
+Tq: 168.452002
+CHECKING UNITS	TTC: 354.591388
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 162.112401
+----------------------------------------------------------------
+p1u16/rp.session.radical.mingtha.016956.0006.json
+Number of units:  16.0
+0    16
+Name: num_units, dtype: float64
+RunLoc:  iut2-c152.iu.edu:osg-gk.mwt2.org
+
+RunLocCount:  16
+Tq: 174.171121
+CHECKING UNITS	TTC: 360.462217
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 161.570680
+----------------------------------------------------------------
+p1u16/rp.session.radical.mingtha.016956.0007.json
+Number of units:  16.0
+0    16
+Name: num_units, dtype: float64
+RunLoc:  stat113.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  16
+Tq: 348.985648
+CHECKING UNITS	TTC: 551.812887
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 179.978720
+----------------------------------------------------------------
+p1u16/rp.session.radical.mingtha.016956.0008.json
+Number of units:  16.0
+0    16
+Name: num_units, dtype: float64
+RunLoc:  stat115.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  16
+Tq: 260.622501
+CHECKING UNITS	TTC: 454.778020
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 170.638444
+----------------------------------------------------------------
+p1u16/rp.session.radical.mingtha.016956.0009.json
+Number of units:  16.0
+0    16
+Name: num_units, dtype: float64
+RunLoc:  uct2-c109.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  16
+Tq: 181.738923
+CHECKING UNITS	TTC: 366.608245
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 161.889072
+----------------------------------------------------------------
+p1u16/rp.session.radical.mingtha.016956.0010.json
+Number of units:  16.0
+0    16
+Name: num_units, dtype: float64
+RunLoc:  nan
+RunLocCount:  16
+HELD. Tq: -1
+----------------------------------------------------------------
+p1u16/rp.session.radical.mingtha.016956.0011.json
+Number of units:  16.0
+0    16
+Name: num_units, dtype: float64
+RunLoc:  uct2-c326.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  16
+Tq: 206.790547
+CHECKING UNITS	TTC: 390.891947
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 161.104536
+----------------------------------------------------------------
+p1u16/rp.session.radical.mingtha.016956.0012.json
+Number of units:  16.0
+0    16
+Name: num_units, dtype: float64
+RunLoc:  iut2-c235.iu.edu:osg-gk.mwt2.org
+
+RunLocCount:  16
+Tq: 159.495560
+CHECKING UNITS	TTC: 344.521609
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 160.471820
+----------------------------------------------------------------
+p1u16/rp.session.radical.mingtha.016956.0013.json
+Number of units:  16.0
+0    16
+Name: num_units, dtype: float64
+RunLoc:  n0287:osg.hyak.washington.edu
+
+RunLocCount:  16
+Tq: 203.706072
+CHECKING UNITS	TTC: 390.243361
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 162.046265
+----------------------------------------------------------------
+p1u16/rp.session.radical.mingtha.016956.0014.json
+Number of units:  16.0
+0    16
+Name: num_units, dtype: float64
+RunLoc:  fnpc8005.fnal.gov:gpce02.fnal.gov
+
+RunLocCount:  16
+Tq: 229.034149
+CHECKING UNITS	TTC: 416.794596
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 164.564779
+----------------------------------------------------------------
+p1u16/rp.session.radical.mingtha.016956.0015.json
+Number of units:  16.0
+0    16
+Name: num_units, dtype: float64
+RunLoc:  fnpc7018.fnal.gov:gpce02.fnal.gov
+
+RunLocCount:  16
+Tq: 231.240005
+CHECKING UNITS	TTC: 421.066175
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 161.958711
+----------------------------------------------------------------
+p1u16/rp.session.radical.mingtha.016956.0016.json
+Number of units:  16.0
+0    16
+Name: num_units, dtype: float64
+RunLoc:  nan
+RunLocCount:  16
+HELD. Tq: -1

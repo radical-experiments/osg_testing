@@ -1,0 +1,119 @@
+----------------------------------------------------------------
+p1u32/rp.session.radical.mingtha.016941.0014.json
+Number of units:  32.0
+0    32
+Name: num_units, dtype: float64
+RunLoc:  uct2-c098.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  32
+Tq: 219.776878
+CHECKING UNITS	TTC: 568.464372
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 323.512718
+----------------------------------------------------------------
+p1u32/rp.session.radical.mingtha.016956.0017.json
+Number of units:  32.0
+0    32
+Name: num_units, dtype: float64
+RunLoc:  fnpc8007.fnal.gov:gpce02.fnal.gov
+
+RunLocCount:  32
+Tq: 222.295233
+CHECKING UNITS	TTC: 574.500067
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 323.682561
+----------------------------------------------------------------
+p1u32/rp.session.radical.mingtha.016956.0018.json
+Number of units:  32.0
+0    32
+Name: num_units, dtype: float64
+RunLoc:  nan
+RunLocCount:  32
+HELD. Tq: -1
+----------------------------------------------------------------
+p1u32/rp.session.radical.mingtha.016956.0019.json
+Number of units:  32.0
+0    32
+Name: num_units, dtype: float64
+RunLoc:  fnpc6002.fnal.gov:gpce01.fnal.gov
+
+RunLocCount:  32
+Tq: 259.738086
+CHECKING UNITS	TTC: 607.673115
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 323.952575
+----------------------------------------------------------------
+EMPTY UNIT DATAFRAME
+EMPTY PILOT DATAFRAME
+----------------------------------------------------------------
+p1u32/rp.session.radical.mingtha.016956.0021.json
+Number of units:  32.0
+0    32
+Name: num_units, dtype: float64
+RunLoc:  nan
+RunLocCount:  32
+HELD. Tq: -1
+----------------------------------------------------------------
+p1u32/rp.session.radical.mingtha.016956.0022.json
+Number of units:  32.0
+0    32
+Name: num_units, dtype: float64
+RunLoc:  nan
+RunLocCount:  32
+HELD. Tq: -1
+----------------------------------------------------------------
+p1u32/rp.session.radical.mingtha.016956.0023.json
+Number of units:  32.0
+0    32
+Name: num_units, dtype: float64
+RunLoc:  nan
+RunLocCount:  32
+HELD. Tq: -1
+----------------------------------------------------------------
+p1u32/rp.session.radical.mingtha.016956.0024.json
+Number of units:  32.0
+0    32
+Name: num_units, dtype: float64
+RunLoc:  fnpc4120.fnal.gov:gpce01.fnal.gov
+
+RunLocCount:  32
+Tq: 322.277341
+CHECKING UNITS	TTC: 670.121447
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 323.879412
+----------------------------------------------------------------
+p1u32/rp.session.radical.mingtha.016956.0025.json
+Number of units:  32.0
+0    32
+Name: num_units, dtype: float64
+RunLoc:  uct2-c061.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  32
+Tq: 251.394490
+CHECKING UNITS	TTC: 602.449979
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 323.551564
+----------------------------------------------------------------
+EMPTY UNIT DATAFRAME
+EMPTY PILOT DATAFRAME
+----------------------------------------------------------------
+EMPTY UNIT DATAFRAME
+EMPTY PILOT DATAFRAME
+----------------------------------------------------------------
+p1u32/rp.session.radical.mingtha.016956.0028.json
+Number of units:  32.0
+0    32
+Name: num_units, dtype: float64
+RunLoc:  nan
+RunLocCount:  32
+HELD. Tq: -1

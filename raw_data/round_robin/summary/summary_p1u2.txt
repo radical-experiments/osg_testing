@@ -1,0 +1,140 @@
+----------------------------------------------------------------
+p1u2/rp.session.radical.mingtha.016941.0003.json
+Number of units:  2.0
+0    2
+Name: num_units, dtype: float64
+RunLoc:  stat113.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  2
+Tq: 242.012859
+CHECKING UNITS	TTC: 296.230762
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 20.265468
+----------------------------------------------------------------
+p1u2/rp.session.radical.mingtha.016955.0011.json
+Number of units:  2.0
+0    2
+Name: num_units, dtype: float64
+RunLoc:  node0314:osg-ce.clemson.edu
+
+RunLocCount:  2
+Tq: 158.881595
+CHECKING UNITS	TTC: 204.440491
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 20.126203
+----------------------------------------------------------------
+p1u2/rp.session.radical.mingtha.016955.0012.json
+Number of units:  2.0
+0    2
+Name: num_units, dtype: float64
+RunLoc:  uct2-c108.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  2
+Tq: 244.796939
+CHECKING UNITS	TTC: 289.734222
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 20.263533
+----------------------------------------------------------------
+p1u2/rp.session.radical.mingtha.016955.0013.json
+Number of units:  2.0
+0    2
+Name: num_units, dtype: float64
+RunLoc:  uct2-c152.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  2
+Tq: 195.851544
+CHECKING UNITS	TTC: 241.001769
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 20.217264
+----------------------------------------------------------------
+p1u2/rp.session.radical.mingtha.016955.0014.json
+Number of units:  2.0
+0    2
+Name: num_units, dtype: float64
+RunLoc:  uct2-c063.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  2
+Tq: 216.185374
+CHECKING UNITS	TTC: 262.595402
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 20.223221
+----------------------------------------------------------------
+p1u2/rp.session.radical.mingtha.016955.0015.json
+Number of units:  2.0
+0    2
+Name: num_units, dtype: float64
+RunLoc:  iut2-c097.iu.edu:osg-gk.mwt2.org
+
+RunLocCount:  2
+Tq: 399.882136
+CHECKING UNITS	TTC: 447.989267
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 20.206463
+----------------------------------------------------------------
+p1u2/rp.session.radical.mingtha.016955.0016.json
+Number of units:  2.0
+0    2
+Name: num_units, dtype: float64
+RunLoc:  nod22.phys.uconn.edu:gluskap.phys.uconn.edu
+
+RunLocCount:  2
+Tq: 202.712517
+CHECKING UNITS	TTC: 255.565935
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 20.332384
+----------------------------------------------------------------
+p1u2/rp.session.radical.mingtha.016955.0017.json
+Number of units:  2.0
+0    2
+Name: num_units, dtype: float64
+RunLoc:  uct2-c063.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  2
+Tq: 264.010570
+CHECKING UNITS	TTC: 307.336689
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 20.212618
+----------------------------------------------------------------
+p1u2/rp.session.radical.mingtha.016955.0018.json
+Number of units:  2.0
+0    2
+Name: num_units, dtype: float64
+RunLoc:  uct2-c048.mwt2.org:mwt2-gk.campuscluster.illinois.edu
+
+RunLocCount:  2
+Tq: 288.787837
+CHECKING UNITS	TTC: 336.847158
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 20.167311
+----------------------------------------------------------------
+p1u2/rp.session.radical.mingtha.016955.0019.json
+Number of units:  2.0
+0    2
+Name: num_units, dtype: float64
+RunLoc:  node0272:osg-ce.clemson.edu
+
+RunLocCount:  2
+Tq: 215.220011
+CHECKING UNITS	TTC: 258.684652
+Run Status: SUCCESS
+Incomplete Units: 0
+Unexecuted Units: 0
+Tx: 20.233088
