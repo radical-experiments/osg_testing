@@ -1,0 +1,52 @@
+import csv
+import matplotlib.pyplot as plt
+from matplotlib.ticker import MultipleLocator, FormatStrFormatter
+import sys
+
+BAR_WIDTH = 0.5
+
+if len(sys.argv) == 1:
+    print "Need to add a file name"
+    sys.exit()
+
+
+with open(sys.argv[1]) as open_file:
+    f = csv.reader(open_file)
+    tmp_list = []
+
+    for row in f:
+        tmp_list.append(row)
+
+    labels = tmp_list[0]
+    avg = map(float, tmp_list[1])
+
+    if len(tmp_list) == 3:
+        std = map(float, tmp_list[2])
+
+fig = plt.figure()
+ax = fig.add_subplot(111)
+
+#if sys.argv[1][:2] == "Tx":
+
+x_values = [i for i in range(len(labels))]
+tmp_list.insert('bump', 0)
+
+ax.set_title(r"$TTC$ per pilot, 1 Pilot", fontsize=20)
+ax.set_xlabel('Setup', fontsize=20)
+ax.set_ylabel(r'$TTC$', fontsize=20)
+
+majorLocator = MultipleLocator(1)
+majorFormatter = FormatStrFormatter('%d')
+ax.xaxis.set_major_locator(majorLocator)
+ax.xaxis.set_major_formatter(majorFormatter)
+
+ax.set_xticklabels(labels, fontsize=16, rotation=15)
+ax.tick_params(axis='y', labelsize=20)
+
+for tick in ax.xaxis.get_major_ticks():
+    tick.label1.set_horizontalalignment('left')
+
+ax.bar(x_values, avg, BAR_WIDTH, yerr=std, color='r', alpha=0.6)
+
+plt.grid(True)
+plt.show()

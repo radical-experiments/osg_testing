@@ -2,8 +2,8 @@
 p1u64/rp.session.radical.mingtha.016941.0015.json
 ATTEMPT
 Number of units:  64
-[64]
-Unique Running Locations:  [(u'nod25.phys.uconn.edu:gluskap.phys.uconn.edu\n', 64)]
+Pilot Distribution:  [64]
+Unique Running Locations:  (u'nod25.phys.uconn.edu:gluskap.phys.uconn.edu\n', 64)
 Tq:  [267.22414803504944]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -16,8 +16,8 @@ Tx: 648.803940
 p1u64/rp.session.radical.mingtha.016956.0029.json
 ATTEMPT
 Number of units:  64
-[64]
-Unique Running Locations:  [(u'uct2-c050.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 64)]
+Pilot Distribution:  [64]
+Unique Running Locations:  (u'uct2-c050.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 64)
 Tq:  [181.46949100494385]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -30,8 +30,8 @@ Tx: 647.051144
 p1u64/rp.session.radical.mingtha.016956.0030.json
 ATTEMPT
 Number of units:  64
-[64]
-Unique Running Locations:  [(u'node0268:osg-ce.clemson.edu\n', 64)]
+Pilot Distribution:  [64]
+Unique Running Locations:  (u'node0268:osg-ce.clemson.edu\n', 64)
 Tq:  [192.73843598365784]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -44,8 +44,8 @@ Tx: 647.489832
 p1u64/rp.session.radical.mingtha.016956.0031.json
 ATTEMPT
 Number of units:  64
-[64]
-Unique Running Locations:  [(u'c-117-15.aglt2.org:gate02.grid.umich.edu\n', 64)]
+Pilot Distribution:  [64]
+Unique Running Locations:  (u'c-117-15.aglt2.org:gate02.grid.umich.edu\n', 64)
 Tq:  [272.45198607444763]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -58,8 +58,8 @@ Tx: 641.583441
 p1u64/rp.session.radical.mingtha.016956.0032.json
 ATTEMPT
 Number of units:  64
-[64]
-Unique Running Locations:  [(u'stat113.phys.uconn.edu:gluskap.phys.uconn.edu\n', 64)]
+Pilot Distribution:  [64]
+Unique Running Locations:  (u'stat113.phys.uconn.edu:gluskap.phys.uconn.edu\n', 64)
 Tq:  [427.98920583724976]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -72,8 +72,8 @@ Tx: 944.466320
 p1u64/rp.session.radical.mingtha.016956.0033.json
 ATTEMPT
 Number of units:  64
-[64]
-Unique Running Locations:  [(u'node0719:osg-ce.clemson.edu\n', 64)]
+Pilot Distribution:  [64]
+Unique Running Locations:  (u'node0719:osg-ce.clemson.edu\n', 64)
 Tq:  [216.7385561466217]
 Incomplete Units: 0
 Unexecuted Units: 0

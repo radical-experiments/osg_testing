@@ -2,8 +2,8 @@
 p1u8/rp.session.radical.mingtha.016941.0010.json
 ATTEMPT
 Number of units:  8
-[8]
-Unique Running Locations:  [(u'stat116.phys.uconn.edu:gluskap.phys.uconn.edu\n', 8)]
+Pilot Distribution:  [8]
+Unique Running Locations:  (u'stat116.phys.uconn.edu:gluskap.phys.uconn.edu\n', 8)
 Tq:  [217.49413704872131]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -16,8 +16,8 @@ Tx: 80.912299
 p1u8/rp.session.radical.mingtha.016955.0030.json
 ATTEMPT
 Number of units:  8
-[8]
-Unique Running Locations:  [(u'uct2-c336.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 8)]
+Pilot Distribution:  [8]
+Unique Running Locations:  (u'uct2-c336.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 8)
 Tq:  [301.67620015144348]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -30,8 +30,8 @@ Tx: 80.622046
 p1u8/rp.session.radical.mingtha.016955.0031.json
 ATTEMPT
 Number of units:  8
-[8]
-Unique Running Locations:  [(u'stat120.phys.uconn.edu:gluskap.phys.uconn.edu\n', 8)]
+Pilot Distribution:  [8]
+Unique Running Locations:  (u'stat120.phys.uconn.edu:gluskap.phys.uconn.edu\n', 8)
 Tq:  [286.24386811256409]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -44,8 +44,8 @@ Tx: 83.431504
 p1u8/rp.session.radical.mingtha.016955.0032.json
 ATTEMPT
 Number of units:  8
-[8]
-Unique Running Locations:  [(u'stat120.phys.uconn.edu:gluskap.phys.uconn.edu\n', 8)]
+Pilot Distribution:  [8]
+Unique Running Locations:  (u'stat120.phys.uconn.edu:gluskap.phys.uconn.edu\n', 8)
 Tq:  [217.65254998207092]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -58,8 +58,8 @@ Tx: 80.956053
 p1u8/rp.session.radical.mingtha.016955.0033.json
 ATTEMPT
 Number of units:  8
-[8]
-Unique Running Locations:  [(u'n0408:osg.hyak.washington.edu\n', 8)]
+Pilot Distribution:  [8]
+Unique Running Locations:  (u'n0408:osg.hyak.washington.edu\n', 8)
 Tq:  [276.40013194084167]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -72,8 +72,8 @@ Tx: 80.943002
 p1u8/rp.session.radical.mingtha.016956.0000.json
 ATTEMPT
 Number of units:  8
-[8]
-Unique Running Locations:  [(u'stat120.phys.uconn.edu:gluskap.phys.uconn.edu\n', 8)]
+Pilot Distribution:  [8]
+Unique Running Locations:  (u'stat120.phys.uconn.edu:gluskap.phys.uconn.edu\n', 8)
 Tq:  [191.81838703155518]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -86,8 +86,8 @@ Tx: 80.942216
 p1u8/rp.session.radical.mingtha.016956.0001.json
 ATTEMPT
 Number of units:  8
-[8]
-Unique Running Locations:  [(u'node0990:osg-ce.clemson.edu\n', 8)]
+Pilot Distribution:  [8]
+Unique Running Locations:  (u'node0990:osg-ce.clemson.edu\n', 8)
 Tq:  [219.06834721565247]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -100,8 +100,8 @@ Tx: 80.665450
 p1u8/rp.session.radical.mingtha.016956.0002.json
 ATTEMPT
 Number of units:  8
-[8]
-Unique Running Locations:  [(u'node1040:osg-ce.clemson.edu\n', 8)]
+Pilot Distribution:  [8]
+Unique Running Locations:  (u'node1040:osg-ce.clemson.edu\n', 8)
 Tq:  [175.62818288803101]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -114,8 +114,8 @@ Tx: 80.848109
 p1u8/rp.session.radical.mingtha.016956.0003.json
 ATTEMPT
 Number of units:  8
-[8]
-Unique Running Locations:  [(u'n0342:osg.hyak.washington.edu\n', 8)]
+Pilot Distribution:  [8]
+Unique Running Locations:  (u'n0342:osg.hyak.washington.edu\n', 8)
 Tq:  [198.46570897102356]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -128,8 +128,8 @@ Tx: 80.946836
 p1u8/rp.session.radical.mingtha.016956.0004.json
 ATTEMPT
 Number of units:  8
-[8]
-Unique Running Locations:  [(u'uct2-c151.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 8)]
+Pilot Distribution:  [8]
+Unique Running Locations:  (u'uct2-c151.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 8)
 Tq:  [202.36340403556824]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -142,8 +142,8 @@ Tx: 80.925486
 p1u8/rp.session.radical.mingtha.016956.0005.json
 ATTEMPT
 Number of units:  8
-[8]
-Unique Running Locations:  [(u'uct2-c095.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 8)]
+Pilot Distribution:  [8]
+Unique Running Locations:  (u'uct2-c095.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 8)
 Tq:  [343.9038360118866]
 Incomplete Units: 0
 Unexecuted Units: 0

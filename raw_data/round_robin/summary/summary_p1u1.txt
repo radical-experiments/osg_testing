@@ -2,8 +2,8 @@
 p1u1/rp.session.radical.mingtha.016941.0002.json
 ATTEMPT
 Number of units:  1
-[1]
-Unique Running Locations:  [(u'stat107.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1)]
+Pilot Distribution:  [1]
+Unique Running Locations:  (u'stat107.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1)
 Tq:  [167.83288717269897]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -16,8 +16,8 @@ Tx: 10.106963
 p1u1/rp.session.radical.mingtha.016955.0001.json
 ATTEMPT
 Number of units:  1
-[1]
-Unique Running Locations:  [(u'uct2-c232.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)]
+Pilot Distribution:  [1]
+Unique Running Locations:  (u'uct2-c232.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)
 Tq:  [346.66219711303711]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -30,8 +30,8 @@ Tx: 10.040164
 p1u1/rp.session.radical.mingtha.016955.0002.json
 ATTEMPT
 Number of units:  1
-[1]
-Unique Running Locations:  [(u'uct2-c232.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)]
+Pilot Distribution:  [1]
+Unique Running Locations:  (u'uct2-c232.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)
 Tq:  [174.00556898117065]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -44,8 +44,8 @@ Tx: 10.141078
 p1u1/rp.session.radical.mingtha.016955.0003.json
 ATTEMPT
 Number of units:  1
-[1]
-Unique Running Locations:  [(u'taub120:mwt2-gk.campuscluster.illinois.edu\n', 1)]
+Pilot Distribution:  [1]
+Unique Running Locations:  (u'taub120:mwt2-gk.campuscluster.illinois.edu\n', 1)
 Tq:  [196.9189281463623]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -58,8 +58,8 @@ Tx: 10.110032
 p1u1/rp.session.radical.mingtha.016955.0004.json
 ATTEMPT
 Number of units:  1
-[1]
-Unique Running Locations:  [(u'taub105:osg-gk.mwt2.org\n', 1)]
+Pilot Distribution:  [1]
+Unique Running Locations:  (u'taub105:osg-gk.mwt2.org\n', 1)
 Tq:  [257.02059483528137]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -72,8 +72,8 @@ Tx: 10.042636
 p1u1/rp.session.radical.mingtha.016955.0005.json
 ATTEMPT
 Number of units:  1
-[1]
-Unique Running Locations:  [(u'node1041:osg-ce.clemson.edu\n', 1)]
+Pilot Distribution:  [1]
+Unique Running Locations:  (u'node1041:osg-ce.clemson.edu\n', 1)
 Tq:  [232.0191490650177]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -86,8 +86,8 @@ Tx: 10.108486
 p1u1/rp.session.radical.mingtha.016955.0006.json
 ATTEMPT
 Number of units:  1
-[1]
-Unique Running Locations:  [(u'mwt2-c053:mwt2-gk.campuscluster.illinois.edu\n', 1)]
+Pilot Distribution:  [1]
+Unique Running Locations:  (u'mwt2-c053:mwt2-gk.campuscluster.illinois.edu\n', 1)
 Tq:  [194.85380578041077]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -100,8 +100,8 @@ Tx: 10.066897
 p1u1/rp.session.radical.mingtha.016955.0007.json
 ATTEMPT
 Number of units:  1
-[1]
-Unique Running Locations:  [(u'node0854:osg-ce.clemson.edu\n', 1)]
+Pilot Distribution:  [1]
+Unique Running Locations:  (u'node0854:osg-ce.clemson.edu\n', 1)
 Tq:  [221.19549894332886]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -114,8 +114,8 @@ Tx: 10.115308
 p1u1/rp.session.radical.mingtha.016955.0008.json
 ATTEMPT
 Number of units:  1
-[1]
-Unique Running Locations:  [(u'node0925:osg-ce.clemson.edu\n', 1)]
+Pilot Distribution:  [1]
+Unique Running Locations:  (u'node0925:osg-ce.clemson.edu\n', 1)
 Tq:  [152.55509400367737]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -128,8 +128,8 @@ Tx: 10.103111
 p1u1/rp.session.radical.mingtha.016955.0009.json
 ATTEMPT
 Number of units:  1
-[1]
-Unique Running Locations:  [(u'node0925:osg-ce.clemson.edu\n', 1)]
+Pilot Distribution:  [1]
+Unique Running Locations:  (u'node0925:osg-ce.clemson.edu\n', 1)
 Tq:  [629.41811609268188]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -142,8 +142,8 @@ Tx: 10.107724
 p1u1/rp.session.radical.mingtha.016955.0010.json
 ATTEMPT
 Number of units:  1
-[1]
-Unique Running Locations:  [(u'uct2-c095.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)]
+Pilot Distribution:  [1]
+Unique Running Locations:  (u'uct2-c095.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)
 Tq:  [220.49103713035583]
 Incomplete Units: 0
 Unexecuted Units: 0

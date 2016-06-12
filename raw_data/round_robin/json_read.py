@@ -86,7 +86,7 @@ print "Number of units: ", int(pilot['num_units'].sum())
 pilot_dist = []
 for i in range(int(len(pilot['num_units']))):
     pilot_dist.append(int(pilot['num_units'][i]))
-print pilot_dist
+print "Pilot Distribution: ", pilot_dist
 #print pilot['num_units']
 
 #Find all unique locations where the units ran
@@ -102,7 +102,8 @@ runloc = []
 for k, v in unique_runloc.iteritems():
     runloc.append((k, v))
 
-print "Unique Running Locations: ", runloc
+for i in range(len(runloc)):
+    print "Unique Running Locations: ", runloc[i]
 #for loc in unique_runloc:
 #    print "RunLoc: ", [(loc, unique_runloc[loc])]
     #print "RunLocCount: ", unique_runloc[loc]

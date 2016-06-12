@@ -2,16 +2,16 @@
 p1u1024/rp.session.radical.mingtha.016943.0017.json
 ATTEMPT
 Number of units:  1024
-[1024]
-Unique Running Locations:  [(nan, 1024)]
+Pilot Distribution:  [1024]
+Unique Running Locations:  (nan, 1024)
 Tq:  [192.23148202896118]
 No Units were Done
 ----------------------------------------------------------------
 p1u1024/rp.session.radical.mingtha.016943.0020.json
 ATTEMPT
 Number of units:  1024
-[1024]
-Unique Running Locations:  [(u'uct2-c118.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1024)]
+Pilot Distribution:  [1024]
+Unique Running Locations:  (u'uct2-c118.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1024)
 Tq:  [230.07752203941345]
 Incomplete Units: 4
 Unexecuted Units: 0
@@ -20,8 +20,8 @@ Units were hung up
 p1u1024/rp.session.radical.mingtha.016957.0005.json
 ATTEMPT
 Number of units:  1024
-[1024]
-Unique Running Locations:  [(u'stat0.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1024)]
+Pilot Distribution:  [1024]
+Unique Running Locations:  (u'stat0.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1024)
 Tq:  [463.33568000793457]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -34,8 +34,9 @@ Tx: 10629.901131
 p1u1024/rp.session.radical.mingtha.016957.0006.json
 ATTEMPT
 Number of units:  1024
-[1024]
-Unique Running Locations:  [(nan, 263), (u'n0462:osg.hyak.washington.edu\n', 761)]
+Pilot Distribution:  [1024]
+Unique Running Locations:  (nan, 263)
+Unique Running Locations:  (u'n0462:osg.hyak.washington.edu\n', 761)
 Tq:  [333.53790187835693]
 Incomplete Units: 263
 Unexecuted Units: 263
@@ -44,8 +45,9 @@ Units were hung up
 p1u1024/rp.session.radical.mingtha.016958.0000.json
 ATTEMPT
 Number of units:  1024
-[1024]
-Unique Running Locations:  [(nan, 2), (u'uct2-c064.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1022)]
+Pilot Distribution:  [1024]
+Unique Running Locations:  (nan, 2)
+Unique Running Locations:  (u'uct2-c064.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1022)
 Tq:  [207.98281097412109]
 Incomplete Units: 6
 Unexecuted Units: 2
@@ -54,6 +56,6 @@ Units were hung up
 p1u1024/rp.session.radical.mingtha.016958.0001.json
 ATTEMPT
 Number of units:  1024
-[1024]
-Unique Running Locations:  [(nan, 1024)]
+Pilot Distribution:  [1024]
+Unique Running Locations:  (nan, 1024)
 HELD. Tq: -1

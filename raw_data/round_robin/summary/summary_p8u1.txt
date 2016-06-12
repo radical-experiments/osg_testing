@@ -2,8 +2,15 @@
 p8u1/rp.session.radical.mingtha.016958.0016.json
 ATTEMPT
 Number of units:  8
-[1, 1, 1, 1, 1, 1, 1, 1]
-Unique Running Locations:  [(u'uct2-c316.mwt2.org:iut2-gk.mwt2.org\n', 1), (u'mwt2-c078:osg-gk.mwt2.org\n', 1), (u'mwt2-c076:osg-gk.mwt2.org\n', 1), (u'uct2-c349.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'uct2-c233.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'uct2-c064.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'iut2-c205.iu.edu:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'uct2-c082.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)]
+Pilot Distribution:  [1, 1, 1, 1, 1, 1, 1, 1]
+Unique Running Locations:  (u'uct2-c316.mwt2.org:iut2-gk.mwt2.org\n', 1)
+Unique Running Locations:  (u'mwt2-c078:osg-gk.mwt2.org\n', 1)
+Unique Running Locations:  (u'mwt2-c076:osg-gk.mwt2.org\n', 1)
+Unique Running Locations:  (u'uct2-c349.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)
+Unique Running Locations:  (u'uct2-c233.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)
+Unique Running Locations:  (u'uct2-c064.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)
+Unique Running Locations:  (u'iut2-c205.iu.edu:mwt2-gk.campuscluster.illinois.edu\n', 1)
+Unique Running Locations:  (u'uct2-c082.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)
 Tq:  [225.46596002578735, 231.52080416679382, 739.28539991378784, 367.11811709403992, 619.61889910697937, 522.2720251083374, 511.49592089653015, 539.2573778629303]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -23,8 +30,15 @@ Tx: 76.128222
 p8u1/rp.session.radical.mingtha.016958.0018.json
 ATTEMPT
 Number of units:  8
-[1, 1, 1, 1, 1, 1, 1, 1]
-Unique Running Locations:  [(u'fnpc4168.fnal.gov:gpce02.fnal.gov\n', 1), (u'fnpc6002.fnal.gov:gpce02.fnal.gov\n', 1), (u'iut2-c117.iu.edu:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'fnpc4104.fnal.gov:gpce01.fnal.gov\n', 1), (u'fnpc3086.fnal.gov:gpce01.fnal.gov\n', 1), (u'fnpc5029.fnal.gov:gpce01.fnal.gov\n', 1), (u'fnpc4121.fnal.gov:gpce01.fnal.gov\n', 1), (u'n0361:osg.hyak.washington.edu\n', 1)]
+Pilot Distribution:  [1, 1, 1, 1, 1, 1, 1, 1]
+Unique Running Locations:  (u'fnpc4168.fnal.gov:gpce02.fnal.gov\n', 1)
+Unique Running Locations:  (u'fnpc6002.fnal.gov:gpce02.fnal.gov\n', 1)
+Unique Running Locations:  (u'iut2-c117.iu.edu:mwt2-gk.campuscluster.illinois.edu\n', 1)
+Unique Running Locations:  (u'fnpc4104.fnal.gov:gpce01.fnal.gov\n', 1)
+Unique Running Locations:  (u'fnpc3086.fnal.gov:gpce01.fnal.gov\n', 1)
+Unique Running Locations:  (u'fnpc5029.fnal.gov:gpce01.fnal.gov\n', 1)
+Unique Running Locations:  (u'fnpc4121.fnal.gov:gpce01.fnal.gov\n', 1)
+Unique Running Locations:  (u'n0361:osg.hyak.washington.edu\n', 1)
 Tq:  [505.3228120803833, 271.33951687812805, 214.72519612312317, 219.01605296134949, 237.30257296562195, 183.75605797767639, 211.63993096351624, 231.38373994827271]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -44,8 +58,15 @@ Tx: 71.645717
 p8u1/rp.session.radical.mingtha.016958.0019.json
 ATTEMPT
 Number of units:  8
-[1, 1, 1, 1, 1, 1, 1, 1]
-Unique Running Locations:  [(u'uct2-c249.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'uct2-c406.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'iut2-c117.iu.edu:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'uct2-c250.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'iut2-c210.iu.edu:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'fnpc3073.fnal.gov:gpce01.fnal.gov\n', 1), (u'uct2-c248.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'fnpc7202.fnal.gov:gpce01.fnal.gov\n', 1)]
+Pilot Distribution:  [1, 1, 1, 1, 1, 1, 1, 1]
+Unique Running Locations:  (u'uct2-c249.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)
+Unique Running Locations:  (u'uct2-c406.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)
+Unique Running Locations:  (u'iut2-c117.iu.edu:mwt2-gk.campuscluster.illinois.edu\n', 1)
+Unique Running Locations:  (u'uct2-c250.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)
+Unique Running Locations:  (u'iut2-c210.iu.edu:mwt2-gk.campuscluster.illinois.edu\n', 1)
+Unique Running Locations:  (u'fnpc3073.fnal.gov:gpce01.fnal.gov\n', 1)
+Unique Running Locations:  (u'uct2-c248.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)
+Unique Running Locations:  (u'fnpc7202.fnal.gov:gpce01.fnal.gov\n', 1)
 Tq:  [329.46149682998657, 143.21512699127197, 167.71291494369507, 161.2614471912384, 186.24545788764954, 162.15933799743652, 152.1928551197052, 130.37078499794006]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -65,8 +86,15 @@ Tx: 57.744993
 p8u1/rp.session.radical.mingtha.016958.0020.json
 ATTEMPT
 Number of units:  8
-[1, 1, 1, 1, 1, 1, 1, 1]
-Unique Running Locations:  [(u'uct2-c249.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'uct2-c385.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'iut2-c117.iu.edu:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'uct2-c250.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'uct2-c387.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'uct2-c248.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'uct2-c261.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'uct2-c316.mwt2.org:iut2-gk.mwt2.org\n', 1)]
+Pilot Distribution:  [1, 1, 1, 1, 1, 1, 1, 1]
+Unique Running Locations:  (u'uct2-c249.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)
+Unique Running Locations:  (u'uct2-c385.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)
+Unique Running Locations:  (u'iut2-c117.iu.edu:mwt2-gk.campuscluster.illinois.edu\n', 1)
+Unique Running Locations:  (u'uct2-c250.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)
+Unique Running Locations:  (u'uct2-c387.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)
+Unique Running Locations:  (u'uct2-c248.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)
+Unique Running Locations:  (u'uct2-c261.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)
+Unique Running Locations:  (u'uct2-c316.mwt2.org:iut2-gk.mwt2.org\n', 1)
 Tq:  [253.19155597686768, 147.80003094673157, 129.0462920665741, 280.46642589569092, 357.5285370349884, 323.29518699645996, 168.6375560760498, 185.54849195480347]
 Incomplete Units: 0
 Unexecuted Units: 0

@@ -2,8 +2,23 @@
 p32u1/rp.session.radical.mingtha.016959.0000.json
 ATTEMPT
 Number of units:  32
-[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-Unique Running Locations:  [(nan, 16), (u'node0904:osg-ce.clemson.edu\n', 1), (u'node0258:osg-ce.clemson.edu\n', 1), (u'uct2-c172.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'abc-27a:atlas-net2.bu.edu\n', 1), (u'node0227:osg-ce.clemson.edu\n', 1), (u'mwt2-c089:iut2-gk.mwt2.org\n', 1), (u'node0964:osg-ce.clemson.edu\n', 1), (u'node0959:osg-ce.clemson.edu\n', 2), (u'node1010:osg-ce.clemson.edu\n', 1), (u'node0229:osg-ce.clemson.edu\n', 1), (u'node0571:osg-ce.clemson.edu\n', 1), (u'node0528:osg-ce.clemson.edu\n', 1), (u'node0977:osg-ce.clemson.edu\n', 1), (u'node0916:osg-ce.clemson.edu\n', 1), (u'node0206:osg-ce.clemson.edu\n', 1)]
+Pilot Distribution:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Unique Running Locations:  (nan, 16)
+Unique Running Locations:  (u'node0904:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0258:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'uct2-c172.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)
+Unique Running Locations:  (u'abc-27a:atlas-net2.bu.edu\n', 1)
+Unique Running Locations:  (u'node0227:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'mwt2-c089:iut2-gk.mwt2.org\n', 1)
+Unique Running Locations:  (u'node0964:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0959:osg-ce.clemson.edu\n', 2)
+Unique Running Locations:  (u'node1010:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0229:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0571:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0528:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0977:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0916:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0206:osg-ce.clemson.edu\n', 1)
 Tq:  [221.08584213256836, 169.35999703407288, 161.40405797958374, 139.06439709663391, 191.08476209640503, 164.78418707847595, 155.84284710884094, 157.90657901763916, 146.06600689888, 142.70440101623535, 161.24087595939636, 151.49788594245911, 140.14185500144958, 137.96251916885376, 145.13933897018433, 135.83411502838135]
 Incomplete Units: 16
 Unexecuted Units: 16
@@ -12,8 +27,33 @@ Units were hung up
 p32u1/rp.session.radical.mingtha.016959.0001.json
 ATTEMPT
 Number of units:  32
-[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-Unique Running Locations:  [(nan, 7), (u'node0754:osg-ce.clemson.edu\n', 1), (u'nodo91:proton.fis.cinvestav.mx\n', 1), (u'mwt2-c098:osg-gk.mwt2.org\n', 1), (u'node0762:osg-ce.clemson.edu\n', 1), (u'abc-k05:atlas-net2.bu.edu\n', 1), (u'abc-k06:atlas-net2.bu.edu\n', 1), (u'abc-k07:atlas-net2.bu.edu\n', 1), (u'c-106-23.aglt2.org:gate02.grid.umich.edu\n', 1), (u'node0918:osg-ce.clemson.edu\n', 1), (u'c-119-29.aglt2.org:gate02.grid.umich.edu\n', 1), (u'uct2-c150.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1), (u'node1549:osg-ce.clemson.edu\n', 1), (u'node0557:osg-ce.clemson.edu\n', 1), (u'node0217:osg-ce.clemson.edu\n', 1), (u'node1025:osg-ce.clemson.edu\n', 1), (u'node1048:osg-ce.clemson.edu\n', 1), (u'node0534:osg-ce.clemson.edu\n', 1), (u'c-106-15.aglt2.org:gate02.grid.umich.edu\n', 1), (u'abc-17c:atlas-net2.bu.edu\n', 1), (u'abc-14d:atlas-net2.bu.edu\n', 1), (u'abc-16a:atlas-net2.bu.edu\n', 1), (u'abc-25d:atlas-net2.bu.edu\n', 1), (u'nodo87:proton.fis.cinvestav.mx\n', 1), (u'node0518:osg-ce.clemson.edu\n', 1), (u'node0548:osg-ce.clemson.edu\n', 1)]
+Pilot Distribution:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Unique Running Locations:  (nan, 7)
+Unique Running Locations:  (u'node0754:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'nodo91:proton.fis.cinvestav.mx\n', 1)
+Unique Running Locations:  (u'mwt2-c098:osg-gk.mwt2.org\n', 1)
+Unique Running Locations:  (u'node0762:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'abc-k05:atlas-net2.bu.edu\n', 1)
+Unique Running Locations:  (u'abc-k06:atlas-net2.bu.edu\n', 1)
+Unique Running Locations:  (u'abc-k07:atlas-net2.bu.edu\n', 1)
+Unique Running Locations:  (u'c-106-23.aglt2.org:gate02.grid.umich.edu\n', 1)
+Unique Running Locations:  (u'node0918:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'c-119-29.aglt2.org:gate02.grid.umich.edu\n', 1)
+Unique Running Locations:  (u'uct2-c150.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)
+Unique Running Locations:  (u'node1549:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0557:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0217:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node1025:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node1048:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0534:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'c-106-15.aglt2.org:gate02.grid.umich.edu\n', 1)
+Unique Running Locations:  (u'abc-17c:atlas-net2.bu.edu\n', 1)
+Unique Running Locations:  (u'abc-14d:atlas-net2.bu.edu\n', 1)
+Unique Running Locations:  (u'abc-16a:atlas-net2.bu.edu\n', 1)
+Unique Running Locations:  (u'abc-25d:atlas-net2.bu.edu\n', 1)
+Unique Running Locations:  (u'nodo87:proton.fis.cinvestav.mx\n', 1)
+Unique Running Locations:  (u'node0518:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0548:osg-ce.clemson.edu\n', 1)
 Tq:  [196.27632808685303, 173.56804299354553, 109.51912307739258, 124.54183292388916, 193.60905694961548, 181.39917302131653, 156.78360605239868, 164.92157101631165, 214.90612602233887, 498.38022518157959, 193.93334603309631, 153.76764106750488, 168.66930198669434, 110.05061197280884, 185.96830892562866, 151.52946186065674, 140.30777597427368, 159.44090604782104, 169.08775496482849, 147.16525483131409, 105.41747713088989, 210.87407207489014, 192.15659499168396, 149.88412380218506, 362.18472480773926]
 Incomplete Units: 7
 Unexecuted Units: 7
@@ -22,8 +62,26 @@ Units were hung up
 p32u1/rp.session.radical.mingtha.016959.0002.json
 ATTEMPT
 Number of units:  32
-[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-Unique Running Locations:  [(u'stat28.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1), (u'stat13.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1), (u'stat110.phys.uconn.edu:gluskap.phys.uconn.edu\n', 2), (u'stat30.phys.uconn.edu:gluskap.phys.uconn.edu\n', 2), (u'stat4.phys.uconn.edu:gluskap.phys.uconn.edu\n', 2), (u'stat111.phys.uconn.edu:gluskap.phys.uconn.edu\n', 2), (u'stat16.phys.uconn.edu:gluskap.phys.uconn.edu\n', 2), (u'stat117.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1), (u'stat12.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1), (u'stat113.phys.uconn.edu:gluskap.phys.uconn.edu\n', 2), (u'stat114.phys.uconn.edu:gluskap.phys.uconn.edu\n', 3), (u'stat120.phys.uconn.edu:gluskap.phys.uconn.edu\n', 4), (u'stat18.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1), (u'stat6.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1), (u'stat109.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1), (u'red-d23n16.unl.edu:red-gw1.unl.edu\n', 1), (u'stat25.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1), (u'stat116.phys.uconn.edu:gluskap.phys.uconn.edu\n', 2), (u'stat17.phys.uconn.edu:gluskap.phys.uconn.edu\n', 2)]
+Pilot Distribution:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Unique Running Locations:  (u'stat28.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1)
+Unique Running Locations:  (u'stat13.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1)
+Unique Running Locations:  (u'stat110.phys.uconn.edu:gluskap.phys.uconn.edu\n', 2)
+Unique Running Locations:  (u'stat30.phys.uconn.edu:gluskap.phys.uconn.edu\n', 2)
+Unique Running Locations:  (u'stat4.phys.uconn.edu:gluskap.phys.uconn.edu\n', 2)
+Unique Running Locations:  (u'stat111.phys.uconn.edu:gluskap.phys.uconn.edu\n', 2)
+Unique Running Locations:  (u'stat16.phys.uconn.edu:gluskap.phys.uconn.edu\n', 2)
+Unique Running Locations:  (u'stat117.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1)
+Unique Running Locations:  (u'stat12.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1)
+Unique Running Locations:  (u'stat113.phys.uconn.edu:gluskap.phys.uconn.edu\n', 2)
+Unique Running Locations:  (u'stat114.phys.uconn.edu:gluskap.phys.uconn.edu\n', 3)
+Unique Running Locations:  (u'stat120.phys.uconn.edu:gluskap.phys.uconn.edu\n', 4)
+Unique Running Locations:  (u'stat18.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1)
+Unique Running Locations:  (u'stat6.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1)
+Unique Running Locations:  (u'stat109.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1)
+Unique Running Locations:  (u'red-d23n16.unl.edu:red-gw1.unl.edu\n', 1)
+Unique Running Locations:  (u'stat25.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1)
+Unique Running Locations:  (u'stat116.phys.uconn.edu:gluskap.phys.uconn.edu\n', 2)
+Unique Running Locations:  (u'stat17.phys.uconn.edu:gluskap.phys.uconn.edu\n', 2)
 Tq:  [289.28097701072693, 256.18249320983887, 220.47931885719299, 202.1437611579895, 210.28287601470947, 205.0579149723053, 187.39597916603088, 170.28000617027283, 251.01030492782593, 214.68467712402344, 198.49362707138062, 202.25748682022095, 180.00941896438599, 249.40950703620911, 225.30190491676331, 216.11947798728943, 200.98076677322388, 175.82621097564697, 269.80305695533752, 252.9708731174469, 239.50146412849426, 222.29125213623047, 206.097412109375, 190.87090277671814, 176.49389600753784, 265.65015602111816, 236.67952919006348, 229.59408903121948, 208.98468112945557, 195.70303010940552, 150.37723803520203, 157.8529942035675]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -67,8 +125,34 @@ Tx: 135.050880
 p32u1/rp.session.radical.mingtha.016959.0003.json
 ATTEMPT
 Number of units:  32
-[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-Unique Running Locations:  [(nan, 6), (u'node1012:osg-ce.clemson.edu\n', 1), (u'node0122:osg-ce.clemson.edu\n', 1), (u'node0971:osg-ce.clemson.edu\n', 1), (u'stat118.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1), (u'red-d17n10.unl.edu:red-gw1.unl.edu\n', 1), (u'node0641:osg-ce.clemson.edu\n', 1), (u'stat119.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1), (u'mwt2-c066:osg-gk.mwt2.org\n', 1), (u'stat114.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1), (u'stat120.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1), (u'node0967:osg-ce.clemson.edu\n', 1), (u'node0622:osg-ce.clemson.edu\n', 1), (u'node1069:osg-ce.clemson.edu\n', 1), (u'node0303:osg-ce.clemson.edu\n', 1), (u'node1005:osg-ce.clemson.edu\n', 1), (u'node0773:osg-ce.clemson.edu\n', 1), (u'node0939:osg-ce.clemson.edu\n', 1), (u'node0962:osg-ce.clemson.edu\n', 1), (u'node0933:osg-ce.clemson.edu\n', 1), (u'node0638:osg-ce.clemson.edu\n', 1), (u'node0324:osg-ce.clemson.edu\n', 1), (u'node0629:osg-ce.clemson.edu\n', 1), (u'node0952:osg-ce.clemson.edu\n', 1), (u'node0983:osg-ce.clemson.edu\n', 1), (u'stat115.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1), (u'stat105.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1)]
+Pilot Distribution:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Unique Running Locations:  (nan, 6)
+Unique Running Locations:  (u'node1012:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0122:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0971:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'stat118.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1)
+Unique Running Locations:  (u'red-d17n10.unl.edu:red-gw1.unl.edu\n', 1)
+Unique Running Locations:  (u'node0641:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'stat119.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1)
+Unique Running Locations:  (u'mwt2-c066:osg-gk.mwt2.org\n', 1)
+Unique Running Locations:  (u'stat114.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1)
+Unique Running Locations:  (u'stat120.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1)
+Unique Running Locations:  (u'node0967:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0622:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node1069:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0303:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node1005:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0773:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0939:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0962:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0933:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0638:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0324:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0629:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0952:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0983:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'stat115.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1)
+Unique Running Locations:  (u'stat105.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1)
 Tq:  [197.14727711677551, 318.46048188209534, 184.04482507705688, 164.9648129940033, 133.33829593658447, 134.56446981430054, 219.83551788330078, 154.81051898002625, 142.86223888397217, 130.05119609832764, 114.40243005752563, 262.73310899734497, 276.07552289962769, 272.64968299865723, 192.98663091659546, 191.44152188301086, 176.6187150478363, 182.85219717025757, 144.64406085014343, 120.53750514984131, 106.50106000900269, 241.71470594406128, 218.82126998901367, 174.77362990379333, 144.82683682441711, 126.15758800506592]
 Incomplete Units: 6
 Unexecuted Units: 6
@@ -77,8 +161,22 @@ Units were hung up
 p32u1/rp.session.radical.mingtha.016959.0004.json
 ATTEMPT
 Number of units:  32
-[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-Unique Running Locations:  [(nan, 18), (u'node0980:osg-ce.clemson.edu\n', 1), (u'node0258:osg-ce.clemson.edu\n', 1), (u'mwt2-c066:osg-gk.mwt2.org\n', 1), (u'node1071:osg-ce.clemson.edu\n', 1), (u'stat114.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1), (u'node0962:osg-ce.clemson.edu\n', 1), (u'node0899:osg-ce.clemson.edu\n', 1), (u'node0762:osg-ce.clemson.edu\n', 1), (u'node0260:osg-ce.clemson.edu\n', 1), (u'node0303:osg-ce.clemson.edu\n', 1), (u'node0942:osg-ce.clemson.edu\n', 1), (u'node0319:osg-ce.clemson.edu\n', 1), (u'red-d17n10.unl.edu:red-gw1.unl.edu\n', 1), (u'n0436:osg.hyak.washington.edu\n', 1)]
+Pilot Distribution:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Unique Running Locations:  (nan, 18)
+Unique Running Locations:  (u'node0980:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0258:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'mwt2-c066:osg-gk.mwt2.org\n', 1)
+Unique Running Locations:  (u'node1071:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'stat114.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1)
+Unique Running Locations:  (u'node0962:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0899:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0762:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0260:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0303:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0942:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'node0319:osg-ce.clemson.edu\n', 1)
+Unique Running Locations:  (u'red-d17n10.unl.edu:red-gw1.unl.edu\n', 1)
+Unique Running Locations:  (u'n0436:osg.hyak.washington.edu\n', 1)
 Tq:  [121.78565502166748, 162.04103899002075, 227.75346398353577, 197.91468691825867, 189.50526285171509, 167.07393789291382, 153.57906103134155, 128.78094220161438, 120.48906397819519, 217.71028804779053, 253.62199401855469, 178.95144200325012, 174.13219499588013, 119.16605091094971]
 Incomplete Units: 18
 Unexecuted Units: 18

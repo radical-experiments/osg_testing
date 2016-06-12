@@ -2,8 +2,8 @@
 p1u128/rp.session.radical.mingtha.016942.0001.json
 ATTEMPT
 Number of units:  128
-[128]
-Unique Running Locations:  [(u'uct2-c146.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 128)]
+Pilot Distribution:  [128]
+Unique Running Locations:  (u'uct2-c146.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 128)
 Tq:  [167.37553286552429]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -16,8 +16,8 @@ Tx: 1294.125106
 p1u128/rp.session.radical.mingtha.016956.0034.json
 ATTEMPT
 Number of units:  128
-[128]
-Unique Running Locations:  [(u'stat114.phys.uconn.edu:gluskap.phys.uconn.edu\n', 128)]
+Pilot Distribution:  [128]
+Unique Running Locations:  (u'stat114.phys.uconn.edu:gluskap.phys.uconn.edu\n', 128)
 Tq:  [281.76325416564941]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -30,8 +30,8 @@ Tx: 1379.012770
 p1u128/rp.session.radical.mingtha.016956.0035.json
 ATTEMPT
 Number of units:  128
-[128]
-Unique Running Locations:  [(u'n0433:osg.hyak.washington.edu\n', 128)]
+Pilot Distribution:  [128]
+Unique Running Locations:  (u'n0433:osg.hyak.washington.edu\n', 128)
 Tq:  [260.83044290542603]
 Incomplete Units: 1
 Unexecuted Units: 0
@@ -40,8 +40,8 @@ Units were hung up
 p1u128/rp.session.radical.mingtha.016956.0036.json
 ATTEMPT
 Number of units:  128
-[128]
-Unique Running Locations:  [(u'nod21.phys.uconn.edu:gluskap.phys.uconn.edu\n', 128)]
+Pilot Distribution:  [128]
+Unique Running Locations:  (u'nod21.phys.uconn.edu:gluskap.phys.uconn.edu\n', 128)
 Tq:  [227.35760998725891]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -54,8 +54,8 @@ Tx: 1299.650600
 p1u128/rp.session.radical.mingtha.016956.0037.json
 ATTEMPT
 Number of units:  128
-[128]
-Unique Running Locations:  [(u'fnpc3028.fnal.gov:gpce01.fnal.gov\n', 128)]
+Pilot Distribution:  [128]
+Unique Running Locations:  (u'fnpc3028.fnal.gov:gpce01.fnal.gov\n', 128)
 Tq:  [288.97868514060974]
 Incomplete Units: 0
 Unexecuted Units: 0
@@ -68,6 +68,6 @@ Tx: 1295.647247
 p1u128/rp.session.radical.mingtha.016956.0038.json
 ATTEMPT
 Number of units:  128
-[128]
-Unique Running Locations:  [(nan, 128)]
+Pilot Distribution:  [128]
+Unique Running Locations:  (nan, 128)
 HELD. Tq: -1
