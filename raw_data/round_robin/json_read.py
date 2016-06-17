@@ -119,7 +119,7 @@ for i in range(len(pilot.index)):
     except:
         print "HELD. Tq: -1"
         sys.exit()
-print "Tq: ", Tq
+print "Tq per Pilot: ", Tq
 
 #Check if there are any units which did not finish correctly (Enter Done Stage)
 try:
@@ -177,15 +177,91 @@ Tx_interval.append(Tx_array[0])
 
 current_interval = 0
 
-for i in range(1, len(Tx_array)):
-    if Tx_array[i][0] < Tx_interval[current_interval][1]:
-        Tx_interval[current_interval][1] = Tx_array[i][1]
-    else:
-        Tx_interval.append(Tx_array[i])
-        current_interval += 1
+if len(Tx_array) > 1:
+    for i in range(1, len(Tx_array)):
+        if Tx_array[i][0] < Tx_interval[current_interval][1]:
+            if Tx_array[i][1] > Tx_interval[current_interval][1]:
+                Tx_interval[current_interval][1] = Tx_array[i][1]
+        else:
+            Tx_interval.append(Tx_array[i])
+            current_interval += 1
 
 Tx = 0
 for i in range(len(Tx_interval)):
     Tx += Tx_interval[i][1] - Tx_interval[i][0]
 
 print "Tx: %f" % Tx
+
+
+Tq_array = []
+for i in range(len(pilot.index)):
+    Tq_array.append([pilot['PendingActive'][i], pilot['Active'][i]])
+
+
+Tq_array = sorted(Tq_array, key=itemgetter(0))
+Tq_interval = []
+Tq_interval.append(Tq_array[0])
+
+current_interval = 0
+
+if len(Tq_array) > 1:
+    for i in range(1, len(Tq_array)):
+        if Tq_array[i][0] < Tq_interval[current_interval][1]:
+            if Tq_array[i][1] > Tq_interval[current_interval][1]:
+                Tq_interval[current_interval][1] = Tq_array[i][1]
+        else:
+            Tq_interval.append(Tq_array[i])
+            current_interval += 1
+
+    for i in range(len(Tq_interval)):
+        for j in range(len(Tx_interval)):
+
+#           Checks if the Tq and Tx ranges overlap. If not, then break out of loop
+            if Tq_interval[i][0] >= Tx_interval[j][1]:
+                break
+            elif Tq_interval[i][1] <= Tx_interval[j][0]:
+                break
+
+#           Checks if the Tq range is contained in the Tx. If so, then set the Tq range to have
+#           Tq = 0, as the all of the time is used in Tx
+            elif (Tq_interval[i][0] >= Tx_interval[j][0]) & (Tq_interval[i][1] <= Tx_interval[j][1]):
+                Tq_interval[i] = [0.0, 0.0]
+                break
+#           Checks if the Tx is contained in the Tq. If so, split Tq into two ranges to remove the
+#           Tx from the Tq range
+            elif (Tq_interval[i][0] <= Tx_interval[j][0]) & (Tq_interval[i][1] >= Tx_interval[j][1]):
+                
+            #   Checks if there is any waiting after Tx finishes
+                if Tq_interval[i][1] > Tx_interval[j][1]:
+                    Tq_interval.append([Tx_interval[j][1], Tq_interval[i][1]])
+            #   else: Tq_interval[i][1] == Tx_interval[j][1]:      The Tx ends when Tq ends,
+            #   and there is no waiting (Tq) after Tx
+                
+                #Checks if there is any waiting before Tx starts
+                if Tq_interval[i][0] < Tx_interval[j][0]:
+                    Tq_interval[i][1] = Tx_interval[j][0]
+            #   else: Tq_interval[0] == Tx_interval[j][0]: Tx startes when Tq starts,
+            #   and there is no waiting (Tq) before Tx. Thus there is no waiting starting from
+            #   the beginning of Tq
+                else:
+                    Tq_interval = [0.0, 0.0]
+
+#           So the Tq and Tx overlaps, but one is not contained in the other
+            else:
+            
+            #   If i-th Pilot starts waiting while j-th CU is executing
+                if Tq_interval[i][0] > Tx_interval[j][0]:
+                    Tq_interval[i][0] = Tx_interval[j][1]
+            #   If j-th CU start executing while i-th CU is waiting
+                elif Tq_interval[i][1] < Tx_interval[j][1]:
+                    Tq_interval[i][1] = Tx_interval[j][0]
+
+print Tq_interval
+Tq = 0
+for i in range(len(Tq_interval)):
+    Tq += Tq_interval[i][1] - Tq_interval[i][0]
+
+print "Tq: %f" % Tq
+
+tmp = unit['Done'].max() - pilot['Launching'].min()
+print "Tq + Tx: %f, TTC: %f, diff: %f" % ((Tx + Tq), tmp, tmp - (Tx + Tq))

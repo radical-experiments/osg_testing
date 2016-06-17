@@ -4,7 +4,7 @@ ATTEMPT
 Number of units:  16
 Pilot Distribution:  [16]
 Unique Running Locations:  (u'nod25.phys.uconn.edu:gluskap.phys.uconn.edu\n', 16)
-Tq:  [168.45200204849243]
+Tq per Pilot:  [168.45200204849243]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
@@ -12,13 +12,16 @@ TTC:  354.591387987
 TTC per pilot:  [354.59138798713684]
 SUCCESS
 Tx: 162.112401
+[[1463783455.536787, 1463783623.9887891]]
+Tq: 168.452002
+Tq + Tx: 330.564403, TTC: 354.591388, diff: 24.026985
 ----------------------------------------------------------------
 p1u16/rp.session.radical.mingtha.016956.0006.json
 ATTEMPT
 Number of units:  16
 Pilot Distribution:  [16]
 Unique Running Locations:  (u'iut2-c152.iu.edu:osg-gk.mwt2.org\n', 16)
-Tq:  [174.17112112045288]
+Tq per Pilot:  [174.17112112045288]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
@@ -26,13 +29,16 @@ TTC:  360.462217093
 TTC per pilot:  [360.46221709251404]
 SUCCESS
 Tx: 161.570680
+[[1465002685.696106, 1465002859.8672271]]
+Tq: 174.171121
+Tq + Tx: 335.741801, TTC: 360.462217, diff: 24.720416
 ----------------------------------------------------------------
 p1u16/rp.session.radical.mingtha.016956.0007.json
 ATTEMPT
 Number of units:  16
 Pilot Distribution:  [16]
 Unique Running Locations:  (u'stat113.phys.uconn.edu:gluskap.phys.uconn.edu\n', 16)
-Tq:  [348.98564791679382]
+Tq per Pilot:  [348.98564791679382]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
@@ -40,13 +46,16 @@ TTC:  551.812886953
 TTC per pilot:  [551.81288695335388]
 SUCCESS
 Tx: 179.978720
+[[1465003152.998683, 1465003501.9843309]]
+Tq: 348.985648
+Tq + Tx: 528.964368, TTC: 551.812887, diff: 22.848519
 ----------------------------------------------------------------
 p1u16/rp.session.radical.mingtha.016956.0008.json
 ATTEMPT
 Number of units:  16
 Pilot Distribution:  [16]
 Unique Running Locations:  (u'stat115.phys.uconn.edu:gluskap.phys.uconn.edu\n', 16)
-Tq:  [260.62250113487244]
+Tq per Pilot:  [260.62250113487244]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
@@ -54,13 +63,16 @@ TTC:  454.778020144
 TTC per pilot:  [454.77802014350891]
 SUCCESS
 Tx: 170.638444
+[[1465003811.5316019, 1465004072.154103]]
+Tq: 260.622501
+Tq + Tx: 431.260945, TTC: 454.778020, diff: 23.517075
 ----------------------------------------------------------------
 p1u16/rp.session.radical.mingtha.016956.0009.json
 ATTEMPT
 Number of units:  16
 Pilot Distribution:  [16]
 Unique Running Locations:  (u'uct2-c109.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 16)
-Tq:  [181.73892307281494]
+Tq per Pilot:  [181.73892307281494]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
@@ -68,12 +80,15 @@ TTC:  366.608244896
 TTC per pilot:  [366.60824489593506]
 SUCCESS
 Tx: 161.889072
+[[1465004440.7810099, 1465004622.519933]]
+Tq: 181.738923
+Tq + Tx: 343.627995, TTC: 366.608245, diff: 22.980249
 ----------------------------------------------------------------
 p1u16/rp.session.radical.mingtha.016956.0010.json
 ATTEMPT
 Number of units:  16
 Pilot Distribution:  [16]
-Unique Running Locations:  (nan, 16)
+Unique Running Locations:  (None, 16)
 HELD. Tq: -1
 ----------------------------------------------------------------
 p1u16/rp.session.radical.mingtha.016956.0011.json
@@ -81,7 +96,7 @@ ATTEMPT
 Number of units:  16
 Pilot Distribution:  [16]
 Unique Running Locations:  (u'uct2-c326.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 16)
-Tq:  [206.79054689407349]
+Tq per Pilot:  [206.79054689407349]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
@@ -89,13 +104,16 @@ TTC:  390.891946793
 TTC per pilot:  [390.89194679260254]
 SUCCESS
 Tx: 161.104536
+[[1465006370.0067551, 1465006576.797302]]
+Tq: 206.790547
+Tq + Tx: 367.895083, TTC: 390.891947, diff: 22.996864
 ----------------------------------------------------------------
 p1u16/rp.session.radical.mingtha.016956.0012.json
 ATTEMPT
 Number of units:  16
 Pilot Distribution:  [16]
 Unique Running Locations:  (u'iut2-c235.iu.edu:osg-gk.mwt2.org\n', 16)
-Tq:  [159.49555993080139]
+Tq per Pilot:  [159.49555993080139]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
@@ -103,13 +121,16 @@ TTC:  344.521609068
 TTC per pilot:  [344.52160906791687]
 SUCCESS
 Tx: 160.471820
+[[1465007056.9052031, 1465007216.400763]]
+Tq: 159.495560
+Tq + Tx: 319.967380, TTC: 344.521609, diff: 24.554229
 ----------------------------------------------------------------
 p1u16/rp.session.radical.mingtha.016956.0013.json
 ATTEMPT
 Number of units:  16
 Pilot Distribution:  [16]
 Unique Running Locations:  (u'n0287:osg.hyak.washington.edu\n', 16)
-Tq:  [203.70607209205627]
+Tq per Pilot:  [203.70607209205627]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
@@ -117,13 +138,16 @@ TTC:  390.243360996
 TTC per pilot:  [390.24336099624634]
 SUCCESS
 Tx: 162.046265
+[[1465007674.9893849, 1465007878.695457]]
+Tq: 203.706072
+Tq + Tx: 365.752337, TTC: 390.243361, diff: 24.491024
 ----------------------------------------------------------------
 p1u16/rp.session.radical.mingtha.016956.0014.json
 ATTEMPT
 Number of units:  16
 Pilot Distribution:  [16]
 Unique Running Locations:  (u'fnpc8005.fnal.gov:gpce02.fnal.gov\n', 16)
-Tq:  [229.03414916992188]
+Tq per Pilot:  [229.03414916992188]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
@@ -131,13 +155,16 @@ TTC:  416.794595957
 TTC per pilot:  [416.79459595680237]
 SUCCESS
 Tx: 164.564779
+[[1465008344.4957969, 1465008573.5299461]]
+Tq: 229.034149
+Tq + Tx: 393.598928, TTC: 416.794596, diff: 23.195668
 ----------------------------------------------------------------
 p1u16/rp.session.radical.mingtha.016956.0015.json
 ATTEMPT
 Number of units:  16
 Pilot Distribution:  [16]
 Unique Running Locations:  (u'fnpc7018.fnal.gov:gpce02.fnal.gov\n', 16)
-Tq:  [231.2400050163269]
+Tq per Pilot:  [231.2400050163269]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
@@ -145,10 +172,13 @@ TTC:  421.066174984
 TTC per pilot:  [421.06617498397827]
 SUCCESS
 Tx: 161.958711
+[[1465008823.4478559, 1465009054.687861]]
+Tq: 231.240005
+Tq + Tx: 393.198716, TTC: 421.066175, diff: 27.867459
 ----------------------------------------------------------------
 p1u16/rp.session.radical.mingtha.016956.0016.json
 ATTEMPT
 Number of units:  16
 Pilot Distribution:  [16]
-Unique Running Locations:  (nan, 16)
+Unique Running Locations:  (None, 16)
 HELD. Tq: -1

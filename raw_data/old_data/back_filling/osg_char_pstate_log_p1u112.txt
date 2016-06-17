@@ -1,0 +1,16 @@
+running on osg.xsede-virt-clust
+new session: rp.session.radical.mingtha.016883.00060
+database   : mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb
+session id: rp.session.radical.mingtha.016883.0006
+create pilot manager
+create unit manager
+submit 112 unit(s)
+create pilot description
+submit 1 pilot(s)
+add 1 pilot(s)
+wait for 112 unit(s)
+closing session rp.session.radical.mingtha.016883.0006
+close pilot manager
+wait for 1 pilot(s)
+close unit manager
+session lifetime: 4072.4s

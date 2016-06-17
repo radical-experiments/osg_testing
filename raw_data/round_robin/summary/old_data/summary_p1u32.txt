@@ -1,0 +1,114 @@
+----------------------------------------------------------------
+p1u32/rp.session.radical.mingtha.016941.0014.json
+ATTEMPT
+Number of units:  32
+Pilot Distribution:  [32]
+Unique Running Locations:  (u'uct2-c098.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 32)
+Tq:  [219.77687788009644]
+Incomplete Units: 0
+Unexecuted Units: 0
+CHECKING UNITS
+TTC:  568.46437192
+TTC per pilot:  [568.46437191963196]
+SUCCESS
+Tx: 323.512718
+----------------------------------------------------------------
+p1u32/rp.session.radical.mingtha.016956.0017.json
+ATTEMPT
+Number of units:  32
+Pilot Distribution:  [32]
+Unique Running Locations:  (u'fnpc8007.fnal.gov:gpce02.fnal.gov\n', 32)
+Tq:  [222.29523277282715]
+Incomplete Units: 0
+Unexecuted Units: 0
+CHECKING UNITS
+TTC:  574.500066996
+TTC per pilot:  [574.50006699562073]
+SUCCESS
+Tx: 323.682561
+----------------------------------------------------------------
+p1u32/rp.session.radical.mingtha.016956.0018.json
+ATTEMPT
+Number of units:  32
+Pilot Distribution:  [32]
+Unique Running Locations:  (nan, 32)
+HELD. Tq: -1
+----------------------------------------------------------------
+p1u32/rp.session.radical.mingtha.016956.0019.json
+ATTEMPT
+Number of units:  32
+Pilot Distribution:  [32]
+Unique Running Locations:  (u'fnpc6002.fnal.gov:gpce01.fnal.gov\n', 32)
+Tq:  [259.73808598518372]
+Incomplete Units: 0
+Unexecuted Units: 0
+CHECKING UNITS
+TTC:  607.673115015
+TTC per pilot:  [607.67311501502991]
+SUCCESS
+Tx: 323.952575
+----------------------------------------------------------------
+EMPTY UNIT DATAFRAME
+EMPTY PILOT DATAFRAME
+----------------------------------------------------------------
+p1u32/rp.session.radical.mingtha.016956.0021.json
+ATTEMPT
+Number of units:  32
+Pilot Distribution:  [32]
+Unique Running Locations:  (nan, 32)
+HELD. Tq: -1
+----------------------------------------------------------------
+p1u32/rp.session.radical.mingtha.016956.0022.json
+ATTEMPT
+Number of units:  32
+Pilot Distribution:  [32]
+Unique Running Locations:  (nan, 32)
+HELD. Tq: -1
+----------------------------------------------------------------
+p1u32/rp.session.radical.mingtha.016956.0023.json
+ATTEMPT
+Number of units:  32
+Pilot Distribution:  [32]
+Unique Running Locations:  (nan, 32)
+HELD. Tq: -1
+----------------------------------------------------------------
+p1u32/rp.session.radical.mingtha.016956.0024.json
+ATTEMPT
+Number of units:  32
+Pilot Distribution:  [32]
+Unique Running Locations:  (u'fnpc4120.fnal.gov:gpce01.fnal.gov\n', 32)
+Tq:  [322.27734112739563]
+Incomplete Units: 0
+Unexecuted Units: 0
+CHECKING UNITS
+TTC:  670.121446848
+TTC per pilot:  [670.12144684791565]
+SUCCESS
+Tx: 323.879412
+----------------------------------------------------------------
+p1u32/rp.session.radical.mingtha.016956.0025.json
+ATTEMPT
+Number of units:  32
+Pilot Distribution:  [32]
+Unique Running Locations:  (u'uct2-c061.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 32)
+Tq:  [251.39449000358582]
+Incomplete Units: 0
+Unexecuted Units: 0
+CHECKING UNITS
+TTC:  602.449979067
+TTC per pilot:  [602.44997906684875]
+SUCCESS
+Tx: 323.551564
+----------------------------------------------------------------
+EMPTY UNIT DATAFRAME
+EMPTY PILOT DATAFRAME
+----------------------------------------------------------------
+EMPTY UNIT DATAFRAME
+EMPTY PILOT DATAFRAME
+----------------------------------------------------------------
+p1u32/rp.session.radical.mingtha.016956.0028.json
+ATTEMPT
+Number of units:  32
+Pilot Distribution:  [32]
+Unique Running Locations:  (nan, 32)
+HELD. Tq: -1

@@ -1,0 +1,73 @@
+----------------------------------------------------------------
+p1u256/rp.session.radical.mingtha.016942.0003.json
+ATTEMPT
+Number of units:  256
+Pilot Distribution:  [256]
+Unique Running Locations:  (u'n0158:osg.hyak.washington.edu\n', 256)
+Tq:  [183.49808216094971]
+Incomplete Units: 0
+Unexecuted Units: 0
+CHECKING UNITS
+TTC:  2805.91588306
+TTC per pilot:  [2805.91588306427]
+SUCCESS
+Tx: 2590.401518
+----------------------------------------------------------------
+p1u256/rp.session.radical.mingtha.016956.0039.json
+ATTEMPT
+Number of units:  256
+Pilot Distribution:  [256]
+Unique Running Locations:  (u'uct2-c045.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 256)
+Tq:  [266.98240780830383]
+Incomplete Units: 0
+Unexecuted Units: 0
+CHECKING UNITS
+TTC:  2882.60970902
+TTC per pilot:  [2882.6097090244293]
+SUCCESS
+Tx: 2588.505611
+----------------------------------------------------------------
+p1u256/rp.session.radical.mingtha.016956.0040.json
+ATTEMPT
+Number of units:  256
+Pilot Distribution:  [256]
+Unique Running Locations:  (u'fnpc4028.fnal.gov:gpce01.fnal.gov\n', 256)
+Tq:  [310.58310985565186]
+Incomplete Units: 0
+Unexecuted Units: 0
+CHECKING UNITS
+TTC:  2930.14677596
+TTC per pilot:  [2930.1467759609222]
+SUCCESS
+Tx: 2593.380781
+----------------------------------------------------------------
+p1u256/rp.session.radical.mingtha.016956.0041.json
+ATTEMPT
+Number of units:  256
+Pilot Distribution:  [256]
+Unique Running Locations:  (u'uct2-c105.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 256)
+Tq:  [206.05393099784851]
+Incomplete Units: 1
+Unexecuted Units: 0
+Units were hung up
+----------------------------------------------------------------
+p1u256/rp.session.radical.mingtha.016956.0042.json
+ATTEMPT
+Number of units:  256
+Pilot Distribution:  [256]
+Unique Running Locations:  (nan, 256)
+HELD. Tq: -1
+----------------------------------------------------------------
+p1u256/rp.session.radical.mingtha.016956.0043.json
+ATTEMPT
+Number of units:  256
+Pilot Distribution:  [256]
+Unique Running Locations:  (u'stat116.phys.uconn.edu:gluskap.phys.uconn.edu\n', 256)
+Tq:  [259.26505088806152]
+Incomplete Units: 0
+Unexecuted Units: 0
+CHECKING UNITS
+TTC:  2879.45383406
+TTC per pilot:  [2879.4538340568542]
+SUCCESS
+Tx: 2595.080766

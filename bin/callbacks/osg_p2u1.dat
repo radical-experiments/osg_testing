@@ -1,0 +1,240 @@
+modes   : export
+db url  : mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb
+session : rp.session.radical.mingtha.016968.0018
+age     : -999999999 days, 0:00:00
+check  session rp.session.radical.mingtha.016968.0018 + (   2:04:53.135349)
+export session rp.session.radical.mingtha.016968.0018.json
+running on osg.xsede-virt-clust
+session id: rp.session.radical.mingtha.016968.0018
+['pilot.0000', 'PendingLaunch', 8.112797975540161]
+['pilot.0000', u'Launching', 8.96557092666626]
+['pilot.0001', 'PendingLaunch', 11.24065899848938]
+{'database_url': 'mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb', 'connected': 1466096238.448953, 'uid': 'rp.session.radical.mingtha.016968.0018', 'closed': None, 'created': 1466096238.448953}
+['unit.000001', None, u'Unscheduled', 15.620182991027832]
+['unit.000000', None, u'Unscheduled', 15.620256900787354]
+['pilot.0001', u'Launching', 26.63861107826233]
+['pilot.0000', u'PendingActive', 26.638710975646973]
+['pilot.0001', u'PendingActive', 38.77281308174133]
+['pilot.0001', u'Active', 261.5798690319061]
+['unit.000001', u'pilot.0001', u'StagingInput', 263.78392791748047]
+['unit.000001', u'pilot.0001', u'AgentStagingInputPending', 266.8838908672333]
+['unit.000001', u'pilot.0001', u'Executing', 269.9779679775238]
+['unit.000001', u'pilot.0001', u'Done', 279.6561498641968]
+['unit.000000', u'pilot.0001', u'Executing', 283.24074387550354]
+['unit.000000', u'pilot.0001', u'Done', 292.64272809028625]
+{'database_url': 'mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb', 'connected': 1466096238.448953, 'uid': 'rp.session.radical.mingtha.016968.0018', 'closed': None, 'created': 1466096238.448953}
+['pilot.0001', u'Canceled', 305.8050549030304]
+modes   : export
+db url  : mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb
+session : rp.session.radical.mingtha.016968.0019
+age     : -999999999 days, 0:00:00
+check  session rp.session.radical.mingtha.016968.0019 + (   2:06:04.709437)
+export session rp.session.radical.mingtha.016968.0019.json
+running on osg.xsede-virt-clust
+session id: rp.session.radical.mingtha.016968.0019
+['pilot.0000', 'PendingLaunch', 9.648437023162842]
+['pilot.0000', u'Launching', 10.782916069030762]
+['pilot.0001', 'PendingLaunch', 12.779948949813843]
+{'database_url': 'mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb', 'connected': 1466097066.943322, 'uid': 'rp.session.radical.mingtha.016968.0019', 'closed': None, 'created': 1466097066.943322}
+['unit.000001', None, u'Unscheduled', 23.01271891593933]
+['unit.000000', None, u'Unscheduled', 23.01279902458191]
+['pilot.0001', u'Launching', 27.580693006515503]
+['pilot.0000', u'PendingActive', 27.580785036087036]
+['pilot.0001', u'PendingActive', 41.98783206939697]
+['pilot.0000', u'Active', 340.725301027298]
+['unit.000001', u'pilot.0000', u'AgentStagingInputPending', 342.36329793930054]
+['pilot.0001', u'Active', 344.580619096756]
+['unit.000000', u'pilot.0001', u'AgentStagingInputPending', 345.4605450630188]
+['unit.000001', u'pilot.0000', u'Executing', 348.55757904052734]
+['unit.000000', u'pilot.0001', u'Executing', 354.7481110095978]
+['unit.000001', u'pilot.0000', u'Done', 357.94084095954895]
+['unit.000000', u'pilot.0001', u'AgentStagingOutputPending', 361.2628901004791]
+['unit.000000', u'pilot.0001', u'Done', 364.45709109306335]
+{'database_url': 'mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb', 'connected': 1466097066.943322, 'uid': 'rp.session.radical.mingtha.016968.0019', 'closed': None, 'created': 1466097066.943322}
+['pilot.0001', u'Canceled', 369.35428500175476]
+['pilot.0000', u'Canceled', 374.7094039916992]
+modes   : export
+db url  : mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb
+session : rp.session.radical.mingtha.016968.0020
+age     : -999999999 days, 0:00:00
+check  session rp.session.radical.mingtha.016968.0020 + (   2:03:50.666456)
+export session rp.session.radical.mingtha.016968.0020.json
+running on osg.xsede-virt-clust
+session id: rp.session.radical.mingtha.016968.0020
+[None, u'Launching', 11.124575138092041]
+['pilot.0000', u'Launching', 11.222203016281128]
+['pilot.0001', 'PendingLaunch', 16.513241052627563]
+{'database_url': 'mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb', 'connected': 1466097694.078033, 'uid': 'rp.session.radical.mingtha.016968.0020', 'closed': None, 'created': 1466097694.078033}
+['unit.000001', None, u'Unscheduled', 25.927038192749023]
+['pilot.0001', u'Launching', 28.057741165161133]
+['pilot.0000', u'PendingActive', 28.057793140411377]
+['unit.000000', None, u'Unscheduled', 29.028691053390503]
+['pilot.0001', u'PendingActive', 41.30475115776062]
+['pilot.0001', u'Active', 194.207444190979]
+['unit.000001', u'pilot.0001', u'AgentStagingInputPending', 197.20678615570068]
+['unit.000001', u'pilot.0001', u'Executing', 200.30457711219788]
+['unit.000001', u'pilot.0001', u'AgentStagingOutputPending', 209.59058904647827]
+['unit.000001', u'pilot.0001', u'Done', 213.05926299095154]
+['pilot.0000', u'Active', 213.2620391845703]
+['unit.000000', u'pilot.0001', u'Executing', 218.31229400634766]
+['unit.000000', u'pilot.0001', u'Done', 230.59006714820862]
+{'database_url': 'mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb', 'connected': 1466097694.078033, 'uid': 'rp.session.radical.mingtha.016968.0020', 'closed': None, 'created': 1466097694.078033}
+['pilot.0000', u'Canceled', 238.1564121246338]
+['pilot.0001', u'Canceled', 239.98522400856018]
+modes   : export
+db url  : mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb
+session : rp.session.radical.mingtha.016968.0021
+age     : -999999999 days, 0:00:00
+check  session rp.session.radical.mingtha.016968.0021 + (   2:05:10.941758)
+export session rp.session.radical.mingtha.016968.0021.json
+running on osg.xsede-virt-clust
+session id: rp.session.radical.mingtha.016968.0021
+['pilot.0000', u'PendingLaunch', 8.829523086547852]
+['pilot.0000', u'Launching', 9.840434074401855]
+['pilot.0001', 'PendingLaunch', 11.948317050933838]
+{'database_url': 'mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb', 'connected': 1466098150.387943, 'uid': 'rp.session.radical.mingtha.016968.0021', 'closed': None, 'created': 1466098150.387943}
+['unit.000001', None, u'Unscheduled', 16.198760986328125]
+['unit.000000', None, u'Unscheduled', 16.198846101760864]
+['pilot.0001', u'Launching', 26.763878107070923]
+['pilot.0000', u'PendingActive', 26.763962984085083]
+['pilot.0001', u'PendingActive', 39.98086905479431]
+['pilot.0000', u'Active', 272.539794921875]
+['unit.000001', u'pilot.0000', u'StagingInput', 279.03366589546204]
+['unit.000001', u'pilot.0000', u'Executing', 282.1416380405426]
+['pilot.0001', u'Active', 283.49553298950195]
+['unit.000000', u'pilot.0001', u'AgentStagingInputPending', 287.00033497810364]
+['unit.000001', u'pilot.0000', u'AgentStagingOutputPending', 290.10041093826294]
+['unit.000000', u'pilot.0001', u'Executing', 290.10050201416016]
+['unit.000001', u'pilot.0000', u'Done', 293.3822441101074]
+['unit.000000', u'pilot.0001', u'AgentStagingOutput', 307.655601978302]
+{'database_url': 'mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb', 'connected': 1466098150.387943, 'uid': 'rp.session.radical.mingtha.016968.0021', 'closed': None, 'created': 1466098150.387943}
+['unit.000000', u'pilot.0001', u'Done', 310.84649896621704]
+['pilot.0000', u'Canceled', 317.5935471057892]
+['pilot.0001', u'Canceled', 323.0200641155243]
+modes   : export
+db url  : mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb
+session : rp.session.radical.mingtha.016968.0022
+age     : -999999999 days, 0:00:00
+check  session rp.session.radical.mingtha.016968.0022 + (   2:03:43.998967)
+export session rp.session.radical.mingtha.016968.0022.json
+running on osg.xsede-virt-clust
+session id: rp.session.radical.mingtha.016968.0022
+[None, u'Launching', 11.905153036117554]
+['pilot.0000', u'Launching', 12.002944231033325]
+['pilot.0001', 'PendingLaunch', 17.295608043670654]
+{'database_url': 'mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb', 'connected': 1466098776.020259, 'uid': 'rp.session.radical.mingtha.016968.0022', 'closed': None, 'created': 1466098776.020259}
+['unit.000001', None, u'Unscheduled', 21.947127103805542]
+['unit.000000', None, u'Unscheduled', 21.94721508026123]
+['pilot.0001', u'Launching', 31.87117314338684]
+['pilot.0000', u'PendingActive', 31.871275186538696]
+['pilot.0001', u'PendingActive', 41.8104350566864]
+['pilot.0000', u'Active', 190.63533520698547]
+['unit.000001', u'pilot.0000', u'StagingInput', 195.71868300437927]
+['unit.000001', u'pilot.0000', u'Executing', 198.81266903877258]
+['unit.000001', u'pilot.0000', u'Done', 208.68549013137817]
+['unit.000000', u'pilot.0000', u'Executing', 211.87063002586365]
+['pilot.0001', u'Active', 214.95624208450317]
+['unit.000000', u'pilot.0000', u'PendingOutputStaging', 221.2586851119995]
+['unit.000000', u'pilot.0000', u'Done', 224.3523690700531]
+{'database_url': 'mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb', 'connected': 1466098776.020259, 'uid': 'rp.session.radical.mingtha.016968.0022', 'closed': None, 'created': 1466098776.020259}
+['pilot.0001', u'Canceled', 230.83191108703613]
+['pilot.0000', u'Canceled', 234.85482716560364]
+running on osg.xsede-virt-clust
+session id: rp.session.radical.mingtha.016968.0023
+['pilot.0000', u'PendingLaunch', 8.900490045547485]
+['pilot.0000', u'Launching', 9.99492597579956]
+['pilot.0001', 'PendingLaunch', 12.052517175674438]
+['pilot.0000', u'PendingActive', 29.280798196792603]
+{'database_url': 'mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb', 'connected': 1466099056.991091, 'uid': 'rp.session.radical.mingtha.016968.0023', 'closed': None, 'created': 1466099056.991091}
+['pilot.0001', u'Launching', 29.57059597969055]
+['unit.000001', None, u'Unscheduled', 30.267524003982544]
+['unit.000000', None, u'Unscheduled', 30.267616987228394]
+['pilot.0001', u'PendingActive', 42.78315711021423]
+need to exit now: 
+modes   : export
+db url  : mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb
+session : rp.session.radical.mingtha.016968.0027
+age     : -999999999 days, 0:00:00
+running on osg.xsede-virt-clust
+session id: rp.session.radical.mingtha.016968.0027
+['pilot.0000', u'PendingLaunch', 8.03282904624939]
+['pilot.0000', u'Launching', 9.066224098205566]
+['pilot.0001', 'PendingLaunch', 11.166958093643188]
+{'database_url': 'mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb', 'connected': 1466101507.91666, 'uid': 'rp.session.radical.mingtha.016968.0027', 'closed': None, 'created': 1466101507.91666}
+['unit.000001', None, u'Unscheduled', 15.138081073760986]
+['unit.000000', None, u'Unscheduled', 15.13812804222107]
+['pilot.0001', u'Launching', 25.80686616897583]
+['pilot.0000', u'PendingActive', 25.80691909790039]
+['pilot.0001', u'PendingActive', 38.14520716667175]
+need to exit now: 
+modes   : export
+db url  : mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb
+session : rp.session.radical.mingtha.016968.0028
+age     : -999999999 days, 0:00:00
+running on osg.xsede-virt-clust
+session id: rp.session.radical.mingtha.016968.0028
+['pilot.0000', 'PendingLaunch', 11.852996826171875]
+['pilot.0000', u'Launching', 12.768255949020386]
+['pilot.0001', 'PendingLaunch', 15.03739595413208]
+{'database_url': 'mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb', 'connected': 1466101863.48626, 'uid': 'rp.session.radical.mingtha.016968.0028', 'closed': None, 'created': 1466101863.48626}
+['unit.000001', None, u'Unscheduled', 19.065064907073975]
+['unit.000000', None, u'Unscheduled', 19.065165996551514]
+['pilot.0000', u'PendingActive', 29.493390798568726]
+['pilot.0001', u'Launching', 30.67976188659668]
+['pilot.0001', u'PendingActive', 42.799325942993164]
+need to exit now: 
+modes   : export
+db url  : mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb
+session : rp.session.radical.mingtha.016968.0029
+age     : -999999999 days, 0:00:00
+check  session rp.session.radical.mingtha.016968.0029 + (   2:03:37.197671)
+export session rp.session.radical.mingtha.016968.0029.json
+running on osg.xsede-virt-clust
+session id: rp.session.radical.mingtha.016968.0029
+['pilot.0000', u'PendingLaunch', 9.410605192184448]
+['pilot.0000', u'Launching', 10.395385980606079]
+['pilot.0001', 'PendingLaunch', 12.54305100440979]
+{'database_url': 'mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb', 'connected': 1466102302.184203, 'uid': 'rp.session.radical.mingtha.016968.0029', 'closed': None, 'created': 1466102302.184203}
+['unit.000001', None, u'Unscheduled', 16.73318600654602]
+['unit.000000', None, u'Unscheduled', 16.733283042907715]
+['pilot.0001', u'Launching', 27.230138063430786]
+['pilot.0000', u'PendingActive', 27.230252981185913]
+['pilot.0001', u'PendingActive', 39.37063503265381]
+['pilot.0000', u'Active', 193.3800950050354]
+['pilot.0001', u'Active', 193.8563690185547]
+['unit.000001', u'pilot.0000', u'StagingInput', 201.19687604904175]
+['unit.000001', u'pilot.0000', u'Executing', 204.29363012313843]
+['unit.000000', u'pilot.0001', u'Executing', 204.29370212554932]
+['unit.000001', u'pilot.0000', u'Done', 213.68063306808472]
+['unit.000000', u'pilot.0001', u'StagingOutput', 213.8746690750122]
+['unit.000000', u'pilot.0001', u'Done', 216.97413611412048]
+{'database_url': 'mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb', 'connected': 1466102302.184203, 'uid': 'rp.session.radical.mingtha.016968.0029', 'closed': None, 'created': 1466102302.184203}
+['pilot.0000', u'Canceled', 227.79602003097534]
+['pilot.0001', u'Canceled', 228.49606204032898]
+modes   : export
+db url  : mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb
+session : rp.session.radical.mingtha.016968.0030
+age     : -999999999 days, 0:00:00
+check  session rp.session.radical.mingtha.016968.0030 + (   2:07:09.465534)
+export session rp.session.radical.mingtha.016968.0030.json
+running on osg.xsede-virt-clust
+session id: rp.session.radical.mingtha.016968.0030
+['pilot.0000', u'PendingLaunch', 9.525333881378174]
+['pilot.0000', u'Launching', 10.51870584487915]
+['pilot.0001', 'PendingLaunch', 12.640697956085205]
+{'database_url': 'mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb', 'connected': 1466102655.238567, 'uid': 'rp.session.radical.mingtha.016968.0030', 'closed': None, 'created': 1466102655.238567}
+['unit.000001', None, u'Unscheduled', 20.648292064666748]
+['unit.000000', None, u'Unscheduled', 20.648387908935547]
+['pilot.0001', u'Launching', 27.40150284767151]
+['pilot.0000', u'PendingActive', 27.401599884033203]
+['pilot.0001', u'PendingActive', 40.59957504272461]
+['pilot.0000', u'Active', 385.25292897224426]
+['unit.000001', u'pilot.0000', u'AgentStagingInputPending', 392.6984829902649]
+['unit.000001', u'pilot.0000', u'Executing', 395.7927930355072]
+['unit.000001', u'pilot.0000', u'AgentStagingOutputPending', 401.97764897346497]
+['unit.000001', u'pilot.0000', u'Done', 409.3660888671875]
+['unit.000000', u'pilot.0000', u'Executing', 412.554349899292]
+['unit.000000', u'pilot.0000', u'StagingOutput', 426.21196699142456]
+['unit.000000', u'pilot.0000', u'Done', 429.3090958595276]
+{'database_url': 'mongodb://mingtaiha:mingtaiha@ds053838.mlab.com:53838/hicomb', 'connected': 1466102655.238567, 'uid': 'rp.session.radical.mingtha.016968.0030', 'closed': None, 'created': 1466102655.238567}
+['pilot.0000', u'Canceled', 440.7333948612213]

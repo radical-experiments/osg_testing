@@ -4,7 +4,7 @@ ATTEMPT
 Number of units:  1
 Pilot Distribution:  [1]
 Unique Running Locations:  (u'stat107.phys.uconn.edu:gluskap.phys.uconn.edu\n', 1)
-Tq:  [167.83288717269897]
+Tq per Pilot:  [167.83288717269897]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
@@ -12,13 +12,16 @@ TTC:  204.511245012
 TTC per pilot:  [204.51124501228333]
 SUCCESS
 Tx: 10.106963
+[[1463776421.2957439, 1463776589.1286311]]
+Tq: 167.832887
+Tq + Tx: 177.939850, TTC: 204.511245, diff: 26.571395
 ----------------------------------------------------------------
 p1u1/rp.session.radical.mingtha.016955.0001.json
 ATTEMPT
 Number of units:  1
 Pilot Distribution:  [1]
 Unique Running Locations:  (u'uct2-c232.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)
-Tq:  [346.66219711303711]
+Tq per Pilot:  [346.66219711303711]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
@@ -26,13 +29,16 @@ TTC:  381.088284016
 TTC per pilot:  [381.08828401565552]
 SUCCESS
 Tx: 10.040164
+[[1464973183.5995989, 1464973530.261796]]
+Tq: 346.662197
+Tq + Tx: 356.702361, TTC: 381.088284, diff: 24.385923
 ----------------------------------------------------------------
 p1u1/rp.session.radical.mingtha.016955.0002.json
 ATTEMPT
 Number of units:  1
 Pilot Distribution:  [1]
 Unique Running Locations:  (u'uct2-c232.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)
-Tq:  [174.00556898117065]
+Tq per Pilot:  [174.00556898117065]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
@@ -40,13 +46,16 @@ TTC:  208.987840176
 TTC per pilot:  [208.98784017562866]
 SUCCESS
 Tx: 10.141078
+[[1464973630.4235401, 1464973804.4291091]]
+Tq: 174.005569
+Tq + Tx: 184.146647, TTC: 208.987840, diff: 24.841193
 ----------------------------------------------------------------
 p1u1/rp.session.radical.mingtha.016955.0003.json
 ATTEMPT
 Number of units:  1
 Pilot Distribution:  [1]
 Unique Running Locations:  (u'taub120:mwt2-gk.campuscluster.illinois.edu\n', 1)
-Tq:  [196.9189281463623]
+Tq per Pilot:  [196.9189281463623]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
@@ -54,13 +63,16 @@ TTC:  233.684640169
 TTC per pilot:  [233.68464016914368]
 SUCCESS
 Tx: 10.110032
+[[1464974159.0541389, 1464974355.973067]]
+Tq: 196.918928
+Tq + Tx: 207.028960, TTC: 233.684640, diff: 26.655680
 ----------------------------------------------------------------
 p1u1/rp.session.radical.mingtha.016955.0004.json
 ATTEMPT
 Number of units:  1
 Pilot Distribution:  [1]
 Unique Running Locations:  (u'taub105:osg-gk.mwt2.org\n', 1)
-Tq:  [257.02059483528137]
+Tq per Pilot:  [257.02059483528137]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
@@ -68,13 +80,16 @@ TTC:  297.60341692
 TTC per pilot:  [297.60341691970825]
 SUCCESS
 Tx: 10.042636
+[[1464974507.0882211, 1464974764.1088159]]
+Tq: 257.020595
+Tq + Tx: 267.063231, TTC: 297.603417, diff: 30.540186
 ----------------------------------------------------------------
 p1u1/rp.session.radical.mingtha.016955.0005.json
 ATTEMPT
 Number of units:  1
 Pilot Distribution:  [1]
 Unique Running Locations:  (u'node1041:osg-ce.clemson.edu\n', 1)
-Tq:  [232.0191490650177]
+Tq per Pilot:  [232.0191490650177]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
@@ -82,13 +97,16 @@ TTC:  267.53482008
 TTC per pilot:  [267.53482007980347]
 SUCCESS
 Tx: 10.108486
+[[1464975336.859333, 1464975568.8784821]]
+Tq: 232.019149
+Tq + Tx: 242.127635, TTC: 267.534820, diff: 25.407185
 ----------------------------------------------------------------
 p1u1/rp.session.radical.mingtha.016955.0006.json
 ATTEMPT
 Number of units:  1
 Pilot Distribution:  [1]
 Unique Running Locations:  (u'mwt2-c053:mwt2-gk.campuscluster.illinois.edu\n', 1)
-Tq:  [194.85380578041077]
+Tq per Pilot:  [194.85380578041077]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
@@ -96,13 +114,16 @@ TTC:  229.093449116
 TTC per pilot:  [229.09344911575317]
 SUCCESS
 Tx: 10.066897
+[[1464975715.0693531, 1464975909.9231589]]
+Tq: 194.853806
+Tq + Tx: 204.920703, TTC: 229.093449, diff: 24.172746
 ----------------------------------------------------------------
 p1u1/rp.session.radical.mingtha.016955.0007.json
 ATTEMPT
 Number of units:  1
 Pilot Distribution:  [1]
 Unique Running Locations:  (u'node0854:osg-ce.clemson.edu\n', 1)
-Tq:  [221.19549894332886]
+Tq per Pilot:  [221.19549894332886]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
@@ -110,13 +131,16 @@ TTC:  254.932064056
 TTC per pilot:  [254.93206405639648]
 SUCCESS
 Tx: 10.115308
+[[1464976072.0324211, 1464976293.2279201]]
+Tq: 221.195499
+Tq + Tx: 231.310807, TTC: 254.932064, diff: 23.621257
 ----------------------------------------------------------------
 p1u1/rp.session.radical.mingtha.016955.0008.json
 ATTEMPT
 Number of units:  1
 Pilot Distribution:  [1]
 Unique Running Locations:  (u'node0925:osg-ce.clemson.edu\n', 1)
-Tq:  [152.55509400367737]
+Tq per Pilot:  [152.55509400367737]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
@@ -124,13 +148,16 @@ TTC:  186.178122997
 TTC per pilot:  [186.17812299728394]
 SUCCESS
 Tx: 10.103111
+[[1464976624.500175, 1464976777.055269]]
+Tq: 152.555094
+Tq + Tx: 162.658205, TTC: 186.178123, diff: 23.519918
 ----------------------------------------------------------------
 p1u1/rp.session.radical.mingtha.016955.0009.json
 ATTEMPT
 Number of units:  1
 Pilot Distribution:  [1]
 Unique Running Locations:  (u'node0925:osg-ce.clemson.edu\n', 1)
-Tq:  [629.41811609268188]
+Tq per Pilot:  [629.41811609268188]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
@@ -138,13 +165,16 @@ TTC:  668.042654991
 TTC per pilot:  [668.0426549911499]
 SUCCESS
 Tx: 10.107724
+[[1464977449.6350739, 1464978079.05319]]
+Tq: 629.418116
+Tq + Tx: 639.525840, TTC: 668.042655, diff: 28.516815
 ----------------------------------------------------------------
 p1u1/rp.session.radical.mingtha.016955.0010.json
 ATTEMPT
 Number of units:  1
 Pilot Distribution:  [1]
 Unique Running Locations:  (u'uct2-c095.mwt2.org:mwt2-gk.campuscluster.illinois.edu\n', 1)
-Tq:  [220.49103713035583]
+Tq per Pilot:  [220.49103713035583]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
@@ -152,3 +182,6 @@ TTC:  253.477322817
 TTC per pilot:  [253.47732281684875]
 SUCCESS
 Tx: 10.055124
+[[1464979401.6807539, 1464979622.1717911]]
+Tq: 220.491037
+Tq + Tx: 230.546161, TTC: 253.477323, diff: 22.931162

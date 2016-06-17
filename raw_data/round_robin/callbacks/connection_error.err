@@ -1,0 +1,28 @@
+2016-06-04 07:33:15,325: radical.saga.pty    : MainProcess                     : MainThread     : ERROR   : read from process failed '[Errno 5] Input/output error' : (ssh: connect to host xd-login.opensciencegrid.org port 22: Connection timed out
+) ((ssh: connect to host xd-login.opensciencegrid.org port 22: Connection timed out
+)) (/home/mingtha/ve/ve.aimes_osg/local/lib/python2.7/site-packages/saga/utils/pty_exceptions.py +43 (translate_exception)  :  e = se.BadParameter (cmsg))
+Traceback (most recent call last):
+File "/home/mingtha/ve/ve.aimes_osg/local/lib/python2.7/site-packages/saga/utils/pty_shell_factory.py", line 305, in _initialize_pty
+n, match = pty_shell.find (prompt_patterns, delay)
+File "/home/mingtha/ve/ve.aimes_osg/local/lib/python2.7/site-packages/saga/utils/pty_process.py", line 790, in find
+raise ptye.translate_exception (e, "(%s)" % data)
+BadParameter: read from process failed '[Errno 5] Input/output error' : (ssh: connect to host xd-login.opensciencegrid.org port 22: Connection timed out
+) ((ssh: connect to host xd-login.opensciencegrid.org port 22: Connection timed out
+)) (/home/mingtha/ve/ve.aimes_osg/local/lib/python2.7/site-packages/saga/utils/pty_exceptions.py +43 (translate_exception)  :  e = se.BadParameter (cmsg))
+Traceback (most recent call last):
+File "getting_started_osg_early.py", line 127, in <module>
+pilots = pmgr.submit_pilots(pdescs)
+File "/home/mingtha/ve/ve.aimes_osg/local/lib/python2.7/site-packages/radical/pilot/pilot_manager.py", line 361, in submit_pilots
+resource_config=resource_cfg)
+File "/home/mingtha/ve/ve.aimes_osg/local/lib/python2.7/site-packages/radical/pilot/controller/pilot_manager_controller.py", line 433, in register_start_pilot_request
+shell = sup.PTYShell(url, self._session)
+File "/home/mingtha/ve/ve.aimes_osg/local/lib/python2.7/site-packages/saga/utils/pty_shell.py", line 244, in __init__
+posix=self.posix)
+File "/home/mingtha/ve/ve.aimes_osg/local/lib/python2.7/site-packages/saga/utils/pty_shell_factory.py", line 196, in initialize
+self._initialize_pty (info['pty'], info)
+File "/home/mingtha/ve/ve.aimes_osg/local/lib/python2.7/site-packages/saga/utils/pty_shell_factory.py", line 411, in _initialize_pty
+raise ptye.translate_exception (e)
+saga.exceptions.BadParameter: read from process failed '[Errno 5] Input/output error' : (ssh: connect to host xd-login.opensciencegrid.org port 22: Connection timed out
+) ((ssh: connect to host xd-login.opensciencegrid.org port 22: Connection timed out
+)) (/home/mingtha/ve/ve.aimes_osg/local/lib/python2.7/site-packages/saga/utils/pty_exceptions.py +43 (translate_exception)  :  e = se.BadParameter (cmsg))
+
