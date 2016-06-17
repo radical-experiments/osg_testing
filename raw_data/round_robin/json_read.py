@@ -156,6 +156,7 @@ for i in range(len(pilot.index)):
         except:
             print "HELD, but has Tq > 0"
             sys.exit()
+print unit['Done'].max(), pilot['Launching'].min()
 print "TTC: ", unit['Done'].max() - pilot['Launching'].min()
 print "TTC per pilot: ", TTC
 
@@ -174,17 +175,23 @@ for i in range(len(unit.index)):
 Tx_array = sorted(Tx_array, key=itemgetter(0))
 Tx_interval = []
 Tx_interval.append(Tx_array[0])
-
 current_interval = 0
 
 if len(Tx_array) > 1:
     for i in range(1, len(Tx_array)):
-        if Tx_array[i][0] < Tx_interval[current_interval][1]:
-            if Tx_array[i][1] > Tx_interval[current_interval][1]:
-                Tx_interval[current_interval][1] = Tx_array[i][1]
+        if Tx_array[i][1] <= Tx_interval[current_interval][1]:
+            pass
+#            print "array list is contained in interval list", Tx_array[i], Tx_interval[current_interval]
+#            print "skipping to next interval list"
         else:
-            Tx_interval.append(Tx_array[i])
-            current_interval += 1
+#           print "array list extends interval list"
+            if Tx_array[i][0] >= Tx_interval[current_interval][1]:
+#                print "Outside of current interval. Appending, then breaking", Tx_array[i], Tx_interval[current_interval]
+                Tx_interval.append(Tx_array[i])
+                current_interval += 1
+            else:
+#                print "Overlapping range. Extending, then breaking", Tx_array[i], Tx_interval[current_interval]
+                Tx_interval[current_interval][1] = Tx_array[i][1]
 
 Tx = 0
 for i in range(len(Tx_interval)):
@@ -192,11 +199,9 @@ for i in range(len(Tx_interval)):
 
 print "Tx: %f" % Tx
 
-
-Tq_array = []
+Tq_array = list()
 for i in range(len(pilot.index)):
     Tq_array.append([pilot['PendingActive'][i], pilot['Active'][i]])
-
 
 Tq_array = sorted(Tq_array, key=itemgetter(0))
 Tq_interval = []
@@ -206,62 +211,76 @@ current_interval = 0
 
 if len(Tq_array) > 1:
     for i in range(1, len(Tq_array)):
-        if Tq_array[i][0] < Tq_interval[current_interval][1]:
-            if Tq_array[i][1] > Tq_interval[current_interval][1]:
+#        if Tq_array[i][0] < Tq_interval[current_interval][1]:
+#            if Tq_array[i][1] > Tq_interval[current_interval][1]:
+#                Tq_interval[current_interval][1] = Tq_array[i][1]
+#        else:
+#            Tq_interval.append(Tq_array[i])
+#            current_interval += 1
+        if Tq_array[i][1] <= Tq_interval[current_interval][1]:
+            pass
+        if Tq_array[i][1] > Tq_interval[current_interval][1]:
+            if Tq_array[i][0] > Tq_interval[current_interval][1]:
+                Tq_interval.append(Tq_array[i])
+                current_interval += 1
+            else:
                 Tq_interval[current_interval][1] = Tq_array[i][1]
-        else:
-            Tq_interval.append(Tq_array[i])
-            current_interval += 1
 
-    for i in range(len(Tq_interval)):
-        for j in range(len(Tx_interval)):
-
+    for j in range(len(Tx_interval)):
+        for i in range(len(Tq_interval)):
 #           Checks if the Tq and Tx ranges overlap. If not, then break out of loop
             if Tq_interval[i][0] >= Tx_interval[j][1]:
-                break
+                 pass
+#                print "Tx Interval is before the current Tq interval"
             elif Tq_interval[i][1] <= Tx_interval[j][0]:
-                break
-
+#                print "Tx Interval is after the current Tq interval"
+                 pass
 #           Checks if the Tq range is contained in the Tx. If so, then set the Tq range to have
 #           Tq = 0, as the all of the time is used in Tx
             elif (Tq_interval[i][0] >= Tx_interval[j][0]) & (Tq_interval[i][1] <= Tx_interval[j][1]):
                 Tq_interval[i] = [0.0, 0.0]
-                break
+#                print "The current Tq Interval is contained in the Tx interval"
+                continue
 #           Checks if the Tx is contained in the Tq. If so, split Tq into two ranges to remove the
 #           Tx from the Tq range
             elif (Tq_interval[i][0] <= Tx_interval[j][0]) & (Tq_interval[i][1] >= Tx_interval[j][1]):
-                
+#                print "Tx is contained in the Tq range"
             #   Checks if there is any waiting after Tx finishes
                 if Tq_interval[i][1] > Tx_interval[j][1]:
-                    Tq_interval.append([Tx_interval[j][1], Tq_interval[i][1]])
+#                    print "Adding a a subinterval for Tq after the Tx ends but before the original Tq interval ends, possibly length 0"
+                    Tq_interval.insert(i + 1, [Tx_interval[j][1], Tq_interval[i][1]])
+
+                #Tq_interval.append([Tx_interval[j][1], Tq_interval[i][1]])
             #   else: Tq_interval[i][1] == Tx_interval[j][1]:      The Tx ends when Tq ends,
             #   and there is no waiting (Tq) after Tx
                 
                 #Checks if there is any waiting before Tx starts
+
                 if Tq_interval[i][0] < Tx_interval[j][0]:
+#                    print "Readjusting the Tq so that it starts when the original Tq starts, but ends when the Tx starts, possibly to length 0"
                     Tq_interval[i][1] = Tx_interval[j][0]
+                #Tq_interval[i][1] = Tx_interval[j][0]
             #   else: Tq_interval[0] == Tx_interval[j][0]: Tx startes when Tq starts,
             #   and there is no waiting (Tq) before Tx. Thus there is no waiting starting from
             #   the beginning of Tq
-                else:
-                    Tq_interval = [0.0, 0.0]
 
 #           So the Tq and Tx overlaps, but one is not contained in the other
             else:
-            
+#                print "There is some overlap"
             #   If i-th Pilot starts waiting while j-th CU is executing
                 if Tq_interval[i][0] > Tx_interval[j][0]:
+#                    print "Tx before after Tq starts. Remove section of Tq where Tx also happens"
                     Tq_interval[i][0] = Tx_interval[j][1]
             #   If j-th CU start executing while i-th CU is waiting
                 elif Tq_interval[i][1] < Tx_interval[j][1]:
+#                    print "Tq ends beofre Tx ends. Remove section of Tq where Tx also happens"
                     Tq_interval[i][1] = Tx_interval[j][0]
 
-print Tq_interval
-Tq = 0
+Tq = 0.0
 for i in range(len(Tq_interval)):
     Tq += Tq_interval[i][1] - Tq_interval[i][0]
 
 print "Tq: %f" % Tq
 
-tmp = unit['Done'].max() - pilot['Launching'].min()
+tmp = unit['Done'].max() - pilot['PendingLaunch'].min()
 print "Tq + Tx: %f, TTC: %f, diff: %f" % ((Tx + Tq), tmp, tmp - (Tx + Tq))

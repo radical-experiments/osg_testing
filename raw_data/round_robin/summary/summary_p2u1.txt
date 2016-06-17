@@ -10,13 +10,13 @@ Unexecuted Units: 0
 CHECKING UNITS
 At least one pilot was not running
 CHECKING UNITS
+1464456712.72 1464456420.2
 TTC:  292.515146017
 TTC per pilot:  [292.51514601707458, nan]
 SUCCESS
 Tx: 10.089424
-[[1464456438.7126541, 1464456694.753453]]
 Tq: 256.040799
-Tq + Tx: 266.130223, TTC: 292.515146, diff: 26.384923
+Tq + Tx: 266.130223, TTC: 292.656431, diff: 26.526208
 ----------------------------------------------------------------
 p2u1/rp.session.radical.mingtha.016949.0001.json
 ATTEMPT
@@ -29,13 +29,13 @@ Unexecuted Units: 0
 CHECKING UNITS
 At least one pilot was not running
 CHECKING UNITS
+1464457362.69 1464456992.22
 TTC:  370.473335028
 TTC per pilot:  [370.4733350276947, nan]
 SUCCESS
 Tx: 13.734476
-[[1464457010.3162179, 1464457340.185699]]
 Tq: 329.869481
-Tq + Tx: 343.603957, TTC: 370.473335, diff: 26.869378
+Tq + Tx: 343.603957, TTC: 371.365871, diff: 27.761914
 ----------------------------------------------------------------
 p2u1/rp.session.radical.mingtha.016949.0002.json
 ATTEMPT
@@ -48,13 +48,13 @@ Unexecuted Units: 0
 CHECKING UNITS
 At least one pilot was not running
 CHECKING UNITS
+1464457809.53 1464457567.74
 TTC:  241.784083128
 TTC per pilot:  [241.78408312797546, nan]
 SUCCESS
 Tx: 10.038411
-[[1464457586.5838201, 1464457792.202353]]
 Tq: 205.618533
-Tq + Tx: 215.656944, TTC: 241.784083, diff: 26.127139
+Tq + Tx: 215.656944, TTC: 242.406986, diff: 26.750042
 ----------------------------------------------------------------
 p2u1/rp.session.radical.mingtha.016949.0003.json
 ATTEMPT
@@ -67,13 +67,13 @@ Unexecuted Units: 0
 CHECKING UNITS
 At least one pilot was not running
 CHECKING UNITS
+1464458192.32 1464458007.51
 TTC:  184.816467047
 TTC per pilot:  [184.81646704673767, nan]
 SUCCESS
 Tx: 10.064364
-[[1464458026.1553121, 1464458175.962389]]
 Tq: 149.807077
-Tq + Tx: 159.871441, TTC: 184.816467, diff: 24.945026
+Tq + Tx: 159.871441, TTC: 185.446302, diff: 25.574861
 ----------------------------------------------------------------
 p2u1/rp.session.radical.mingtha.016949.0004.json
 ATTEMPT
@@ -86,13 +86,13 @@ Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
 CHECKING UNITS
+1464458750.37 1464458565.38
 TTC:  184.986418009
 TTC per pilot:  [162.33797192573547, 166.81047105789185]
 SUCCESS
 Tx: 20.141172
-[[1464458583.467411, 1464458716.477025], [1464458726.5163939, 1464458733.1074879]]
 Tq: 139.600708
-Tq + Tx: 159.741880, TTC: 184.986418, diff: 25.244538
+Tq + Tx: 159.741880, TTC: 185.589148, diff: 25.847268
 ----------------------------------------------------------------
 p2u1/rp.session.radical.mingtha.016958.0003.json
 ATTEMPT
@@ -105,13 +105,13 @@ Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
 CHECKING UNITS
+1465228373.03 1465227976.19
 TTC:  396.836293936
 TTC per pilot:  [348.66060304641724, 370.35373592376709]
 SUCCESS
 Tx: 20.436547
-[[1465228000.6287391, 1465228313.1301639], [1465228323.418021, 1465228520.856818]]
 Tq: 509.940222
-Tq + Tx: 530.376769, TTC: 396.836294, diff: -133.540475
+Tq + Tx: 530.376769, TTC: 397.122258, diff: -133.254511
 ----------------------------------------------------------------
 p2u1/rp.session.radical.mingtha.016958.0004.json
 ATTEMPT
@@ -146,13 +146,13 @@ Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
 CHECKING UNITS
+1465231779.15 1465231267.15
 TTC:  512.005254984
 TTC per pilot:  [512.00525498390198, 174.0147819519043]
 SUCCESS
 Tx: 20.207401
-[[1465231285.790246, 1465231448.5872941], [1465231458.6959779, 1465231761.884691]]
 Tq: 465.985761
-Tq + Tx: 486.193162, TTC: 512.005255, diff: 25.812093
+Tq + Tx: 486.193162, TTC: 512.716177, diff: 26.523015
 ----------------------------------------------------------------
 p2u1/rp.session.radical.mingtha.016958.0008.json
 ATTEMPT
@@ -165,10 +165,10 @@ Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
 CHECKING UNITS
+1465232330.27 1465231985.49
 TTC:  344.782163858
 TTC per pilot:  [344.7821638584137, 279.86621594429016]
 SUCCESS
 Tx: 20.188324
-[[1465232003.158169, 1465232271.8552389], [1465232281.932579, 1465232313.0498271]]
 Tq: 299.814318
-Tq + Tx: 320.002642, TTC: 344.782164, diff: 24.779522
+Tq + Tx: 320.002642, TTC: 345.564165, diff: 25.561523

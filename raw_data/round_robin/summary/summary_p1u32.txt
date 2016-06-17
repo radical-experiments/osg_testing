@@ -8,13 +8,13 @@ Tq per Pilot:  [219.77687788009644]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
+1463784419.52 1463783851.06
 TTC:  568.46437192
 TTC per pilot:  [568.46437191963196]
 SUCCESS
 Tx: 323.512718
-[[1463783869.6350551, 1463784089.4119329]]
 Tq: 219.776878
-Tq + Tx: 543.289596, TTC: 568.464372, diff: 25.174776
+Tq + Tx: 543.289596, TTC: 569.174790, diff: 25.885194
 ----------------------------------------------------------------
 p1u32/rp.session.radical.mingtha.016956.0017.json
 ATTEMPT
@@ -25,13 +25,13 @@ Tq per Pilot:  [222.29523277282715]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
+1465010838.04 1465010263.54
 TTC:  574.500066996
 TTC per pilot:  [574.50006699562073]
 SUCCESS
 Tx: 323.682561
-[[1465010279.8331921, 1465010502.1284249]]
 Tq: 222.295233
-Tq + Tx: 545.977794, TTC: 574.500067, diff: 28.522273
+Tq + Tx: 545.977794, TTC: 574.948202, diff: 28.970408
 ----------------------------------------------------------------
 p1u32/rp.session.radical.mingtha.016956.0018.json
 ATTEMPT
@@ -49,13 +49,13 @@ Tq per Pilot:  [259.73808598518372]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
+1465013481.71 1465012874.03
 TTC:  607.673115015
 TTC per pilot:  [607.67311501502991]
 SUCCESS
 Tx: 323.952575
-[[1465012890.8182659, 1465013150.5563519]]
 Tq: 259.738086
-Tq + Tx: 583.690661, TTC: 607.673115, diff: 23.982454
+Tq + Tx: 583.690661, TTC: 608.208039, diff: 24.517378
 ----------------------------------------------------------------
 EMPTY UNIT DATAFRAME
 EMPTY PILOT DATAFRAME
@@ -90,13 +90,13 @@ Tq per Pilot:  [322.27734112739563]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
+1465017415.89 1465016745.76
 TTC:  670.121446848
 TTC per pilot:  [670.12144684791565]
 SUCCESS
 Tx: 323.879412
-[[1465016762.415103, 1465017084.6924441]]
 Tq: 322.277341
-Tq + Tx: 646.156753, TTC: 670.121447, diff: 23.964694
+Tq + Tx: 646.156753, TTC: 670.689951, diff: 24.533198
 ----------------------------------------------------------------
 p1u32/rp.session.radical.mingtha.016956.0025.json
 ATTEMPT
@@ -107,13 +107,13 @@ Tq per Pilot:  [251.39449000358582]
 Incomplete Units: 0
 Unexecuted Units: 0
 CHECKING UNITS
+1465018103.33 1465017500.88
 TTC:  602.449979067
 TTC per pilot:  [602.44997906684875]
 SUCCESS
 Tx: 323.551564
-[[1465017516.854372, 1465017768.248862]]
 Tq: 251.394490
-Tq + Tx: 574.946054, TTC: 602.449979, diff: 27.503925
+Tq + Tx: 574.946054, TTC: 602.899787, diff: 27.953733
 ----------------------------------------------------------------
 EMPTY UNIT DATAFRAME
 EMPTY PILOT DATAFRAME
