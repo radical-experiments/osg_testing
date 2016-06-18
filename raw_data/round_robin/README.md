@@ -22,8 +22,8 @@ The relevant fields include:
 2. Number of Units submitted
 3. How many Units were unexecuted (Unit never reached state PendingOutputStaging) or incomplete (unit never reached state Done)
 4. Unique Running locations of the Pilots
-5. Tq (Waiting time on OSG Queue) of each pilot
-6. TTC (Time to Completion) of the entire task
-7. TTC per pilot
-8. Tx (Execution Time),  the net execution time accounting for any overlap with Tx of all units
-9. Tq, the net queue waiting time accounting for any overlap with Tx and Tq of all pilots
+5. **Tq per pilot** (Waiting time on OSG Queue). Some pilots may not execute any CUs, but still wait on queue
+6. **Net TTC** (Time to Completion) of the entire task
+7. **TTC per pilot**, how long it takes for each pilot to wait on queue and run a task (if at all)
+8. **Tx** (Execution Time),  the net execution time of the entire submission, accounting for any overlap with Tx of all units
+9. **Tq**, the net queue waiting time of the entire submission, accounting for any overlap with Tx and Tq of all pilots
