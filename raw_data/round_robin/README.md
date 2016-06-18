@@ -12,9 +12,8 @@ Each folder is denoted by p**X**u**Y**, where **X** is the number of pilot submi
 
 ### Data Cleaning
 
-json_read.py opens a log file in order extract the relevant fields and prints them in a particular format.
-
-auto_read.sh runs json_read.py and iterates through all logs in the folder, and stores the printed statements into a txt file
+* json_read.py opens a log file in order extract the relevant fields and prints them in a particular format.
+* auto_read.sh runs json_read.py and iterates through all logs in the folder, and stores the printed statements into a txt file
 **TODO** Further automate data aggregation
 
 The relevant fields include:
