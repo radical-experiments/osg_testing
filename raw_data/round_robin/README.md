@@ -8,15 +8,17 @@ This folder contains the log files of pilot jobs submitted to OSG using the Roun
 3. RADICAL Utils  0.40
 
 ### Naming Convention
-Each folder is denoted by p**X***u**Y**, where **X** is the number of pilot submitted, and **Y** is the number of units per pilot if a round robin scheduler is used
+Each folder is denoted by p**X**u**Y**, where **X** is the number of pilot submitted, and **Y** is the number of units per pilot if a round robin scheduler is used
 
 ### Data Cleaning
 
 json_read.py opens a log file in order extract the relevant fields and prints them in a particular format.
+
 auto_read.sh runs json_read.py and iterates through all logs in the folder, and stores the printed statements into a txt file
 **TODO** Further automate data aggregation
 
 The relevant fields include:
+
 1. Whether the Pilots where Successful
 2. Number of Units submitted
 3. How many Units were unexecuted (Unit never reached state PendingOutputStaging) or incomplete (unit never reached state Done)
