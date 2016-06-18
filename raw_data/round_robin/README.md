@@ -25,5 +25,5 @@ The relevant fields include:
 5. **Tq per pilot** (Waiting time on OSG Queue). Some pilots may not execute any CUs, but still wait on queue
 6. **Net TTC** (Time to Completion) of the entire task
 7. **TTC per pilot**, how long it takes for each pilot to wait on queue and run a task (if at all)
-8. **Tx** (Execution Time),  the net execution time of the entire submission, accounting for any overlap with Tx of all units
-9. **Tq**, the net queue waiting time of the entire submission, accounting for any overlap with Tx and Tq of all pilots
+8. **Net Tx** (Execution Time),  the net execution time of the entire submission, accounting for any overlap with Tx of all units
+9. **Net Tq**, the net queue waiting time of the entire submission, accounting for any overlap with Tx and Tq of all pilots
