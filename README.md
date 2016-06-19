@@ -11,9 +11,11 @@ This repository contains data gathered from testing the Open Science Grid (OSG)
 
 #### Software and Version
 
-1. RADICAL Pilot Version    v0.40.1-22-ge1f4683@devel
-2. RADICAL SAGA Version     0.40.1
-3. RADICAL Utils Version    0.40
+1. RADICAL Pilot
+2. RADICAL SAGA
+3. RADICAL Utils
+
+See the READMEs in the raw_data subdirectory to for the version of the software, as different sets of data have been collected at different times and used different versions of software.
 
 #### Execution Location
 * RADICAL VM (144.76.72.175)
