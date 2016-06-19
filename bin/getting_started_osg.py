@@ -10,12 +10,15 @@ import radical.utils as ru
 import time
 
 dh = ru.DebugHelper ()
+print rp
+
 
 RUNTIME  =  1800
 SLEEP    =    10
-PILOTS   =     8
-UNITS    =     8
-SCHED    = rp.SCHED_BACKFILLING
+PILOTS   =    1
+UNITS    =    1
+SCHED    =  rp.SCHED_BACKFILLING
+#SCHED    = "backfilling"
 
 resources = {
     'osg.xsede-virt-clust' : {
